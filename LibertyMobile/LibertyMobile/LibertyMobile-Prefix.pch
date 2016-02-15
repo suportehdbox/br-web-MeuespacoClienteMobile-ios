@@ -1,0 +1,29 @@
+//
+// Prefix header for all source files of the 'LibertyMobile' target in the 'LibertyMobile' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+//    #import "../../DirectAssistLib/DirectAssistLib/AppConfig.h"
+//    #import "../../DirectAssistLib/DirectAssistLib/DirectAssistFramework/Utility.h"
+//    #import "../../DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DAKeyValue.h"
+//    #import "../../DirectAssistLib/DirectAssistLib/Classes/Client.h"
+//    #import "../../DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Extensions/DAStringExtension.h"
+//    #import "../../DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/DADirectAssist.h"
+
+    #import <DirectAssistLib/AppConfig.h>
+    #import <DirectAssistLib/Utility.h>
+    #import <DirectAssistLib/DAKeyValue.h>
+    #import <DirectAssistLib/Client.h>
+    #import <DirectAssistLib/DAStringExtension.h>
+    #import <DirectAssistLib/DADirectAssist.h>
+    #import <DirectAssistLib/GoogleAnalyticsManager.h>
+
+#endif

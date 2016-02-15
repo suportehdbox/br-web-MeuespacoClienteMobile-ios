@@ -1,0 +1,608 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Gustavo/Library/Developer/Xcode/DerivedData/DirectAssistLib-dxydbglrbakpwjcwnafwzlpbfcsw/Build/Products/Debug-iphonesimulator/DirectAssistLib.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AppConfig.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/AppConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "Client.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/Classes/Client.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAccessLog.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Access Log/DAAccessLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAccessLogWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Access Log/DAAccessLogWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAccreditedGarage.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Accredited Garage/DAAccreditedGarage.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAccreditedGaragesManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Accredited Garage/DAAccreditedGaragesManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAccreditedGaragesViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Accredited Garage/DAAccreditedGaragesViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAddress.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAAddress.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAddressDetailCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DAAddressDetailCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAddressFinderViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAAddressFinderViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAddressViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAAddressViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAnnotation.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAAnnotation.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAppInfoViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/AppInfo/DAAppInfoViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAssistance.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/DAAssistance.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAssistanceMenuAllViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/DAAssistanceMenuAllViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAssistanceMenuViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/DAAssistanceMenuViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerCase.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/DAAutomakerCase.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerCreateCaseWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/DAAutomakerCreateCaseWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/DAAutomakerManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerPolicy.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/Automaker Policy/DAAutomakerPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerPolicyFindViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/Automaker Policy/DAAutomakerPolicyFindViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerPolicyFindWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/Automaker Policy/DAAutomakerPolicyFindWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerPolicyItemViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/Automaker Policy/DAAutomakerPolicyItemViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerPolicyListWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/Automaker Policy/DAAutomakerPolicyListWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomakerPolicyManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/Automaker Policy/DAAutomakerPolicyManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotiveCaseListWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive File/DAAutomotiveCaseListWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotiveFile.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive File/DAAutomotiveFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotiveFileCreator.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive File/DAAutomotiveFileCreator.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotiveFileFinder.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive File/DAAutomotiveFileFinder.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotiveManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/DAAutomotiveManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotivePolicy.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Policy/DAAutomotivePolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotivePolicyFindViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Policy/DAAutomotivePolicyFindViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotivePolicyFindWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Policy/DAAutomotivePolicyFindWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotivePolicyItemViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Policy/DAAutomotivePolicyItemViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotivePolicyListWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Policy/Webservice/DAAutomotivePolicyListWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotivePolicyManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Policy/DAAutomotivePolicyManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAAutomotiveServiceRequestCreator.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Service Dispatch/DAAutomotiveServiceRequestCreator.h"
+        },
+        {
+          'type': 'file',
+          'name': "DABannerCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/DABannerCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACallMaker.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DACallMaker.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACaseCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DACaseCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACaseCreationWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DACaseCreationWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACaseViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DACaseViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACasesListViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DACasesListViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACasesListWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DACasesListWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAClientBase.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Base Classes/DAClientBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAConfiguration.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DAConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAContact.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Contact/DAContact.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAContactAnnotation.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Contact/DAContactAnnotation.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAContactAnnotationView.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Contact/DAContactAnnotationView.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAContactItemViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Contact/DAContactItemViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAContactListViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Contact/DAContactListViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAContactMapViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Contact/DAContactMapViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAContactViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Contact/DAContactViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DACoverageControlChecker.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Coverage Control/DACoverageControlChecker.h"
+        },
+        {
+          'type': 'file',
+          'name': "DADateExtension.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Extensions/DADateExtension.h"
+        },
+        {
+          'type': 'file',
+          'name': "DADealersListViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/DADealersListViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DADealersListWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automaker API/DADealersListWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DADeletePolicyWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Policy/Webservice/DADeletePolicyWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DADevice.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DADevice.h"
+        },
+        {
+          'type': 'file',
+          'name': "DADirectAssist.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/DADirectAssist.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAEditAddressDetailCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DAEditAddressDetailCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAEditAddressDetailViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DAEditAddressDetailViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAFileBase.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Base Classes/DAFileBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAGeocoder.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAGeocoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAGoogleMaps.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DAGoogleMaps.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAKeyValue.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DAKeyValue.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAListViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/UI/DAListViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DALocateMeOnMapViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DALocateMeOnMapViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DALocateMeViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DALocateMeViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DALocationCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DALocationCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DANewCaseViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Case/DANewCaseViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPhone.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DAPhone.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPolicyBase.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Base Classes/DAPolicyBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPolicyFindBase.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Policy/DAPolicyFindBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPolicyFindViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Policy/DAPolicyFindViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPolicyItemViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Policy/DAPolicyItemViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPolicyListBase.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Policy/DAPolicyListBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPolicyListViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Policy/DAPolicyListViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPolicyManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Policy/DAPolicyManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAProgressHUD.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DAProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPropertyManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Property API/DAPropertyManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPropertyPolicy.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Property API/Property Policy/DAPropertyPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPropertyPolicyFindViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Property API/Property Policy/DAPropertyPolicyFindViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPropertyPolicyFindWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Property API/Property Policy/DAPropertyPolicyFindWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPropertyPolicyListWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Property API/Property Policy/DAPropertyPolicyListWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAPropertyPolicyManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Property API/Property Policy/DAPropertyPolicyManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAProviderAnnotation.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Service Monitoring/DAProviderAnnotation.h"
+        },
+        {
+          'type': 'file',
+          'name': "DARegularTextFieldCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/UI/DARegularTextFieldCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAReverseGeocoder.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAReverseGeocoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "DASavePolicyWS.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/Policy/Webservice/DASavePolicyWS.h"
+        },
+        {
+          'type': 'file',
+          'name': "DASchedulePickerViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Assistance API/DASchedulePickerViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAServiceDispatch.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Service Dispatch/DAServiceDispatch.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAServiceDispatchFinder.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Automotive API/Automotive Service Dispatch/DAServiceDispatchFinder.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAServiceMonitoringAnnotationView.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Service Monitoring/DAServiceMonitoringAnnotationView.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAServiceMonitoringViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Service Monitoring/DAServiceMonitoringViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAServiceOnMapViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Service Monitoring/DAServiceOnMapViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DASharedManager.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/DASharedManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAStatusViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/UI/DAStatusViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAStringExtension.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Extensions/DAStringExtension.h"
+        },
+        {
+          'type': 'file',
+          'name': "DATextDetailCustomCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/UI/DATextDetailCustomCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DATextFieldCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/UI/DATextFieldCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAUserLocation.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAUserLocation.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAUserLocationAnnotation.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAUserLocationAnnotation.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAUserLocationAnnotationView.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Location/DAUserLocationAnnotationView.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAUserPhone.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/User Phone/DAUserPhone.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAUserPhoneCell.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/User Phone/DAUserPhoneCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAUserPhoneViewController.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/User Phone/DAUserPhoneViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAUtil.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/DAUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAVehicleAnnotation.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Service Monitoring/DAVehicleAnnotation.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAWebServiceActionResult.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Access Log/DAWebServiceActionResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "DAWebServiceParser.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/DAWebServiceParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "DirectAssistLib-Prefix.pch",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistLib-Prefix.pch"
+        },
+        {
+          'type': 'file',
+          'name': "DirectAssistLib-Swift.h",
+          'external-contents': "/Users/Gustavo/Library/Developer/Xcode/DerivedData/DirectAssistLib-dxydbglrbakpwjcwnafwzlpbfcsw/Build/Products/Debug-iphonesimulator/DirectAssistLib.framework/Headers/DirectAssistLib-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DirectAssistLib.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistLib.h"
+        },
+        {
+          'type': 'file',
+          'name': "Reachability.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/Reachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITableViewCellContentView.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Foundation/Support/UITableViewCellContentView.h"
+        },
+        {
+          'type': 'file',
+          'name': "Utility.h",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/DirectAssistLib/DirectAssistFramework/Utility.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Gustavo/Library/Developer/Xcode/DerivedData/DirectAssistLib-dxydbglrbakpwjcwnafwzlpbfcsw/Build/Products/Debug-iphonesimulator/DirectAssistLib.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Gustavo/Cloud/OneDrive/Dev/Urban Garden/DirectAssist/Test/DirectAssistLib/build/DirectAssistLib.build/Debug-iphonesimulator/DirectAssistLib.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

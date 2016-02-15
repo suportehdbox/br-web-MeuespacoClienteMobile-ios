@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>menuItem</key>
+		<string>Localizar sinistro no Mapa</string>
+		<key>section</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Endereço</string>
+		<key>section</key>
+		<integer>1</integer>
+		<key>length</key>
+		<integer>50</integer>
+		<key>placeholder</key>
+		<string>Endereço</string>
+		<key>tag</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Cidade</string>
+		<key>section</key>
+		<integer>1</integer>
+		<key>length</key>
+		<integer>50</integer>
+		<key>placeholder</key>
+		<string>Cidade</string>
+		<key>tag</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>CEP</string>
+		<key>section</key>
+		<integer>1</integer>
+		<key>length</key>
+		<integer>9</integer>
+		<key>placeholder</key>
+		<string>99999 999</string>
+		<key>tag</key>
+		<integer>3</integer>
+	</dict>
+</array>
+</plist>

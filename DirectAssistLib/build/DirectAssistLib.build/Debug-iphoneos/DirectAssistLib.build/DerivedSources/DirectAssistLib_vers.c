@@ -1,0 +1,1 @@
+ const unsigned char DirectAssistLibVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:DirectAssistLib  PROJECT:DirectAssistLib-1" "\n"; const double DirectAssistLibVersionNumber __attribute__ ((used)) = (double)1.;

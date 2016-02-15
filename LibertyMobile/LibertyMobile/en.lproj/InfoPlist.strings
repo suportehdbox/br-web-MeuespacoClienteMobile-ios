@@ -1,0 +1,159 @@
+/* Localized versions of Info.plist keys */
+
+/*
+ Localizable.strings
+ DirectAssistLiberty
+ 
+ Created by Ricardo Ramos on 12/06/09.
+ Copyright 2009 Modial Assistance Brasil. All rights reserved.
+ */
+
+//Localizable.String file for the Portuguese version.
+
+"Accident" = "Acidente";
+"AccreditedGarages" = "Nossas Filiais"; //"Distribuidores";  //"Nossas Filiais"; // "Oficinas Referenciadas"; // "Distribuidores"
+"AddPolicy" = "Adicionar apólice";
+"AddressNotFound" = "Nenhum endereço localizado";
+"AddVehicle" = "Adicionar veículo";
+"AddToContacts" = "Adicionar a Contatos";
+"AddressDetail" = "Referências do local";
+"ArrivalTime" = "Previsão";
+"AutomotiveAssistance" = "Assistência Auto";
+"Automotive" = "Auto";
+"And" = "e";
+"Battery" = "Bateria";
+"Between" = "entre";
+"BreakDown" = "Pane";
+"Cancel" = "Cancelar";
+"Call" = "Ligar";
+"CallForAnotherService" = "Para outro serviço ligue para a Assistência 24h";
+"CallToAssistanceCentre" = "Ligar para Assistência 24h";
+"CantCreateCase" = "Não foi possível criar a Assistência";
+"FailCreatingCase" = "Houve um problema durante a criação da assistência";
+"CantListPolicies" = "Não foi possível carregar as apólices";
+"CantLoadCases" = "Não foi possível carregar suas assistências";
+"CantLoadDealers" = "Não foi possível carregar os distribuidores"; //"Não foi possível carregar os distribuidores";
+"CantSavePolicy" = "Não foi possível salvar a apólice";
+"CantSearchNearestProvider" = "Cant search nearest provider";
+"CaseCreatedSuccessfully" = "Assistência %@ criada com sucesso!";
+"CaseCreatedMonitoringWarning" = "Você poderá acompanhar seu atendimento escolhendo a opção Minhas Assistências";
+"CaseCrationFailureWarning" = "Por favor, verifique se a assistência foi criada com sucesso na seção Minhas Assistências";
+"Cause" = "Causa";
+"CaseNumber" = "Assistência";
+"CheckingCoverages" = "Consultando coberturas...";
+"CheckFilledInformation" = "Verifique se as informações estão preenchidas corretamente";
+"ChooseCause" = "Informe a causa da assistência";
+"ChooseService" = "Escolha o serviço desejado";
+"ChooseVehicleProblem" = "Informe o problema do seu veículo"; "Client" = "Cliente";
+"City" = "Cidade";
+"CreatingCase" = "Criando assistência...";
+"ConfirmAddress" = "Confirmar endereço";
+"CoverageExceededWarning" = "O serviço solicitado excede o limite de cobertura de sua apólice. Por favor, entre em contato com a central de Assistência 24h";
+"CountryNotCovered" = "Não foi possível obter o logradouro referente a sua localização. Por favor, tente novamente ou informe o endereço de sua localização manualmente.";
+"DragAndDropToGetTheAddressCorrected" = "Centralize sua posição no mapa e aperte o botão Confirmar";
+"Dealer" = "Filial"; //"Distribuidor"; //"Oficina"; // "Filial" //Concessionária
+"Dealers" = "Filiais"; //"Distribuidores"; //"Oficinas"; // "Filiais" //Concessionárias
+"DealersList" = "Filiais"; //"Distribuidores";// "Oficinas"; // "Filiais" //Concessionárias
+"Deleting..." = "Apagando...";
+"District" = "Estado";
+"Electrician" = "Eletricista";
+"EmergencyRepair" = "Reparo Emergencial";
+"FailLoadingFile" = "Não foi possivel carregar a assistência";
+"FailSavingPhoneNumber" = "Não foi possível salvar o telefone";
+"File" = "Assistência";
+"FileNotFound" = "Assistência não localizada";
+"FillGeocodeInfo" = "Por favor preencha o campo com a Rua e Cidade a ser pesquisada";
+"FillPhoneNumberInformation" = "Informe o DDD e Número deste celular para contato em caso de necessidade";
+"From" = "De";
+"Garage" = "Filial"; //"Filial"; // "Oficina" //Concessionária
+"GetDirections" = "Instruções até aqui";
+"GettingAddress" = "Obtendo logradouro...";
+"GettingLocationCoordinates" = "Obtendo coordenadas da localização...";
+"InformationMissing" = "Algumas informações não foram preenchidas";
+"InService" = "Em serviço";
+"List" = "Lista";
+"Loading..." = "Carregando...";
+"LoadingFile" = "Carregando assistência...";
+"LoadingFiles" = "Carregando assistências...";
+"LocateMe" = "Localização";
+"Location" = "Localização";
+"Locksmith" = "Chaveiro";
+"Map" = "Mapa";
+"Minutes" = "minutos";
+"MyFiles" = "Minhas assistências";
+"MyPhoneNumber" = "Meu número de telefone";
+"Name" = "Nome";
+"NewCase" = "Nova assistência"; //"Nova assistência"; //"Solicitar assistência";
+"NewFile" = "Nova assistência"; //"Nova assistência"; //"Solicitar assistência";
+"NoInternetWarning" = "O aplicativo precisa estar conectado a Internet para executar esta operação.";
+"OK" = "OK";
+"Others" = "Outros";
+"PhoneNumber" = "Telefone";
+"PleaseWait" = "Por favor, aguarde";
+"PleaseTryAgain" = "Por favor, tente novamente";
+"Plumber" = "Encanador";
+"Policy" = "Apólice";
+"PolicyList" = "Apólices";
+"PolicyNotFound" = "Nenhum carro localizado."; //"Nenhuma apólice localizada.";
+"Problem" = "Problema";
+"PropertyAssistance" = "Assistência Residência";
+"Property" = "Residência";
+"Provider" = "Prestador";
+"ProviderLicence" = "Placa do Prestador";
+"MapRoute" = "Traçar rota";
+"Refresh" = "Atualizar";
+"ReverseGeocodeFailWarning" = "Ocorreu um problema ao obter o logradouro referente a sua localização. Por favor, tente novamente.";
+"RoadsideRepair" = "Conserto no local"; //"Conserto no local"
+"Save" = "Salvar";
+"SaveVehicle" = "Salvar veículo";
+"Saving..." = "Salvando...";
+"Schedule" = "Agendar";
+"SearchingAccreditedGarages" = "Pesquisando filiais..."; //"Pesquisando filiais..."; // "Pesquisando oficinas..." // "Pesquisando concessionárias..."
+"SearchingNearestProvider" = "Localizando um Prestador mais próximo...";
+"SearchPolicy" = "Pesquisar Carro"; // "Pesquisar Apólice"; //"Pesquisar Carro"
+"SendAssistanceRequest" = "Enviar solicitação de assistência";
+"SentToProvider" = "Enviado ao prestador";
+"ServiceFinished" = "Serviço concluído";
+"ServiceOnWay" = "Serviço a caminho";
+"ServiceProvider" = "Prestador de serviço";
+"Services" = "Serviços";
+"ServiceScheduled" = "Serviço agendado";
+"SetCustomAddress" = "Informar outro endereço";
+"State" = "Estado";
+"Status" = "Status";
+"StreetAndCity" = "Rua, Cidade";
+"StreetName" = "Rua";
+"StreetNumber" = "Número";
+"ShowOnMap" = "Mostrar no Mapa";
+"To" = "Até";
+"TowTruck" = "Reboque";
+"UnknowError" = "Erro desconhecido";
+"UnknownError" = "Erro desconhecido";
+"UpdatingAddress" = "Carregando endereço";
+"UseCurrentAddress" = "Usar este endereço";
+"Vehicle" = "Veículo";
+"VehicleChassis" = "Chassi";
+"VehicleLicense" = "Placa";
+"VehicleModel" = "Modelo";
+"VehicleYear" = "Ano";
+"UserDocument" = "CPF/CNPJ";
+"Vehicles" = "Veículos";
+"WaitingDispatch" = "Aguardando acionamento";
+"Search" = "Pesquisar";
+"Searching..." = "Pesquisando...";
+"Zipcode" = "CEP";
+
+
+
+
+"Address" = "Endereço";
+"Service" = "Serviço";
+"UnknownError" = "Erro desconhecido";
+
+
+
+"Add" = "Adicionar";
+
+
+
+"SearchAddress" = "Pesquisar";

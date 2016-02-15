@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>length</key>
+		<integer>50</integer>
+		<key>menuItem</key>
+		<string>Nome</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>tag</key>
+		<integer>1</integer>
+		<key>placeholder</key>
+		<string>Nome</string>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>length</key>
+		<integer>50</integer>
+		<key>menuItem</key>
+		<string>Sobrenome</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>tag</key>
+		<integer>2</integer>
+		<key>placeholder</key>
+		<string>Sobrenome</string>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>length</key>
+		<integer>50</integer>
+		<key>menuItem</key>
+		<string>Apólice</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>tag</key>
+		<integer>3</integer>
+		<key>placeholder</key>
+		<string>Apólice</string>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>length</key>
+		<integer>50</integer>
+		<key>menuItem</key>
+		<string>Telefone</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>tag</key>
+		<integer>4</integer>
+		<key>placeholder</key>
+		<string>99 9999 9999</string>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>menuItem</key>
+		<string>Compartilhar</string>
+		<key>section</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>section</key>
+		<string>2</string>
+	</dict>
+</array>
+</plist>

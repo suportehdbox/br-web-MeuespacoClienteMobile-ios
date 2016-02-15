@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<true/>
+		<key>menuItem</key>
+		<string>Minhas credenciais</string>
+		<key>section</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>menuItem</key>
+		<string>Login</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>tag</key>
+		<integer>1</integer>
+		<key>length</key>
+		<integer>100</integer>
+		<key>placeholder</key>
+		<string>E-mail ou CPF/CNPJ</string>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>menuItem</key>
+		<string>Senha</string>
+		<key>section</key>
+		<integer>0</integer>
+		<key>tag</key>
+		<integer>2</integer>
+		<key>length</key>
+		<integer>20</integer>
+		<key>placeholder</key>
+		<string>Password</string>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>menuItem</key>
+		<string>Manter Logado</string>
+		<key>section</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>section</key>
+		<integer>2</integer>
+		<key>menuItem</key>
+		<string>Enviar</string>
+	</dict>
+	<dict>
+		<key>header</key>
+		<false/>
+		<key>menuItem</key>
+		<string>Esqueci minha senha</string>
+		<key>section</key>
+		<integer>3</integer>
+	</dict>
+</array>
+</plist>

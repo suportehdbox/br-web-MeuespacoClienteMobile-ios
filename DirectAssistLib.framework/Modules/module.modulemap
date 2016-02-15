@@ -1,0 +1,6 @@
+framework module DirectAssistLib {
+  umbrella header "DirectAssistLib.h"
+
+  export *
+  module * { export * }
+}

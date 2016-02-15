@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>menuItem</key>
+		<string>Número da Apólice</string>
+		<key>section</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Dados de contato</string>
+		<key>section</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Tipo de sinistro</string>
+		<key>section</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Data e hora</string>
+		<key>section</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Local</string>
+		<key>section</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Contatos dos envolvidos</string>
+		<key>section</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Tirar fotos</string>
+		<key>section</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Observações</string>
+		<key>section</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Compartilhar dados</string>
+		<key>section</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>menuItem</key>
+		<string>Enviar Sinistro</string>
+		<key>section</key>
+		<string>4</string>
+	</dict>
+</array>
+</plist>

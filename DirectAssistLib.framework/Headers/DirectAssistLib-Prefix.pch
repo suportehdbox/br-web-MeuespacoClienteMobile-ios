@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'DirectAssistLib' target in the 'DirectAssistLib' project
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "AppConfig.h"
+#import "Utility.h"
+#import "DAKeyValue.h"
+#import "Client.h"
+#import "DAStringExtension.h"
+#import "DADirectAssist.h"
+
+#define DALocalizedString(key, comment) \
+[[NSBundle bundleForClass:[self class]] localizedStringForKey:(key) value:@"" table:nil]
+
+
+#endif
