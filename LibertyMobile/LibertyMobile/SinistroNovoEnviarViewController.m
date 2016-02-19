@@ -231,6 +231,21 @@
 	[sendEvent setUser:user];
 	
 	[picker setSubject:[self subjectLineForSendEvent: sendEvent]];
+    
+    //<<EPO - Add Audio
+    if (nil != self.event.pathToVoiceNote) {
+        NSURL *voiceNoteFile = [NSURL fileURLWithPath:self.event.pathToVoiceNote];
+        NSError* error = nil;
+        NSData* audioData = [NSData dataWithContentsOfURL:voiceNoteFile options:0 error:&error];
+        if (!error){
+            //sendEvent.event.notes = [NSString stringWithFormat:@"%@ + %@", sendEvent.event.notes, @"arquivo de aúdio anexo" ];
+            [picker addAttachmentData:audioData mimeType:@"audio/wav" fileName:@"NotaDeVoz.wav"];
+        }
+        else{
+            //TODO mostrar msg de problema de audio
+        }
+    }
+    //EPO>>
 	
 	// Add Photos
 	NSArray *photoArray = nil;
@@ -328,6 +343,7 @@
 		switch (result)
 		{
 			case MFMailComposeResultCancelled:
+                [continueButton setTitle:@"Sim, enviar agora" forState:UIControlStateNormal];
                 [self dismissModalViewControllerAnimated:YES];
 				break;
 			case MFMailComposeResultSaved:
@@ -478,6 +494,7 @@
 	{
         [continueButton setTitle:@"Sim, enviar agora" forState:UIControlStateNormal];
         [self dismissModalViewControllerAnimated:YES];
+        [self.navigationController popViewControllerAnimated:YES];        
 	}
 }
 
