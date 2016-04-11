@@ -67,8 +67,8 @@
 
 //------------------------
 //Comum
--(void)callGetClubeLiberty:(id)target email:(NSString *)email;
--(NSMutableArray *)retGetClubeLiberty;
+-(void)callCriarSessao:(id)target usuarioId:(NSString *)usuarioId;
+-(NSString *)retCriarSessao;
 
 -(void)callGetOficinasReferenciadas:(id)target email:(NSString *)email cep:(NSString *)cep raio:(NSString *)raio;
 -(NSMutableArray *)retGetOficinasReferenciadas;

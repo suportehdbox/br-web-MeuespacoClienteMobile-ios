@@ -15,17 +15,7 @@
 		0D869DEB15F92C6C00184155 /* SinistroNovoLocal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D869DEA15F92C6C00184155 /* SinistroNovoLocal.plist */; };
 		0D869DEF15F940A500184155 /* SinistroNovoAddTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D869DEE15F940A400184155 /* SinistroNovoAddTableViewCell.xib */; };
 		0D869DF215F940C400184155 /* SinistroNovoAddTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D869DF115F940C400184155 /* SinistroNovoAddTableViewCell.m */; };
-		0D889BDF15F631BD0045FCA4 /* ClubeLibertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D889BDD15F631BD0045FCA4 /* ClubeLibertyViewController.m */; };
-		0D889BE015F631BD0045FCA4 /* ClubeLibertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D889BDE15F631BD0045FCA4 /* ClubeLibertyViewController.xib */; };
-		0D889BE415F633780045FCA4 /* ClubeLibertyLocaisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D889BE215F633780045FCA4 /* ClubeLibertyLocaisViewController.m */; };
-		0D889BE515F633780045FCA4 /* ClubeLibertyLocaisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D889BE315F633780045FCA4 /* ClubeLibertyLocaisViewController.xib */; };
-		0D889BEF15F637290045FCA4 /* ClubeLibertyLocaisTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D889BEE15F637290045FCA4 /* ClubeLibertyLocaisTableViewCell.xib */; };
-		0D889BF315F637410045FCA4 /* ClubeLibertyLocaisTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D889BF215F637410045FCA4 /* ClubeLibertyLocaisTableViewCell.m */; };
 		0D889BFE15F6420C0045FCA4 /* SinistroMenuHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D889BFD15F6420C0045FCA4 /* SinistroMenuHeaderTableViewCell.m */; };
-		0D889C0F15F64B0C0045FCA4 /* ClubeLibertyLocaisDetalheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D889C0D15F64B0A0045FCA4 /* ClubeLibertyLocaisDetalheViewController.m */; };
-		0D889C1015F64B0C0045FCA4 /* ClubeLibertyLocaisDetalheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D889C0E15F64B0B0045FCA4 /* ClubeLibertyLocaisDetalheViewController.xib */; };
-		0D889C2615F68EB70045FCA4 /* ClubeLibertyLocaisMapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D889C2415F68EB60045FCA4 /* ClubeLibertyLocaisMapaViewController.m */; };
-		0D889C2715F68EB70045FCA4 /* ClubeLibertyLocaisMapaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D889C2515F68EB60045FCA4 /* ClubeLibertyLocaisMapaViewController.xib */; };
 		0D889C3215F697D70045FCA4 /* TipoSinistro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D889C3115F697D60045FCA4 /* TipoSinistro.plist */; };
 		0D889C3615F699790045FCA4 /* SinistroNovoTipoSinistroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D889C3415F699780045FCA4 /* SinistroNovoTipoSinistroViewController.m */; };
 		0D889C3715F699790045FCA4 /* SinistroNovoTipoSinistroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D889C3515F699780045FCA4 /* SinistroNovoTipoSinistroViewController.xib */; };
@@ -221,6 +211,8 @@
 		B1168CC01BECDC2500A6A854 /* CheckBoxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1168CBF1BECDC2500A6A854 /* CheckBoxTableViewCell.m */; };
 		B1184BD0192CDB4A00EB5F26 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1184BCF192CDB4A00EB5F26 /* KeychainItemWrapper.m */; };
 		B1184BD3192CDD9F00EB5F26 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1184BD2192CDD9F00EB5F26 /* Security.framework */; };
+		B14112D71CB83C010044A2AA /* ClubeLibertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14112D61CB83C010044A2AA /* ClubeLibertyViewController.m */; };
+		B14112D91CB83C3F0044A2AA /* ClubeLibertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B14112D81CB83C3F0044A2AA /* ClubeLibertyViewController.xib */; };
 		B15194071B83A918001F13EF /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B15194061B83A918001F13EF /* libc++abi.dylib */; };
 		B163A40D1BDE4D91003C2843 /* LS_TextField_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B163A40C1BDE4D91003C2843 /* LS_TextField_TableViewCell.xib */; };
 		B163A4101BDE4DAF003C2843 /* LS_TextField_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B163A40F1BDE4DAF003C2843 /* LS_TextField_TableViewCell.m */; };
@@ -257,8 +249,10 @@
 		B1DDF06D183539AF00BA0A0A /* 16_sinistros-observacoes-gravacao-btn-gravar.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DDF06B183539AF00BA0A0A /* 16_sinistros-observacoes-gravacao-btn-gravar.png */; };
 		B1DDF06E183539AF00BA0A0A /* 16_sinistros-observacoes-gravacao-btn-reproduzir.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DDF06C183539AF00BA0A0A /* 16_sinistros-observacoes-gravacao-btn-reproduzir.png */; };
 		B1DDF07018353D6800BA0A0A /* 09_sinistrocontatos-btn-adicionar.png in Resources */ = {isa = PBXBuildFile; fileRef = B1DDF06F18353D6800BA0A0A /* 09_sinistrocontatos-btn-adicionar.png */; };
-		B1F2706D1B8E5A16004793E7 /* DirectAssistLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F2706C1B8E5A16004793E7 /* DirectAssistLib.framework */; };
-		B1F2706E1B8E5A25004793E7 /* DirectAssistLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1F2706C1B8E5A16004793E7 /* DirectAssistLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1DDF59A1CBBE3C50002E3D7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDF5991CBBE3C50002E3D7 /* GameKit.framework */; };
+		B1DDF59C1CBBE3D50002E3D7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDF59B1CBBE3D50002E3D7 /* StoreKit.framework */; };
+		B1E1656F1CA1EC33006862DD /* DirectAssistLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E1656E1CA1EC33006862DD /* DirectAssistLib.framework */; };
+		B1E165701CA1EC33006862DD /* DirectAssistLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1E1656E1CA1EC33006862DD /* DirectAssistLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B1F270701B8E663E004793E7 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F2706F1B8E663E004793E7 /* libc++.dylib */; };
 		B1F7561617F460B60064BE3D /* SinistroNovoApoliceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F7561517F460B60064BE3D /* SinistroNovoApoliceTableViewCell.m */; };
 		B1F8B3FF17EB35B40007C64B /* LibertyMobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F8B3FE17EB35B40007C64B /* LibertyMobileViewController.m */; };
@@ -272,7 +266,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B1F2706E1B8E5A25004793E7 /* DirectAssistLib.framework in Embed Frameworks */,
+				B1E165701CA1EC33006862DD /* DirectAssistLib.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,23 +285,8 @@
 		0D869DEE15F940A400184155 /* SinistroNovoAddTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinistroNovoAddTableViewCell.xib; sourceTree = "<group>"; };
 		0D869DF015F940C300184155 /* SinistroNovoAddTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinistroNovoAddTableViewCell.h; sourceTree = "<group>"; };
 		0D869DF115F940C400184155 /* SinistroNovoAddTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinistroNovoAddTableViewCell.m; sourceTree = "<group>"; };
-		0D889BDC15F631BD0045FCA4 /* ClubeLibertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubeLibertyViewController.h; sourceTree = "<group>"; };
-		0D889BDD15F631BD0045FCA4 /* ClubeLibertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubeLibertyViewController.m; sourceTree = "<group>"; };
-		0D889BDE15F631BD0045FCA4 /* ClubeLibertyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClubeLibertyViewController.xib; path = LibertyMobile/ClubeLibertyViewController.xib; sourceTree = "<group>"; };
-		0D889BE115F633780045FCA4 /* ClubeLibertyLocaisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubeLibertyLocaisViewController.h; sourceTree = "<group>"; };
-		0D889BE215F633780045FCA4 /* ClubeLibertyLocaisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubeLibertyLocaisViewController.m; sourceTree = "<group>"; };
-		0D889BE315F633780045FCA4 /* ClubeLibertyLocaisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClubeLibertyLocaisViewController.xib; path = LibertyMobile/ClubeLibertyLocaisViewController.xib; sourceTree = "<group>"; };
-		0D889BEE15F637290045FCA4 /* ClubeLibertyLocaisTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClubeLibertyLocaisTableViewCell.xib; sourceTree = "<group>"; };
-		0D889BF115F637410045FCA4 /* ClubeLibertyLocaisTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubeLibertyLocaisTableViewCell.h; sourceTree = "<group>"; };
-		0D889BF215F637410045FCA4 /* ClubeLibertyLocaisTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubeLibertyLocaisTableViewCell.m; sourceTree = "<group>"; };
 		0D889BFC15F6420C0045FCA4 /* SinistroMenuHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinistroMenuHeaderTableViewCell.h; sourceTree = "<group>"; };
 		0D889BFD15F6420C0045FCA4 /* SinistroMenuHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinistroMenuHeaderTableViewCell.m; sourceTree = "<group>"; };
-		0D889C0C15F64B090045FCA4 /* ClubeLibertyLocaisDetalheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubeLibertyLocaisDetalheViewController.h; sourceTree = "<group>"; };
-		0D889C0D15F64B0A0045FCA4 /* ClubeLibertyLocaisDetalheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubeLibertyLocaisDetalheViewController.m; sourceTree = "<group>"; };
-		0D889C0E15F64B0B0045FCA4 /* ClubeLibertyLocaisDetalheViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClubeLibertyLocaisDetalheViewController.xib; path = LibertyMobile/ClubeLibertyLocaisDetalheViewController.xib; sourceTree = "<group>"; };
-		0D889C2315F68EB60045FCA4 /* ClubeLibertyLocaisMapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubeLibertyLocaisMapaViewController.h; sourceTree = "<group>"; };
-		0D889C2415F68EB60045FCA4 /* ClubeLibertyLocaisMapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubeLibertyLocaisMapaViewController.m; sourceTree = "<group>"; };
-		0D889C2515F68EB60045FCA4 /* ClubeLibertyLocaisMapaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClubeLibertyLocaisMapaViewController.xib; path = LibertyMobile/ClubeLibertyLocaisMapaViewController.xib; sourceTree = "<group>"; };
 		0D889C3115F697D60045FCA4 /* TipoSinistro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TipoSinistro.plist; sourceTree = "<group>"; };
 		0D889C3315F699770045FCA4 /* SinistroNovoTipoSinistroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinistroNovoTipoSinistroViewController.h; sourceTree = "<group>"; };
 		0D889C3415F699780045FCA4 /* SinistroNovoTipoSinistroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinistroNovoTipoSinistroViewController.m; sourceTree = "<group>"; };
@@ -574,6 +553,9 @@
 		B1184BCF192CDB4A00EB5F26 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		B1184BD1192CDB5C00EB5F26 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		B1184BD2192CDD9F00EB5F26 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B14112D51CB83C010044A2AA /* ClubeLibertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubeLibertyViewController.h; sourceTree = "<group>"; };
+		B14112D61CB83C010044A2AA /* ClubeLibertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubeLibertyViewController.m; sourceTree = "<group>"; };
+		B14112D81CB83C3F0044A2AA /* ClubeLibertyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClubeLibertyViewController.xib; path = LibertyMobile/ClubeLibertyViewController.xib; sourceTree = "<group>"; };
 		B15194061B83A918001F13EF /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
 		B163A40C1BDE4D91003C2843 /* LS_TextField_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LS_TextField_TableViewCell.xib; sourceTree = "<group>"; };
 		B163A40E1BDE4DAF003C2843 /* LS_TextField_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LS_TextField_TableViewCell.h; sourceTree = "<group>"; };
@@ -618,7 +600,9 @@
 		B1DDF06B183539AF00BA0A0A /* 16_sinistros-observacoes-gravacao-btn-gravar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_sinistros-observacoes-gravacao-btn-gravar.png"; sourceTree = "<group>"; };
 		B1DDF06C183539AF00BA0A0A /* 16_sinistros-observacoes-gravacao-btn-reproduzir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16_sinistros-observacoes-gravacao-btn-reproduzir.png"; sourceTree = "<group>"; };
 		B1DDF06F18353D6800BA0A0A /* 09_sinistrocontatos-btn-adicionar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09_sinistrocontatos-btn-adicionar.png"; sourceTree = "<group>"; };
-		B1F2706C1B8E5A16004793E7 /* DirectAssistLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DirectAssistLib.framework; path = ../DirectAssistLib.framework; sourceTree = "<group>"; };
+		B1DDF5991CBBE3C50002E3D7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B1DDF59B1CBBE3D50002E3D7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B1E1656E1CA1EC33006862DD /* DirectAssistLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DirectAssistLib.framework; path = ../DirectAssistLib.framework; sourceTree = "<group>"; };
 		B1F2706F1B8E663E004793E7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		B1F7561417F460B60064BE3D /* SinistroNovoApoliceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinistroNovoApoliceTableViewCell.h; sourceTree = "<group>"; };
 		B1F7561517F460B60064BE3D /* SinistroNovoApoliceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinistroNovoApoliceTableViewCell.m; sourceTree = "<group>"; };
@@ -637,7 +621,7 @@
 				B1D7FB041B8E2D3100EA3030 /* UIKit.framework in Frameworks */,
 				B15194071B83A918001F13EF /* libc++abi.dylib in Frameworks */,
 				B1184BD3192CDD9F00EB5F26 /* Security.framework in Frameworks */,
-				B1F2706D1B8E5A16004793E7 /* DirectAssistLib.framework in Frameworks */,
+				B1E1656F1CA1EC33006862DD /* DirectAssistLib.framework in Frameworks */,
 				0DCD7A9B164182FA00E2A111 /* libsqlite3.0.dylib in Frameworks */,
 				0DCD7A99164182C900E2A111 /* AddressBookUI.framework in Frameworks */,
 				0DCD7A97164182C000E2A111 /* AddressBook.framework in Frameworks */,
@@ -648,10 +632,12 @@
 				0D8A58D515FF87C0001C8704 /* CoreAudio.framework in Frameworks */,
 				0D8A58D315FF87B5001C8704 /* AVFoundation.framework in Frameworks */,
 				0D9C5D3815F521D2008D1DF0 /* CoreLocation.framework in Frameworks */,
+				B1DDF59C1CBBE3D50002E3D7 /* StoreKit.framework in Frameworks */,
 				0D9C5D1715F4F4B5008D1DF0 /* MapKit.framework in Frameworks */,
 				0D94CD1215EFFD4000500039 /* CoreData.framework in Frameworks */,
 				0DEB8D0E15EBB47500FEE0D8 /* Foundation.framework in Frameworks */,
 				0DEB8D1015EBB47500FEE0D8 /* CoreGraphics.framework in Frameworks */,
+				B1DDF59A1CBBE3C50002E3D7 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,14 +655,8 @@
 		0D889C2215F688040045FCA4 /* Clube Liberty */ = {
 			isa = PBXGroup;
 			children = (
-				0D889BDC15F631BD0045FCA4 /* ClubeLibertyViewController.h */,
-				0D889BDD15F631BD0045FCA4 /* ClubeLibertyViewController.m */,
-				0D889BE115F633780045FCA4 /* ClubeLibertyLocaisViewController.h */,
-				0D889BE215F633780045FCA4 /* ClubeLibertyLocaisViewController.m */,
-				0D889C0C15F64B090045FCA4 /* ClubeLibertyLocaisDetalheViewController.h */,
-				0D889C0D15F64B0A0045FCA4 /* ClubeLibertyLocaisDetalheViewController.m */,
-				0D889C2315F68EB60045FCA4 /* ClubeLibertyLocaisMapaViewController.h */,
-				0D889C2415F68EB60045FCA4 /* ClubeLibertyLocaisMapaViewController.m */,
+				B14112D51CB83C010044A2AA /* ClubeLibertyViewController.h */,
+				B14112D61CB83C010044A2AA /* ClubeLibertyViewController.m */,
 			);
 			name = "Clube Liberty";
 			sourceTree = "<group>";
@@ -699,10 +679,7 @@
 		0D889C2915F68F090045FCA4 /* Clube Liberty */ = {
 			isa = PBXGroup;
 			children = (
-				0D889BDE15F631BD0045FCA4 /* ClubeLibertyViewController.xib */,
-				0D889BE315F633780045FCA4 /* ClubeLibertyLocaisViewController.xib */,
-				0D889C0E15F64B0B0045FCA4 /* ClubeLibertyLocaisDetalheViewController.xib */,
-				0D889C2515F68EB60045FCA4 /* ClubeLibertyLocaisMapaViewController.xib */,
+				B14112D81CB83C3F0044A2AA /* ClubeLibertyViewController.xib */,
 			);
 			name = "Clube Liberty";
 			sourceTree = "<group>";
@@ -718,14 +695,6 @@
 			name = "Minhas Apolices";
 			sourceTree = "<group>";
 		};
-		0D889C2B15F68F6E0045FCA4 /* Clube Liberty */ = {
-			isa = PBXGroup;
-			children = (
-				0D889BEE15F637290045FCA4 /* ClubeLibertyLocaisTableViewCell.xib */,
-			);
-			name = "Clube Liberty";
-			sourceTree = "<group>";
-		};
 		0D889C2C15F68F970045FCA4 /* Minhas Apolices */ = {
 			isa = PBXGroup;
 			children = (
@@ -736,15 +705,6 @@
 				0D9C5D0715F4DE42008D1DF0 /* MinhasApolicesParcelasHeaderTableViewCell.xib */,
 			);
 			name = "Minhas Apolices";
-			sourceTree = "<group>";
-		};
-		0D889C2D15F68FD50045FCA4 /* Clube Liberty */ = {
-			isa = PBXGroup;
-			children = (
-				0D889BF115F637410045FCA4 /* ClubeLibertyLocaisTableViewCell.h */,
-				0D889BF215F637410045FCA4 /* ClubeLibertyLocaisTableViewCell.m */,
-			);
-			name = "Clube Liberty";
 			sourceTree = "<group>";
 		};
 		0D889C2E15F68FE50045FCA4 /* Minhas Apolices */ = {
@@ -999,7 +959,6 @@
 				B177DA701A6EBE55001FC4C0 /* Notificacao */,
 				0D8A58F015FFE710001C8704 /* Common */,
 				0D889C2E15F68FE50045FCA4 /* Minhas Apolices */,
-				0D889C2D15F68FD50045FCA4 /* Clube Liberty */,
 				0D94CCC215EFD04A00500039 /* Sinistros */,
 				B1BA3EEF192E86F70041C03A /* LoginManterLogadoTableViewCell.h */,
 				B1BA3EF0192E86F70041C03A /* LoginManterLogadoTableViewCell.m */,
@@ -1015,7 +974,6 @@
 				B177DA6D1A6EA064001FC4C0 /* Notificacao */,
 				0D8A58EF15FFE6F4001C8704 /* Common */,
 				0D889C2C15F68F970045FCA4 /* Minhas Apolices */,
-				0D889C2B15F68F6E0045FCA4 /* Clube Liberty */,
 				0D94CCB615EFCB6600500039 /* Sinistros */,
 				B1BA3EED192E860E0041C03A /* LoginManterLogadoTableViewCell.xib */,
 				0D9C5D3515F51A6B008D1DF0 /* OficinasReferenciadasTableViewCell.xib */,
@@ -1060,6 +1018,7 @@
 		0DEB8CFC15EBB47400FEE0D8 = {
 			isa = PBXGroup;
 			children = (
+				B1E1656E1CA1EC33006862DD /* DirectAssistLib.framework */,
 				0DCD793416415F9800E2A111 /* Classes */,
 				0D9EBBE11631E01B008A91AD /* Webservices */,
 				0D8D1942160D059300BB2A67 /* Custom */,
@@ -1089,8 +1048,9 @@
 		0DEB8D0A15EBB47500FEE0D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1DDF59B1CBBE3D50002E3D7 /* StoreKit.framework */,
+				B1DDF5991CBBE3C50002E3D7 /* GameKit.framework */,
 				B1F2706F1B8E663E004793E7 /* libc++.dylib */,
-				B1F2706C1B8E5A16004793E7 /* DirectAssistLib.framework */,
 				B1D7FB031B8E2D3100EA3030 /* UIKit.framework */,
 				B15194061B83A918001F13EF /* libc++abi.dylib */,
 				0DCD7A96164182C000E2A111 /* AddressBook.framework */,
@@ -1385,7 +1345,16 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
 							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -1474,14 +1443,10 @@
 				0D9C5D2315F516D7008D1DF0 /* location-arrow.png in Resources */,
 				0D9C5D3615F51A6B008D1DF0 /* OficinasReferenciadasTableViewCell.xib in Resources */,
 				0D9C5D4515F5379A008D1DF0 /* OficinasReferenciadasDetalheViewController.xib in Resources */,
-				0D889BE015F631BD0045FCA4 /* ClubeLibertyViewController.xib in Resources */,
-				0D889BE515F633780045FCA4 /* ClubeLibertyLocaisViewController.xib in Resources */,
-				0D889BEF15F637290045FCA4 /* ClubeLibertyLocaisTableViewCell.xib in Resources */,
-				0D889C1015F64B0C0045FCA4 /* ClubeLibertyLocaisDetalheViewController.xib in Resources */,
-				0D889C2715F68EB70045FCA4 /* ClubeLibertyLocaisMapaViewController.xib in Resources */,
 				B1BA3EEE192E860E0041C03A /* LoginManterLogadoTableViewCell.xib in Resources */,
 				0D889C3215F697D70045FCA4 /* TipoSinistro.plist in Resources */,
 				0D889C3715F699790045FCA4 /* SinistroNovoTipoSinistroViewController.xib in Resources */,
+				B14112D91CB83C3F0044A2AA /* ClubeLibertyViewController.xib in Resources */,
 				0DB6BA3215F7D9C1003CE4EF /* SinistroNovoDataHoraViewController.xib in Resources */,
 				B1168C741BEA8D6C00A6A854 /* btn-azul-normal.png in Resources */,
 				0D934D3A15F8D99F00D63C0D /* SinistroNovoLocalViewController.xib in Resources */,
@@ -1599,13 +1564,8 @@
 				0D9C5D1415F4EE7E008D1DF0 /* OficinasReferenciadasViewController.m in Sources */,
 				0D9C5D3415F51A53008D1DF0 /* OficinasReferenciadasTableViewCell.m in Sources */,
 				0D9C5D4415F5379A008D1DF0 /* OficinasReferenciadasDetalheViewController.m in Sources */,
-				0D889BDF15F631BD0045FCA4 /* ClubeLibertyViewController.m in Sources */,
-				0D889BE415F633780045FCA4 /* ClubeLibertyLocaisViewController.m in Sources */,
-				0D889BF315F637410045FCA4 /* ClubeLibertyLocaisTableViewCell.m in Sources */,
 				0D889BFE15F6420C0045FCA4 /* SinistroMenuHeaderTableViewCell.m in Sources */,
-				0D889C0F15F64B0C0045FCA4 /* ClubeLibertyLocaisDetalheViewController.m in Sources */,
 				B177DA731A6EC3DB001FC4C0 /* NotificacaoConsultaTableViewCell.m in Sources */,
-				0D889C2615F68EB70045FCA4 /* ClubeLibertyLocaisMapaViewController.m in Sources */,
 				0D889C3615F699790045FCA4 /* SinistroNovoTipoSinistroViewController.m in Sources */,
 				0DB6BA3115F7D9C1003CE4EF /* SinistroNovoDataHoraViewController.m in Sources */,
 				0D934D3915F8D99F00D63C0D /* SinistroNovoLocalViewController.m in Sources */,
@@ -1641,6 +1601,7 @@
 				0D8DEA341603C4BE00CCC0FB /* Contact.m in Sources */,
 				0D92D8C816076570001AE7D8 /* Constants.m in Sources */,
 				0D9F710C160A5F040060DB59 /* Event.m in Sources */,
+				B14112D71CB83C010044A2AA /* ClubeLibertyViewController.m in Sources */,
 				0DA6E717160BA9F5000BE49E /* ThumbnailImageView.m in Sources */,
 				0DA6E71D160BB1CF000BE49E /* SinistroNovoFotosDetalheViewController.m in Sources */,
 				B163A4101BDE4DAF003C2843 /* LS_TextField_TableViewCell.m in Sources */,
@@ -1699,8 +1660,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_MODULES_AUTOLINK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Evandro Oliveira (SU47LS58HF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Evandro Oliveira (SU47LS58HF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -1712,10 +1673,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=*]" = "";
-				PROVISIONING_PROFILE = "a86951bd-98b1-492a-b7f5-7467f4ecf6ad";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a86951bd-98b1-492a-b7f5-7467f4ecf6ad";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -1723,8 +1684,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_MODULES_AUTOLINK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1733,10 +1694,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "988bf1c2-0a56-4691-b049-82fc791c2052";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "988bf1c2-0a56-4691-b049-82fc791c2052";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
@@ -1748,9 +1709,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_MODULES_AUTOLINK = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Evandro Oliveira (SU47LS58HF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Evandro Oliveira (SU47LS58HF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1789,10 +1751,10 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a86951bd-98b1-492a-b7f5-7467f4ecf6ad";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a86951bd-98b1-492a-b7f5-7467f4ecf6ad";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1805,9 +1767,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_MODULES_AUTOLINK = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1845,11 +1808,11 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "988bf1c2-0a56-4691-b049-82fc791c2052";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "988bf1c2-0a56-4691-b049-82fc791c2052";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1956,7 +1919,7 @@
 				0DEB8D3715EBB47500FEE0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		0DEB8D3815EBB47500FEE0D8 /* Build configuration list for PBXNativeTarget "Liberty Mobile" */ = {
 			isa = XCConfigurationList;
@@ -1965,7 +1928,7 @@
 				0DEB8D3A15EBB47500FEE0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		B1141A18191BCBAB0036279B /* Build configuration list for PBXNativeTarget "LibertyClienteAssistenciaTests" */ = {
 			isa = XCConfigurationList;
@@ -1974,7 +1937,7 @@
 				B1141A17191BCBAA0036279B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

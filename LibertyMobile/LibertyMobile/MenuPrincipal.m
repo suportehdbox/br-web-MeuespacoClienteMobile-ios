@@ -185,9 +185,10 @@
 
 -(IBAction)btnClubeLibertyVantagensPressed:(id)sender
 {
-    ClubeLibertyViewController *defaultViewController = [[ClubeLibertyViewController alloc] init];
-    [self.navigationController pushViewController:defaultViewController animated:YES];
-    [defaultViewController release];
+    CallWebServices *callWs = [[[CallWebServices alloc] init] autorelease];
+    
+    LibertyMobileAppDelegate *appDelegate = (LibertyMobileAppDelegate *)[[UIApplication sharedApplication] delegate];
+    [callWs callCriarSessao:self usuarioId:appDelegate.dadosSegurado.cpf];
 }
 
 -(IBAction)btnAtendimentoPressed:(id)sender
@@ -307,12 +308,14 @@
     BOOL isLogin = appDelegate.dadosSegurado.logado;
     
     [self.btnMinhasApolices setEnabled:isLogin];
+    UIImage * imageApolice = [UIImage imageNamed:@"01_home-btn-minhaapolices.png"];
+    [self.btnMinhasApolices setImage:imageApolice forState:UIControlStateNormal];
+    
+    [self.btnClubeLiberty setEnabled:isLogin];
+    UIImage * imageClube = [UIImage imageNamed:@"01_home-btn-clubeliberty"];
+    [self.btnClubeLiberty setImage:imageClube forState:UIControlStateNormal];
     
     [self.btnCadastro setHidden:isLogin];
-    
-    UIImage * image = [UIImage imageNamed:@"01_home-btn-minhaapolices.png"];
-    
-    [self.btnMinhasApolices setImage:image forState:UIControlStateNormal];
     
     [self.btnLogin setHidden:isLogin];
     
@@ -450,7 +453,15 @@
         }
         [self loginSegurado];
     }
-    
+    else if (call.typeCall == LMCallWsClubeLiberty)
+    {
+        NSString *sessionId =[call retCriarSessao];
+        
+        ClubeLibertyViewController *defaultViewController = [[ClubeLibertyViewController alloc] init];
+        [defaultViewController setSessionId:sessionId];
+        [self.navigationController pushViewController:defaultViewController animated:YES];
+        [defaultViewController release];
+    }
     [indicator stopAnimating];
 }
 

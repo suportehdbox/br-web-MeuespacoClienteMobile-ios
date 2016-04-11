@@ -2,26 +2,20 @@
 //  ClubeLibertyViewController.h
 //  LibertyMobile
 //
-//  Created by Fernando Balthazar on 9/4/12.
+//  Created by evandroo on 8/04/15.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "DadosLoginSegurado.h"
 
-@interface ClubeLibertyViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
-{
-    UITableView* categoriasTableView;
-    NSMutableArray * clubeLiberty;
-    NSMutableArray * categorias;
-    DadosLoginSegurado *dadosLoginSegurado;
+
+@interface ClubeLibertyViewController : UIViewController <UIWebViewDelegate>{
+    UIWebView *webInfo;
     UIActivityIndicatorView *indicator;
 }
 
-@property (nonatomic, retain) IBOutlet UITableView* categoriasTableView;
-@property (nonatomic, retain) DadosLoginSegurado *dadosLoginSegurado;
-@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *indicator;
-
-//- (IBAction)btnMenu:(id)sender;
+@property (nonatomic, retain) IBOutlet UIWebView *webInfo;
+@property (nonatomic, retain) NSString *sessionId;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView  *indicator;
 
 @end

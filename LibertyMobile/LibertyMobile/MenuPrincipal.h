@@ -38,6 +38,7 @@
 @property (nonatomic, retain)IBOutlet UIButton * btnLogin;
 @property (nonatomic, retain)IBOutlet UIButton * btnCadastro;
 @property (nonatomic, retain)IBOutlet UIButton * btnPoliticaPrivacidade;
+@property (nonatomic, retain)IBOutlet UIButton * btnClubeLiberty;
 
 -(IBAction)btnSetupPressed:(id)sender;
 -(IBAction)btnComunicacaoAcidentePressed:(id)sender;

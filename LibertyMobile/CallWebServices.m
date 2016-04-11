@@ -26,7 +26,7 @@
     if (self){
 
         LMTipoExecucao execucao = LMTipoExecucaoProducao;
-        trace = @"true";
+        trace = @"false";
 
         switch (execucao)
         {
@@ -112,10 +112,7 @@
     NSString *idDevice = [DADevice currentDevice].UID;
 
     // * sistema = PortalSegurado : Sistema utilizado no ControlleDeAcesso; TipoSO = 1 : plataforma IOS.
-    NSString *xmlRequest = [NSString stringWithFormat:@"<AutenticarRequest><Sistema>PortalSegurado</Sistema><Usuario>%@</Usuario><Senha>%@</Senha><ManterLogado>%@</ManterLogado><IdDevice>%@</IdDevice><TipoSO>1</TipoSO></AutenticarRequest>", user, password, manterLogado, idDevice];
-    
-    xmlRequest = [xmlRequest stringByReplacingOccurrencesOfString:@"<" withString:@"&lt;"];
-    xmlRequest = [xmlRequest stringByReplacingOccurrencesOfString:@">" withString:@"&gt;"];
+    NSString *xmlRequest = [NSString stringWithFormat:@"<![CDATA[<AutenticarRequest><Sistema>PortalSegurado</Sistema><Usuario>%@</Usuario><Senha>%@</Senha><ManterLogado>%@</ManterLogado><IdDevice>%@</IdDevice><TipoSO>1</TipoSO></AutenticarRequest>]]>", user, password, manterLogado, idDevice];
     
     NSMutableDictionary *methodParameters = [[NSMutableDictionary alloc] init];
     [methodParameters setObject:user forKey:@"usuarioId"];
@@ -376,7 +373,7 @@
     [methodParameters release];
     
     [dataCon initiateConnection:self];
-}
+}   
 
 -(BOOL)retEsqueciMinhaSenhaSegurado
 {
@@ -838,25 +835,90 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------------------------------
+//-(void)callGetClubeLiberty:(id)target email:(NSString *)email
+//{
+//    typeCall = LMCallWsClubeLiberty;
+//    self.delegate = target;
+//    
+//    NSString *urlString = [NSString stringWithFormat:@"%@%@", addressServerSegurado, @"/ControllerUI.asmx"];
+//    
+//    // Create an object to the class above which is the connection to the WCF Service 
+//    WebServiceHelper *dataCon = [[[WebServiceHelper alloc] init] autorelease];
+//    
+//    dataCon.XMLNameSpace = @"http://tempuri.org/LibertyPortalSegurado";
+//    dataCon.XMLURLAddress = urlString;
+//    
+//    //set up method and parameters
+//    dataCon.MethodName = @"ObterClubeLibertyMobileApp"; //PorWebServiceMobileApp";
+//    
+//    NSMutableDictionary *methodParameters = [[NSMutableDictionary alloc] init];
+//    [methodParameters setObject:email forKey:@"usuarioId"];
+//    [methodParameters setObject:trace forKey:@"ativarTrace"];
+//    
+//    [dataCon setMethodParameters:methodParameters];
+//    [methodParameters release];
+//    
+//    [dataCon initiateConnection:self];
+//}
+//
+//-(NSMutableArray *)retGetClubeLiberty
+//{
+//    NSMutableArray * dctClubeLiberty = nil; //[[NSMutableArray alloc] init];
+//    
+//    if (webData != nil) {
+//        
+//        NSString *theXML = [[NSString alloc]
+//                            initWithBytes: [webData mutableBytes]
+//                            length: [webData length]
+//                            encoding:NSUTF8StringEncoding];
+//        NSLog(@"%@", theXML);
+//        [theXML release];
+//        
+//		NSXMLParser *nsparser = [[NSXMLParser alloc] initWithData:webData];
+//        findElementName = [[NSString alloc] initWithString:@"ObterClubeLibertyMobileAppResult"]; //PorWebServiceMobileAppResult"];
+//		[nsparser setDelegate:self];
+//		[nsparser parse];
+//
+//        if (conteudo != nil && [conteudo isEqual:@""] == NO) {
+//            NSError *error;
+//            NSData *dataJson = [conteudo dataUsingEncoding:NSUTF8StringEncoding];
+//            NSDictionary *resultados = [NSJSONSerialization JSONObjectWithData:dataJson options:NSJSONReadingMutableContainers error:&error];
+//            
+//            if (!resultados) {
+//                NSLog(@"Erro parsing JSON: %@", error);
+//                /*dctClubeLiberty = nil;
+//                [dctClubeLiberty release];*/
+//            }
+//            else {
+//                if ((NSNull *)[resultados objectForKey:@"ParceiroClubeLiberty"] != [NSNull null]) {
+//                    //dctClubeLiberty = [resultados objectForKey:@"ParceiroClubeLiberty"];
+//                    dctClubeLiberty = [[[NSMutableArray alloc] initWithArray:[resultados objectForKey:@"ParceiroClubeLiberty"]] autorelease];
+//                }
+//            }
+//        }
+//    }
+//    
+//    return dctClubeLiberty;
+//}
 
--(void)callGetClubeLiberty:(id)target email:(NSString *)email
+- (void)callCriarSessao:(id)target usuarioId:(NSString *)usuarioId
 {
     typeCall = LMCallWsClubeLiberty;
     self.delegate = target;
     
-    NSString *urlString = [NSString stringWithFormat:@"%@%@", addressServerSegurado, @"/ControllerUI.asmx"];
+    NSString *urlString = [NSString stringWithFormat:@"%@%@", addressServerSegurado, @"/NovoClubeLibertyController.asmx"];
     
-    // Create an object to the class above which is the connection to the WCF Service 
+    // Create an object to the class above which is the connection to the WCF Service
     WebServiceHelper *dataCon = [[[WebServiceHelper alloc] init] autorelease];
     
-    dataCon.XMLNameSpace = @"http://tempuri.org/LibertyPortalSegurado";
+    dataCon.XMLNameSpace = @"http://tempuri.org";
     dataCon.XMLURLAddress = urlString;
     
     //set up method and parameters
-    dataCon.MethodName = @"ObterClubeLibertyMobileApp"; //PorWebServiceMobileApp";
+    dataCon.MethodName = @"CriarSessao";
     
     NSMutableDictionary *methodParameters = [[NSMutableDictionary alloc] init];
-    [methodParameters setObject:email forKey:@"usuarioId"];
+    [methodParameters setObject:usuarioId forKey:@"usuarioId"];
     [methodParameters setObject:trace forKey:@"ativarTrace"];
     
     [dataCon setMethodParameters:methodParameters];
@@ -865,11 +927,11 @@
     [dataCon initiateConnection:self];
 }
 
--(NSMutableArray *)retGetClubeLiberty
+-(NSString *)retCriarSessao
 {
-    NSMutableArray * dctClubeLiberty = nil; //[[NSMutableArray alloc] init];
+    NSString * sessionId = nil;
     
-    if (webData != nil) {
+    if (webData != nil && [webData length] != 0) {
         
         NSString *theXML = [[NSString alloc]
                             initWithBytes: [webData mutableBytes]
@@ -878,31 +940,17 @@
         NSLog(@"%@", theXML);
         [theXML release];
         
-		NSXMLParser *nsparser = [[NSXMLParser alloc] initWithData:webData];
-        findElementName = [[NSString alloc] initWithString:@"ObterClubeLibertyMobileAppResult"]; //PorWebServiceMobileAppResult"];
-		[nsparser setDelegate:self];
-		[nsparser parse];
+        NSXMLParser *nsparser = [[NSXMLParser alloc] initWithData:webData];
+        findElementName = [[NSString alloc] initWithString:@"CriarSessaoResult"];
+        [nsparser setDelegate:self];
+        [nsparser parse];
 
         if (conteudo != nil && [conteudo isEqual:@""] == NO) {
-            NSError *error;
-            NSData *dataJson = [conteudo dataUsingEncoding:NSUTF8StringEncoding];
-            NSDictionary *resultados = [NSJSONSerialization JSONObjectWithData:dataJson options:NSJSONReadingMutableContainers error:&error];
-            
-            if (!resultados) {
-                NSLog(@"Erro parsing JSON: %@", error);
-                /*dctClubeLiberty = nil;
-                [dctClubeLiberty release];*/
-            }
-            else {
-                if ((NSNull *)[resultados objectForKey:@"ParceiroClubeLiberty"] != [NSNull null]) {
-                    //dctClubeLiberty = [resultados objectForKey:@"ParceiroClubeLiberty"];
-                    dctClubeLiberty = [[[NSMutableArray alloc] initWithArray:[resultados objectForKey:@"ParceiroClubeLiberty"]] autorelease];
-                }
-            }
+            sessionId = [[[NSString alloc] initWithString:conteudo] autorelease];
         }
     }
     
-    return dctClubeLiberty;
+    return sessionId;
 }
 
 -(void)callGetOficinasReferenciadas:(id)target email:(NSString *)email cep:(NSString *)cep raio:(NSString *)raio
