@@ -205,7 +205,8 @@ Keychain API expects as a validly constructed container class.
     // Default attributes for keychain item.
     [keychainItemData setObject:@"" forKey:(id)kSecAttrAccount];
     [keychainItemData setObject:@"" forKey:(id)kSecAttrLabel];
-    [keychainItemData setObject:@"" forKey:(id)kSecAttrDescription];
+    //[keychainItemData setObject:@"" forKey:(id)kSecAttrDescription];
+    [keychainItemData setObject:@"" forKey:(id)kSecAttrService];
     
 	// Default data for keychain item.
     [keychainItemData setObject:@"" forKey:(id)kSecValueData];
