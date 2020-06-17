@@ -1,0 +1,72 @@
+//
+//  ExtractViewController.m
+//  appsegurado
+//
+//  Created by Luiz Zenha on 04/06/19.
+//  Copyright © 2019 Liberty Seguros. All rights reserved.
+//
+
+#import "ExtractViewController.h"
+#import "ExtractView.h"
+
+<<<<<<< HEAD
+@interface ExtractViewController () {
+    NSMutableArray *arrayObjects;
+    ExtractView *view;
+}
+    
+
+=======
+@interface ExtractViewController (){
+    ExtractViewController *view;
+    Vision360Model *conn;
+    Vision360EventBeans *currentBeans;
+}
+>>>>>>> 9f3d2d0f360a813459526de294acf4aa58abc969
+@end
+
+
+@implementation ExtractViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    arrayObjects = [[NSMutableArray alloc] init];
+    view = (ExtractView *) self.view;
+    [view loadView];
+    // Do any additional setup after loading the view.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+- (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    if(indexPath.row == 0){
+        UITableViewCell * viewCell = [tableView dequeueReusableCellWithIdentifier:@"Header" forIndexPath:indexPath];
+        return viewCell;
+        
+    }else if((indexPath.row-1) == [arrayObjects count]){
+        UITableViewCell * viewCell = [tableView dequeueReusableCellWithIdentifier:@"Footer" forIndexPath:indexPath];
+        return viewCell;
+    }
+    return nil;
+}
+    
+- (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 2 + [arrayObjects count];
+}
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+
+-(void)listEventError:(NSString *)message{
+   
+}
+
+    @end

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AppAliro.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>appsegurado.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C72E1ECB1F87A8E80093C360</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7AC64DF1D6B73FE0003EC64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7AC64F81D6B74000003EC64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7AC65031D6B74000003EC64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

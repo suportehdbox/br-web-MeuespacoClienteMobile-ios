@@ -1,0 +1,11 @@
+framework module DirectAssistLib {
+  umbrella header "DirectAssistLib.h"
+
+  export *
+  module * { export * }
+}
+
+module DirectAssistLib.Swift {
+    header "DirectAssistLib-Swift.h"
+    requires objc
+}

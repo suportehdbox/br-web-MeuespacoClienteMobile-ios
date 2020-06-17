@@ -1,0 +1,11 @@
+ [
+  {
+  "name" : "production",
+  "appid" : "b76da360-3d45-405c-85a8-f5790937cc29",
+  "accesstoken" : "r7s3xepzd86xhs6nm5dd8jpd",
+  "etanalytics" : true,
+  "pianalytics" : true,
+  "location" : true,
+  "inbox" : true
+  }
+  ]

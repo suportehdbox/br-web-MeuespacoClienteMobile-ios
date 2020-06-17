@@ -1,0 +1,652 @@
+/*
+ Localizable.strings
+ Aliro 
+ 
+ Created by EvandroO on 25/06/13.
+ 
+ */
+
+
+//Localizable.String file for the Portuguese version.
+
+"NavBarCollor" = "#0bb49d";
+"AzulEscuro" = "#3366cc";
+"AzulClaro" = "#447add";
+"AzulRegistrar" = "#0bb49d";
+"AzulLogin" = "#0bb49d";
+"Vermelho" = "#e6131c";
+"Verde" = "#0bb49d";
+"Laranja" = "#edb112";
+"CinzaEscuro" = "#616265";
+"CinzaClaro" = "#c5c5c5";
+"CinzaFundo" = "#EFEFEF";
+"CinzaBotao" = "#EFEFEF";
+"Branco" = "#FFFFFF";
+"FundoMenu" = "#0bb49d";
+"MenuSelecionado" = "#2b4695";
+"CellBGSelected" = "#3464ac";
+"CellBG" = "#D8E2EB";
+"MenuSelecionado" = "#05997f";
+"MenuSelecionado2" = "#09a991";
+"TextoDestaque" = "#0bb49d";
+"CorBotoes" = "#0bb49d";
+"LblCustomText" = "#898989";
+"Amarelo" = "#0bb49d";
+
+
+
+"LogarDepois" = "Logar Depois";
+"TracarRota" = "TRAÇAR ROTA";
+"SinistroAssitencia" = "Acidente ou Assistência";
+"OficinasReferenciadas" = "Oficinas\nreferenciadas";
+"ClubeVantagens" = "Clube Liberty Momentos";
+"Cadastrar" = "FAÇA SEU CADASTRO";
+"Logar" = "LOGIN";
+"TituloOficinaProxima" = "Oficina referenciada mais próxima: ";
+"BuscandoSuaPosição" = "Aguarde, buscando sua posição";
+"BuscandoOficinasProximas" = "Procurando as oficinas mais próximas de você";
+"BuscandoOficinasRecomendadas" = "Procurando as oficinas recomendadas para você";
+"BuscandoOficinasProximasEndereco" = "Procurando as oficinas mais próximas desse endereço";
+
+"OlaVisitante" = "Olá Visitante";
+"OlaLogado" = "Olá %@";
+"FacaLoginMenu" = "Faça seu login";
+"CadastrarMenu" = "Cadastrar";
+"AcidenteMenu" = "Acidente ou Assistência";
+"OficinasMenu" = "Oficinas referenciadas";
+"ApolicesMenu" = "Meus Seguros";
+"ClubeMenu" = "Clube Liberty Momentos";
+"FaleConoscomenu" = "Fale conosco";
+"SairMenu" = "Sair";
+"NotificacoesMenu" = "Notificações";
+"MeusDadosMenu" = "Meus dados";
+
+"Ok" = "Ok";
+"ErroLocalizacao" = "Não foi possível encontrar sua localização";
+"ErroLocalizacao24hs" = "Não foi possível encontrar sua localização, permita o acesso ao seu local nas configurações do seu dispositivo.";
+"ErroNenhumaOficina" = "Não foi possível encontrar nenhuma oficina próxima da sua localização";
+"ErroConexao" = "Não foi possível acessar a internet, verifique sua conexão";
+"TituloErroLocalizacao" = "Aviso";
+"ErroCampos" = "Por favor preencha o CEP ou o endereço";
+"TituloErroCampos" = "Aviso";
+"TituloBuscaCEP" = "Digite um dos Dados Abaixo";
+"ZipCodePlaceholder" = "CEP";
+"AddressPlaceholder" = "Endereço";
+"BotaoLocalizar" = "LOCALIZAR";
+"BotaoLocalizarOutroEndereco" = "Pesquisar local";
+"BotaoLocalizarOrdenar" = "Mais próximos";
+"BotaoLocalizarOrdenarRecomendadas" = "Recomendadas";
+
+"TituloHomeDeslogada" = "Aliro Seguro";
+"TituloOficinas" = "Oficinas";
+
+"TipoAtendimento" = "Qual tipo de atendimento para seu carro você quer solicitar?";
+"TipoAtendimentoHome" = "Qual tipo de assistência você precisa?";
+"AssistenciaResidenciaTitulo" = "Assistência Residência";
+"EscolhaAtendimento" = "Escolha uma opção para avançar";
+"BotaoSinistro" = "SINISTRO";
+"BotaoAsistencia24" = "ASSISTÊNCIA 24 HORAS";
+"EstouComDuvidas" = "Está com dúvidas?";
+"FaleComLiberty" = "Fale com a Aliro";
+"AssistenciaTitulo" = "Acidente ou Assistência";
+"Cancelar" = "Cancelar";
+"AbrirAppRota" = "Qual app deseja utilizar?";
+"ConhecaVantagens" = "VANTAGENS DAS OFICINAS REFERENCIADAS:";
+"DescricaoVantagens" = "• Peças novas e originais.\n\n• Desconto no valor da franquia.\n\n• Possibilidade de parcelamento.\n\n• Garantia ilimitada do reparo enquanto o veículo estiver em nome do segurado.\n\n• Garantia de 1 ano no reparo realizado nos veículos de terceiros.";
+
+"Fechar" = "Fechar";
+"Configurações" = "Configurações";
+
+//Login
+"InstrucoesLogin" = "Use TOUCH ID ou utilize uma das opções";
+"LoginFacebook" = "Entrar com Facebook";
+"Ou" = "ou";
+"EmailCpf" = "E-mail ou CPF/CNPJ";
+"Senha" = "Senha";
+"ManterLogado" = "Manter logado";
+"Entrar" = "LOGIN";
+"EsqueceuSenha" = "Esqueceu sua senha?";
+"EsqueceuEmail" = "Esqueceu seu e-mail?";
+"FraseCadastrar" = "Ainda não é usuário? Cadastre-se";
+"Politica" = "Política de privacidade";
+"EmailVazio" = "Preencha seu CPF/CNPJ ou E-mail";
+"SenhaVazia" = "Preencha sua senha";
+"SenhaVaziaConfirmacao" = "Preencha sua senha (Confirmação)";
+"CPFInvalido" = "CPF/CNPJ inválido";
+"EmailInvalido" = "E-mail inválido";
+"SenhaInvalida" = "Sua senha deve conter no mínimo 6 (seis) caracteres entre letras e números";
+"TituloLogin" = "Aliro Seguro";
+"ErrorTitle" = "Erro!";
+"LoginTouchID" = "Acessar usando minha digital";
+
+//Cadastro
+"InstrucoesCadastro" = "Cadastre-se.";
+"InstrucoesCadastro2" = " É super rápido!\n";
+"InstrucoesCadastro3" = "Para isso preencha com seus dados abaixo e clique em Avançar.";
+"ApoliceAuto" = "Digite sua apólice ou placa do carro";
+"ApoliceResidencia" = "Digite sua apólice ou CEP";
+"ApoliceVida" = "Digite sua apólice ou data de nascimento";
+"DigiteEmail" = "Digite seu E-mail";
+"DigiteCPF" = "Digite seu CPF";
+"DigiteSenha" = "Digite sua senha";
+"DigiteConfSenha" = "Confirme sua senha";
+"Nome" = "Nome";
+"Email" = "E-mail";
+"ConfirmeEmail" = "Confirme o E-mail";
+"CPF" = "CPF/CNPJ";
+"ConfirmeSenha" = "Confirme a senha";
+"Apolice" = "Apólice";
+"InstrucoesPassword" = "Atenção!";
+"InstrucoesPassword2" = " Sua senha deve conter no mínimo 6 (seis) caracteres entre letras e números. Não é permitido utilizar seu nome, sobrenome ou \"&\".";
+"TermosCondições" = "Concordo com os ";
+"TermosCondições2" = "Termos de Uso e a Política de Privacidade.";
+"Registrar" = "AVANÇAR";
+"ApoliceVazio" = "Preencha sua Apólice";
+"NomeVazio" = "Preencha seu nome";
+"EmailsNaoCorrespondem" = "E-mails não correspondem, verifique os e-mails digitados";
+"SenhasNaoCorrespondem" = "Senhas não correspondem, verifique as senhas digitados";
+"TituloErroCadastro" = "Aviso!";
+"ErroTermos" = "Para realizar o cadastro é preciso concordar com os termos e condições de uso do aplicativo";
+"TituloTelaCadastro" = "Cadastre-se";
+"CadastroSucesso" = "Cadastro realizado com sucesso!";
+"MaisInformacoesCadastro" = "";
+
+//Esqueceu Senha
+"Sucesso" = "Sucesso!";
+"SenhaEviada" = "Uma nova senha foi enviada para seu e-mail";
+"RecuperacaoSenha" = "Recuperação de Senha";
+"EmailVazioEsqueceuSenha" = "Preencha seu e-mail";
+"CPFVazioEsqueceuSenha" = "Preencha seu CPF ou CNPJ";
+"TituloEsqueciSenha" = "Aliro Seguro";
+"TituloEsqueciEmail" = "Trocar E-mail";
+
+//Meus Dados
+"TrocarSenha" = "Troca de senha";
+"TrocarEmail" = "Troca de e-mail";
+"VisualizarCartao" = "Visualizar Cartão Segurado";
+"FalarSobre" = "Fale sobre este aplicativo";
+"FaleConosco" = "Fale conosco";
+"Sair" = "Sair";
+"MeusDadosTitulo" = "Meus dados";
+
+//Troca Senha
+
+"SenhaAtual" = "Digite sua senha atual";
+"NovaSenha" = "Digite a nova senha";
+"ConfirmarNovaSenha" = "Confirme a nova senha";
+"Enviar" = "ENVIAR";
+"SenhaAlterada" = "SUA SENHA FOI ALTERADA COM SUCESSO";
+"BtPopUpSucesso"= "OK, ENTENDI";
+"BtTrocarSenha" = "TROCAR SENHA";
+
+//Troca Email
+"NovoEmail" = "Digite seu novo e-mail ";
+"ConfirmarNovoEmail" = "Confirme seu novo e-mail";
+"BtEnviarEmail" = "TROCAR E-MAIL";
+"EmailAlterado" = "Você receberá uma notificação da mudança no seu novo e-mail.\nClique no link enviado para realizar a troca.";
+"EmailAlteradoLogado" = "SEU E-MAIL FOI ALTERADO COM SUCESSO";
+"EmailsNaoCorrespondemTroca" = "E-mail e E-mail de Confirmação devem ser iguais.";
+"DescTrocaEmailDesloga" = "Para trocar seu e-mail, responda as seguintes perguntas:";
+"SubTitutloTrocaEmailCpf" = "Qual o CPF/CNPJ do segurado?";
+"DigiteSeuCpf" = "Digite aqui o seu CPF/CNPJ";
+"DigiteAqui" = "Digite aqui";
+"Avancar" = "AVANÇAR";
+"RespostaVazia" = "Responda a pergunta para trocar seu e-mail.";
+"PreenchaNovoEmail" = "Preencha o novo e-mail";
+
+//Atendimento
+"CapitalContactTitle" = "CAPITAL E REGIÕES METROPOLITANAS";
+"CapitalContactPhone" = "3003-2127";
+"CapitalContactHours" = "Segunda a Sábado (exceto feriados nacionais) - 6h às 22h";
+"OthersContactTitle" = "TODAS AS REGIÕES";
+"OthersContactPhone" = "0800 220 2127";
+"OthersContactHours" = "Segunda a Sábado (exceto feriados nacionais) - 6h às 22h";
+"AssistAutoContactTitle" = "ASSISTÊNCIA 24 HORAS";
+"AssistAutoContactPhone" = "0800 770 1318";
+"AssistResContactTitle" = "";
+"AssistResContactPhone" = "";
+"AssistBoldText" = "24 HORAS";
+"ApoliceNum" = "Apólice %@";
+"Atendimento" = "Atendimento";
+"Skype1" = " FALE CONOSCO ";
+"Skype2" = "VIA SKYPE";
+
+
+//Apolices
+"Apolices" = "Meus Seguros";
+"Carro" = "Carro";
+"Casa" = "Casa";
+"Vida" = "Vida";
+"Empresa" = "Empresa";
+"ApolicesAntigas" = "VER APÓLICES ANTIGAS";
+"Dia" = "DIA";
+"Dias" = "DIAS";
+"Vigencia" = "Para sua Renovação";
+"IPVA" = "IPVA";
+"Licenciamento" = "LICENCIAMENTO";
+"Sim" = "Sim";
+"Nao" = "Não";
+"ErroConexaoTitulo" = "Erro de conexão";
+"ErroConexaoMsg" = "Deseja tentar novamente?";
+"Pagamento" = "Pagamento";
+"Parcelas" = "Parcela %d de %d";
+"PagamentoFrase" = "Vencimento da próxima parcela %@, no valor de %@";
+"VisualizarParcelas" = "VISUALIZAR PARCELAS";
+"FaleCorretor" = "Fale com seu corretor";
+"SeguroCobreTitulo" = "O que meu seguro cobre?";
+"ErroNoSerivdor" = "Não foi possível obter as informações, tente novamente mais tarde.";
+"ConnectionError" ="Não foi possível conectar ao servidor, verifique sua conexão e tente novamente.";
+"AllPaymentsDone" = "Fique tranquilo! Faturas pagas";
+
+"CódigoDeBarras" = "Código de Barras";
+"CódigoDeBarrasMsg" = "O seguinte código de barras foi copiado para área de transferência:";
+"Veiculo" = "Veiculo";
+"Segurado" = "Segurado";
+"Endereco"= "Endereço";
+"Quitado" = "Quitado";
+"Atrasado" = "Atrasado";
+"Pendente" = "A vencer";
+"Prorrogar" = "Prorrogar";
+"Boleto" = "Boleto";
+"ValorParcela" = "Valor";
+
+"ProrrogarPagamento" = "Prorrogar data de pagamento";
+"ProrrogarDesc1" = "Ao prorrogar a data do pagamento de sua parcela você concorda com a correção do valor.";
+"ProrrogarDesc2" = "Para essa parcela a forma de pagamento será boleto.";
+"NovaData" = "NOVA DATA ";
+"Valor" = " VALOR ";
+"TermosProrrogar" = "Declaro que não tive sinistro enquanto esta parcela esteve vencida";
+"BtConcordar" = "CONCORDO";
+"ParcelProrrogada" = "SUA PARCELA FOI PRORROGADA";
+"ParcelProrrogadaInstrucoes" = "Veja abaixo os dados para pagamento da parcela:\n\nVencimento: %@\nValor: %@\n\n Código de Barras:\n%@ \n\n Atenção: Para realizar o pagamento do boleto, aguardar o prazo de 3 horas para que o mesmo seja registrado junto ao banco";
+
+"AbrirBoleto" = "ABRIR BOLETO";
+"ErroAbrirApp" = "Não foi possível abrir o %@, verifique se está instalado e configurado corretamente";
+
+//HOME
+"StatusSinistro" = "Status do Sinistro";
+"BoldSinistro" = "Sinistro";
+"BemVindo" = "Olá";
+"DesejaFazer" = "\nO que deseja fazer hoje?";
+"MaisInfoSeguro" = "Ver as informações do meu seguro:";
+"MaisApolices" = "MAIS APÓLICES";
+"DetalhesApolice" = "DETALHES DA APÓLICE";
+"TitlePaymentsHome" = "Informações de\npagamento";
+"BoldTitlePaymentsHome" = "pagamento";
+"BtExpand" = "expandir";
+"BtExpandSelected" = "recolher";
+"VerDetalhes" = "ver detalhes";
+
+//ClubLiberty
+"TituloClub" =  "O Clube Liberty é um portal de vantagens feito especialmente para você cliente Aliro Seguro!";
+"TituloClubBold1" = "Clube Liberty";
+"TituloClubBold2" = "Aliro Seguro";
+"DescClub" = "São descontos e benefícios em lojas online e em estabelecimentos parceiros de todo o país, nos mais diversos segmentos, como lazer e viagens, automotivo, shopping, cultura & entretenimento, entre outros.\n\nPara desfrutar dos nossos benefícios, basta ser Cliente Aliro Seguro. E o melhor: não é preciso acumular pontos, nem pagar nada por isso!";
+"BtClub" = "ACESSE O CLUBE";
+"DescClubOff" = "São descontos e benefícios em lojas online e em estabelecimentos parceiros de todo o país.";
+"DescClubOff2" = "\nPara desfrutar dos nossos benefícios, basta ser Cliente Aliro Seguro. E não é preciso acumular pontos, nem pagar mais nada por isso!";
+"DescClubOff3" = "\n\nPara ter acesso ao Clube Liberty, faça login ou cadastre-se e aproveite todos os benefícios exclusivos:";
+"DescClubOffBold1" = "faça login";
+"DescClubOffBold2" = "cadastre-se";
+"ClubeVantagensTitulo" = "Clube de Vantagens";
+
+"ErroNoSerivdor" = "Não foi possível obter as informações, tente novamente mais tarde.";
+"ConnectionError" ="Não foi possível conectar ao servidor, verifique sua conexão e tente novamente.";
+
+"NenhumaNotificacao" = "Nenhuma notificação disponível";
+
+
+
+//Claim
+"Sinistro" = "Sinistro Auto";
+"ClaimTitle1" = "Escolha em qual situação se enquadra seu sinistro";
+"ClaimOption1" = "Roubo e Furto";
+"ClaimOption2" = "Alagamento";
+"ClaimOption3" = "Acidente";
+"ClaimOption4" = "Acidente sem terceiros";
+"ClaimTitle2" = "Confirme seus dados";
+"Condutor" = "Segurado era o condutor?";
+"Telefone" = "Telefone";
+"DataNascimento" = "Nascimento";
+"ClaimTitle3" = "Confirme dia, horário e local do ocorrido";
+"Data" = "Data";
+"Numero" = "Número";
+"Hora" = "Hora";
+"Local" = "Local (Rua, Avenida...)";
+"Referencia" = "Referência";
+"Cidade" = "Cidade";
+"Bairro" = "Bairro";
+"Estado" = "Estado";
+"ClaimTitle4" = "Conte o que aconteceu";
+"DigiteRelato" = "Digite aqui o seu relato";
+"AudioRelato" = "Se preferir, envie seu relato em áudio";
+"PhotosRelato" = "Deseja adicionar fotos ou documentos do ocorrido?";
+"QuantidadePhotos" = "Você possui %d fotos adicionadas";
+"TituloDeletarAudio" = "Deseja deletar o áudio?";
+"TituloEscolherFoto" = "Escolher foto";
+"Galeria" = "Galeria";
+"Camera" = "Câmera";
+"TituloDeletarFoto" = "Deseja deletar a imagem?";
+"JaPossuiSinistro" = "Já possui um sinistro aberto?";
+"CliqueAqui" = "Clique aqui";
+"EnviandoSinistro" = "Enviando sinistro";
+"EnviandoSinistroArquivos" = "Estamos enviando os arquivos para nossos servidores, esta operação pode demorar alguns minutos.";
+"DigiteDadosAbaixo" = "Digite os dados solicitados abaixo para continuar seu sinistro";
+"BtStartClaim" = "INICIAR SINISTRO";
+"EsqueceuSenhaClaim1" = "Esqueceu sua senha? ";
+"EsqueceuSenhaClaim2" = "Recupere aqui";
+"FraseCadastrarClaim1" = "Ainda não é usuário? ";
+"FraseCadastrarClaim2" = "Cadastre-se";
+"PlacaOuApólice" = "Placa do Veículo ou Apólice";
+"AvisoUpload" = "Aviso!";
+"NenhumaApoliceEncontrada" = "Nenhuma apólice encontrada";
+"AvisoSinistroEnviado" = "AVISO DE SINISTRO ENVIADO COM SUCESSO";
+"NumeroSinistro" = "O número de sinistro é";
+"InstrucoesSinistro" = "• Fique tranquilo, entraremos em contato em até 12 horas úteis\n• Você receberá um e-mail com todos os dados desse sinistro";
+
+"ErroTipoSinistro" = "Por favor, escolha a situação do seu sinistro.";
+"FoneVazio" = "Preencha seu telefone";
+"NomeMotoristaVazio" = "Preencha o nome do condutor";
+"DataMotoristaVazio" = "Preencha a data de nascimento do condutor";
+"FoneMotoristaVazio" = "Preencha o telefone do condutor";
+"DataVazia" = "Preencha a data";
+"HoraVazio" = "Preencha o horário";
+"EnderecoVazio" = "Preencha o endereço";
+"ReferenciaVazio" = "Preencha a referência";
+"CidadeVazio" = "Preencha a cidade";
+"NumeroVazio" = "Preencha o número";
+"BairroVazio" = "Preencha o bairro";
+"EstadoVazio" = "Preencha o estado";
+"SeguradoEraCondutor" = "Selecione se o segurado era o condutor do veículo";
+"AvisoProrrogar" = "Atenção!";
+"LimiteFotos" = "Você não pode enviar mais de 8 fotos.";
+"LimiteGravacao" = "Você atingiu o limite de gravação";
+"PermissaoCamera" = "Para adicionar uma foto é preciso permitir o acesso a câmera e a galeria de fotos";
+"PermissaoAudio" = "Para gravar um audio é preciso permitir o acesso ao microfone";
+"AvisoSemDescrição" = "Por favor, nos conte o que aconteceu, escrevendo ou gravando um audio";
+"FotosAdicionadas1" = "Você possui";
+"FotosAdicionadas2" = " fotos";
+"FotosAdicionadas3" = " adicionadas";
+"FinalizarSinistro" = "FINALIZAR SINISTRO";
+"FoneInvalido" = "Número de telefone inválido";
+"DataInvalida" = "Data de nascimento inválida";
+"CopiarBoleto" = "COPIAR CÓDIGO";
+"TextoCopiado" = "Código de barras copiado";
+"TermosProrrogarPopUp" = "Confirmo a reprogramação da parcela do meu seguro e sei que não terei cobertura caso tenha acontecido algum sinistro neste período em que a parcela estiver pendente, conforme o Art. 763 do Código Civil Brasileiro citado abaixo. Após o pagamento a cobertura voltará a valer novamente.\n\nArt. 763 do Código Civil Brasileiro: Não terá direito a indenização o segurado que estiver em mora com o prêmio, se ocorrer sinistro antes de sua purgação.";
+"BtTermosAcordo" = "termos de acordo";
+"ApagarFoto" = "Toque na foto para excluí-la";
+"Cidades" = "Cidades";
+"RelatoAudio" = "Relato enviado por áudio";
+
+//Status
+"Status10" = "Aviso de Sinistro Enviado";
+"Status20" = "Vistoria Agendada";
+"Status30" = "Tentativa de localizar o veículo (7 dias).";
+"Status40" = "Reparos Liberados";
+"Status50" = "Enviar Documentos";
+"Status100" = "Sinistro Concluído";
+"ErroNenhumSinistro" = "Você não possui sinistros para consulta";
+"TituloAjudaSinistro" = "Não sabe por onde começar?\nVeja nosso exemplo de relato:";
+"TextoAjudaSinistro" = "Estava cruzando a Av. Ipiranga com a São João, quando o carro derrapou na pista e fui de encontro ao muro.";
+"StatusDesconhecido" = "Status não disponível";
+"DataAbertura" = "Data de Abertura";
+"PoliticaPrivacidadeTitulo" = "Política de Privacidade";
+"PoliticaPrivacidade" = "<html><style type='text/css'>body{font-family: Arial;font-size: medium;}</style><body><b><p>Termos e Condições</p></b><p>Em breve você terá acesso a informações privilegiadas, constantes na base de dados da Liberty Seguros S.A.</p><p>Não usar com propósitos ilegais os dados/informações obtidas, de qualquer forma, na base de dados do Liberty Web;</p><p>Não propagar vírus de computador, programas invasivos (worms) ou outras formas de programas de computador, auto-replicantes ou não, que causem danos permanentes ou temporários nos equipamentos do destinatário;</p><p>Não usar a rede para tentar e/ou realizar acesso não autorizado a dispositivos de comunicação, informação ou computação da Liberty Seguros S/A;</p><p>Não forjar endereços de máquinas, de rede ou de correio eletrônico, na tentativa de responsabilizar terceiros ou ocultar a identidade ou autoria, fazendo mal uso das informações aqui contidas;</p><p>Não destruir ou corromper dados e informações contidas nos servidores do Liberty Web;</p><p>Não violar copyright ou direito autoral reproduzindo, integral ou parcialmente, material contido no Site LW sem prévia autorização da Liberty Seguros S/A.</p><p>No caso do uso da Plataforma “Meu Espaço Cliente” ou outra plataforma/ serviço que requeira indicação de e-mail pessoal, importante alertar que:</p><p><ul><li>O seu e-mail privativo é de uso pessoal e restrito, portanto, por questão de segurança, não recomendamos o compartilhamento da sua conta de e-mail e sugerimos que sempre use senha forte;</li><li>Todas as informações fornecidas pelo usuário, é de sua responsabilidade;</li><li>A Liberty Seguros S/A não tem responsabilidade acerca do e-mail pessoal do usuário, cabendo a esse, administrá-lo da forma mais segura possível.</li></ul><p>No caso de haver o descumprimento de qualquer uma das regras supra mencionadas, a mesma acarretará a tomada das medidas judiciais cabíveis, na esfera civil e penal, a fim de ver resguardado os direitos da LIBERTY SEGUROS S/A.</p><b><p>Política de Privacidade</p></b><p>Introdução</p><p>Bem vindo ao www.libertyseguros.com.br. Este site é propriedade da Liberty Seguros. Esta Política de Privacidade foi criada para informar como nós coletamos, utilizamos e divulgamos as informações que você nos fornece através deste site.</p><p>Ao utilizar este site, você reconhece ter analisado, e concordado, com os termos desta Política de Privacidade. Se lendo esta Política você não acredita que foi dispensado tratamento satisfatório aos seus interesses sobre privacidade de informações, deixe-nos saber. Caso você não concorde com esta Política de Privacidade, favor não utilizar este site.</p><p>Aquisição de seus dados</p><p>Ao acessar este site, serão automaticamente coletadas as seguintes informações de navegação:</p><ul><li>Endereço de IP – Protocolo de Internet;</li><li>Tipo de navegador e sua versão;</li><li>Tipo de sistema operacional de celular e sua versão;</li><li>Número de identificação do dispositivo (entende-se como dispositivo: celulares e demais PDAs);</li><li>Localização do usuário;</li><li>Nomes de domínio;</li><li>Informações das URLs acessadas pelo usuário.</li></ul><p>Os dados acima coletados, são importantes para: pesquisas, estatísticas, de forma a aprimorar nossos serviços no nosso site. Cabe informar, que os dados coletados automaticamente não incluem informações pessoalmente identificáveis, tais como: nome, endereço, telefone.</p><p>No entanto, existem vários pontos em que você poderá escolher fornecer, voluntariamente, algumas informações para sua identificação: nome completo, telefone de contato, e-mail e outros que venham a ser solicitados durante o processo de cadastramento.</p><p>Solicitaremos estas informações quando você desejar submeter perguntas; preencher cadastros para compra de nossos produtos e serviços; apresentar comentários sobre a Liberty Seguros, este site, nossos produtos e serviços, e outros tópicos.</p><p>Quando você envia um e-mail ou outro tipo de mensagem para se comunicar com a Liberty Seguros, podemos reter essas mensagens para processar suas consultas, responder às suas solicitações e melhorar nossos produtos, atendimento ou mesmo, este site.</p><p>Todas essas informações serão guardadas pela Liberty Seguros, que lhe garante sigilo e confidencialidade, assegurando que não serão transmitidas ou comercializadas a terceiros, sem sua autorização, exceto por imposição legal ou ordem judicial, conforme previsão na Lei 12.965/14</p><p>Utilização de seus dados</p><p>Como dito acima, as informações fornecidas serão utilizadas, principalmente, para a melhoria de nosso atendimento e de nossos produtos, adequando-os às suas necessidades e interesses.</p><p>Poderemos nos valer desses dados, ainda, para fins de marketing, pesquisa interna e para lhe enviar atualizações de nossos produtos e serviços ou qualquer outra informação quando entendermos que possa ser de seu interesse. Caso queira interromper o recebimento dessas informações, esses e-mails possuem um dispositivo eletrônico para isso. Basta clicar no link existente na parte inferior do e-mail que o processo de interrupção é realizado automaticamente.</p><p>Se decidirmos utilizar essas informações para alguma outra finalidade diferente das acima expostas, solicitaremos o seu prévio consentimento.</p><p>Segurança de seus dados</p><p>Nenhum dado fornecido durante ou pelo preenchimento dos formulários presentes neste site será comercializado, ou divulgado a terceiros, sem sua prévia e expressa autorização, observadas as exceções legais.</p><p>Suas informações são coletadas e guardadas obedecendo aos mais rígidos padrões de segurança do mercado, e o acesso é limitado somente aos colaboradores e parceiros do Grupo Liberty, inclusive na sua sede nos EUA, autorizados para o uso adequado dessas informações. Todos os colaboradores e parceiros do Grupo Liberty têm conhecimento da Política de Privacidade aqui apresentada e estão comprometidos com a confidencialidade e uso restrito destes dados.</p><p>A Liberty Seguros se compromete a adotar as medidas de segurança adequadas à proteção quanto ao acesso, alteração ou destruição não autorizada destes dados.</p><p>O site, plataformas e aplicações de Internet poderão eventualmente ser compartilhados com terceiros mediante ordem judicial ou solicitação do Ministério Público, Autoridade Policial ou Administrativa, nos termos do art. 15, parágrafo 3º, da Lei 12.965/14, ou ainda, se assim for necessário para cumprimento de lei ou de regulamentação governamental.</p><p>Alteração das informações pessoais</p><p>A Liberty Seguros permite que você tenha acesso a todos os dados fornecidos, e admite sua atualização, correção ou mesmo exclusão.</p><p>A Liberty Seguros poderá excluir dos seus sites, plataformas e aplicações de Internet, dados pessoais, mediante requerimento expresso do usuário, enviado para e-mail privacidade@libertyseguros.com.br, ressalvadas as hipóteses de guarda obrigatória de registros ou dados previstas em lei ou objeto de ordem judicial, do Ministério Público ou de autoridade policial ou administrativa, nos termos do art. 7º, X, da Lei 12.965/14</p><p>É reservado a Liberty Seguros, editar ou até mesmo excluir qualquer conteúdo publicado pelos usuários que não estejam de acordo com a sua Política de Privacidade.</p><p>Essa condição, todavia, não é uma obrigação, sendo que por força do art. 15, § 3º da Lei 12.965/14, via de regra, solicitações de edição ou remoção devem se dar sob a forma de ordem judicial, solicitação do Ministério Público, de autoridade policial ou administrativa.</p><p>Cookies</p><p>Ao utilizar este site, a Liberty Seguros pode enviar pequenos arquivos, denominados “cookies” para o seu computador. Estes arquivos têm como objetivo melhorar a sua navegação e funcionalidade, armazenando dados sobre suas visitas, permitindo uma interação mais personalizada com as ferramentas fornecidas pelo site. Estes “cookies” coletam informações que são submetidas de uma página para a próxima página, eliminando a necessidade de inserção de informações redundantes. Os “cookies” não coletam informações pessoais ou quaisquer outras informações do seu computador que possam gerar sua identificação ou que firam critérios éticos e legais de coleta de dados.</p><p>A maioria dos navegadores é configurada para aceitar “cookies”, mas é possível alterar as configurações de seu computador para que os “cookies” não sejam aceitos ou que seja indicado quando estão sendo enviados, entretanto, nessa hipótese, algumas páginas do site podem não funcionar.</p><p>Spam</p><p>O site, plataformas e aplicações de Internet, procurarão evitar o envio de e-mails não – solicitados. Caso o usuário receba alguma mensagem não solicitada ou invasiva, poderá enviar reclamação para privacidade@libertyseguros.com.br.</p><p>Proteção de senha</p><p>Existem áreas “privativas” no site em que será necessário informar seu login/e-mail e senha para acesso.</p><p>Mantenha sigilo da sua senha, que é de uso pessoal e intransferível. Se você desconfiar que seu login/e-mail foi comprometido, notifique imediatamente, à Liberty Seguros através do e-mail privacidade@libertyseguros.com.br.</p><p>Alterações na política de privacidade</p><p>Esta Política de Privacidade pode sofrer alterações periódicas e a qualquer tempo, com ou sem aviso prévio, em virtude de nossa busca por melhoria contínua. Todas as alterações estarão expostas nesta página e, se forem muito significativas, avisos serão disponibilizados em outras páginas deste site garantindo maior destaque. Portanto, recomendamos que consulte esta política periodicamente.</p><p>Alcance na política de privacidade</p><p>Esta Política de Privacidade se aplica somente a este site. Em que pese existirem links para outros sites, como banners, anúncios, etc, estes web sites não estão incluídos nesta Política de Privacidade e não são de responsabilidade da Liberty Seguros. A Liberty Seguros recomenda que você tome ciência da Política de Privacidade de cada site visitado.</p><p>Lei aplicável e Foro competente</p><p>Aplica-se a presente Política, a legislação brasileira.</p><p>Quaisquer litígios serão da competência exclusiva do Foro da Comarca de São Paulo – SP, Brasil.</p><p>Liberty Seguros S.A.</p><p>Última atualização: Outubro de 2018</p></body></html>";
+
+"TituloSegundaVia" = "2ª Via de Pagamento";
+"SubTituloSegundaVia" = "Para realizar o pagamento copie o código de barras e realize o pagamento no seu Banco.";
+"SummaryInstructions" = "Caso queira imprimir o seu boleto, acesse o Meu Espaço Cliente em Histórico de Pagamento e selecione a parcela desejada.";
+"InstrucaoCompleta" = "Instrução completa";
+"TituloBoletoVencido" = "Seu boleto venceu! :/";
+"SubTituloBoletoVencido" = "Para realizar a impressão da 2ª Via você deve acessar o site do Santander e gerar uma nova via com data e valor atualizados.";
+"AcessarSantander" = "ACESSAR SITE SANTANDER";
+"PagueAgora" = "Pagar Agora";
+"EmAnalise" = "Em Análise";
+"EmProcessamento" = "Processando";
+"Consultar" = "Consultar";
+"SegundaViaBoleto" = "2ª Via de Boleto";
+"PagamentoOnline" = "Pagamento online";
+"ProrrogarParcela" = "Prorrogar Parcela";
+"ConsultarPagamento" = "Consultar Pagamento";
+"ButtonPagar" = "Pagar";
+"TituloPagarParcela" = "Escolha como prefere pagar esta parcela:";
+
+
+"COBERTURASSEGURO" ="O QUE MEU SEGURO COBRE";
+"SERVICOSSEGURO" = "SERVIÇOS DISPONÍVEIS";
+"OUTROS ITENS" = "OUTROS\nITENS";
+"Escolha o item que deseja" = "Escolha o item que deseja";
+"NavegandoGratis" = "Você está navegando grátis!";
+"NavegandoPago" = "Navegação gratuita não disponível no momento.";
+"NavegandoGratisDesc" = "Com a Liberty você economiza seu pacote de dados";
+"NaoMostrarMais" = "Não voltar a mostrar";
+"UploadDocumentos" = "Envio Fotos e Documentos";
+"UploadMinimoFotos" = "Nenhuma foto ou documento adicionado ao sinistro.";
+"ArquivosEnviados" = "DOCUMENTOS ENVIADOS COM SUCESSO";
+"DocumentoVinculado" = "Documentos vinculados ao sinistro:";
+"MeusDocumentos" = "Meus Documentos";
+"DocumentosFotos" = "Documentos e Fotos";
+"DocumentosSalvos" = "Documentos Salvos";
+"ArquivosErroUpload" = "Ocorreu um erro ao efetuar upload, tente novamente mais tarde.";
+"BuscandoDocumentos" = "Carregando documentos";
+"AdicionarDocumentos" = "Clique ao lado para adicionar";
+"DocumentsTitle"  = "Salve aqui fotos ou documentos importantes como:\ncarteira de habilitação, RG, documento do carro, entre outros.";
+"UploadMinimoFotosDocuments" = "Nenhuma foto ou documento adicionado";
+"PolicyDocuments" = "Escolha uma das apólices para continuar";
+"LimiteDocs" = "Você não pode enviar mais de 5 documentos.";
+"NenhumDocumento" = "Você não possui nenhum documento salvo para esta apólice.\nCaso deseja deixar previamente salvo acesse: Meus Dados -> Meus Documentos";
+"DigiteDadosAssistencia" = "Digite os dados solicitados abaixo para abrir uma assistência";
+"IniciarAssistencia" = "INICAR ASSISTÊNCIA";
+"Assistencia24hs" = "Assistência 24 horas";
+"MyClaims" = "Meus sinistros";
+"AcompanharAtendimento" = "Ou deseja acompanhar um atendimento?";
+
+
+"HoraAtendimentoWeek" = "SEG. A SEX. DAS %@ ÀS %@";
+"HoraAtendimentoFull" = "SEG. A SEX. DAS %@ ÀS %@ E SÁB. DAS %@ ÀS %@";
+
+"LinkarFacebook" = "Acessar com o facebook";
+
+
+"EnterPhone" = "Digite seu Telefone";
+"Extension" = "Ramal";
+"Cellphone" = "Celular";
+"UpdatePhone" = "Atualizar Telefone";
+"CelularVazio" = "Digite um número de celular válido";
+"TelefoneVazio" = "Digite um número de telefone válido";
+"PhoneAlterado" = "SEU TELEFONE FOI ALTERADO COM SUCESSO";
+"AlterarDados" = "Alterar dados";
+"IrLogin" = "Ir para HOME";
+"EmailCadastrado" = "Esse e-mail já está em uso";
+"EmailSent" = "E-mail enviado com sucesso!";
+"EmailNotReceived1" = "Não recebeu o e-mail? ";
+"EmailNotReceived2" = "Reenviar link";
+"InstrucoesCadastroSucesso" = "Agora acesse seu e-mail\n\n";
+"InstrucoesCadastroSucesso2" = "Para finalizar seu cadastro, acesse seu e-mail e clique no link de ativação\n\n";
+"InstrucoesCadastroSucesso3" = "Esse procedimento garante a segurança dos seus dados";
+"AssistenciaVidro" = "Assistência Vidro";
+"DeletingFiles" = "Apagando arquivos";
+"ImagesDeleted" = "AS IMAGENS FORAM APAGADAS COM SUCESSO!";
+"BaixarSegundaVia" = "2ª Via da Apólice";
+"BtCompartilhar" = "Compartilhar";
+"BtBaixar" = "Baixar";
+
+
+
+
+"TitleHeaderExtract" = "Veja o quanto você economizou com a Liberty!";
+"TitleHeaderExtractAssist" = "Veja as assistências que você utilizou!";
+"TotalExtract" = "Total";
+"PhraseExtract" = "Valor do seu seguro";
+"FranchiseValue" = "Valor da franquia:";
+"TitleExtract" = "Liberty Seguros";
+
+//Daqui para baixo projeto antigo
+
+"Accident" = "Acidente";
+"AccreditedGarages" = "Nossas Filiais"; //"Distribuidores";  //"Nossas Filiais"; // "Oficinas Referenciadas"; // "Distribuidores"
+"AddPolicy" = "Adicionar apólice";
+"AddressNotFound" = "Nenhum endereço localizado";
+"AddVehicle" = "Adicionar veículo";
+"AddToContacts" = "Adicionar a Contatos";
+"AddressDetail" = "Referências do local";
+"ArrivalTime" = "Previsão";
+"AutomotiveAssistance" = "Assistência Auto";
+"Automotive" = "Auto";
+"And" = "e";
+"Battery" = "Bateria";
+"Between" = "entre";
+"BreakDown" = "Pane";
+"Cancel" = "Cancelar";
+"Call" = "Ligar";
+"CallForAnotherService" = "Para outro serviço ligue para a Assistência 24h";
+"CallToAssistanceCentre" = "Ligar para Assistência 24h";
+"CantCreateCase" = "Não foi possível criar a Assistência";
+"FailCreatingCase" = "Houve um problema durante a criação da assistência";
+"CantListPolicies" = "Não foi possível carregar as apólices";
+"CantLoadCases" = "Não foi possível carregar suas assistências";
+"CantLoadDealers" = "Não foi possível carregar os distribuidores"; //"Não foi possível carregar os distribuidores";
+"CantSavePolicy" = "Não foi possível salvar a apólice";
+"CantSearchNearestProvider" = "Cant search nearest provider";
+"CaseCreatedSuccessfully" = "Assistência %@ criada com sucesso!";
+"CaseCreatedMonitoringWarning" = "Você poderá acompanhar seu atendimento escolhendo a opção Minhas Assistências";
+"CaseCrationFailureWarning" = "Por favor, verifique se a assistência foi criada com sucesso na seção Minhas Assistências";
+"Cause" = "Causa";
+"CaseNumber" = "Assistência";
+"CheckingCoverages" = "Consultando coberturas...";
+"CheckFilledInformation" = "Verifique se as informações estão preenchidas corretamente";
+"ChooseCause" = "Informe a causa da assistência";
+"ChooseService" = "Escolha o serviço desejado";
+"ChooseVehicleProblem" = "Informe o problema do seu veículo"; "Client" = "Cliente";
+"City" = "Cidade";
+"CreatingCase" = "Criando assistência...";
+"ConfirmAddress" = "Confirmar endereço";
+"CoverageExceededWarning" = "O serviço solicitado excede o limite de cobertura de sua apólice. Por favor, entre em contato com a central de Assistência 24h";
+"CountryNotCovered" = "Não foi possível obter o logradouro referente a sua localização. Por favor, tente novamente ou informe o endereço de sua localização manualmente.";
+"DragAndDropToGetTheAddressCorrected" = "Centralize sua posição no mapa e aperte o botão Confirmar";
+"Dealer" = "Filial"; //"Distribuidor"; //"Oficina"; // "Filial" //Concessionária
+"Dealers" = "Filiais"; //"Distribuidores"; //"Oficinas"; // "Filiais" //Concessionárias
+"DealersList" = "Filiais"; //"Distribuidores";// "Oficinas"; // "Filiais" //Concessionárias
+"Deleting..." = "Apagando...";
+"District" = "Estado";
+"Electrician" = "Eletricista";
+"EmergencyRepair" = "Reparo Emergencial";
+"FailLoadingFile" = "Não foi possivel carregar a assistência";
+"FailSavingPhoneNumber" = "Não foi possível salvar o telefone";
+"File" = "Assistência";
+"FileNotFound" = "Assistência não localizada";
+"FillGeocodeInfo" = "Por favor preencha o campo com a Rua e Cidade a ser pesquisada";
+"FillPhoneNumberInformation" = "Informe o DDD e Número deste celular para contato em caso de necessidade";
+"From" = "De";
+"Garage" = "Filial"; //"Filial"; // "Oficina" //Concessionária
+"GetDirections" = "Instruções até aqui";
+"GettingAddress" = "Obtendo logradouro...";
+"GettingLocationCoordinates" = "Obtendo coordenadas da localização...";
+"InformationMissing" = "Algumas informações não foram preenchidas";
+"InService" = "Em serviço";
+"List" = "Lista";
+"Loading..." = "Carregando...";
+"LoadingFile" = "Carregando assistência...";
+"LoadingFiles" = "Carregando assistências...";
+"LocateMe" = "Localização";
+"Location" = "Localização";
+"Locksmith" = "Chaveiro";
+"Map" = "Mapa";
+"Minutes" = "minutos";
+"MyFiles" = "Minhas assistências";
+"MyPhoneNumber" = "Meu número de telefone";
+"Name" = "Nome";
+"NewCase" = "Nova assistência"; //"Nova assistência"; //"Solicitar assistência";
+"NewFile" = "Nova assistência"; //"Nova assistência"; //"Solicitar assistência";
+"NoInternetWarning" = "O aplicativo precisa estar conectado a Internet para executar esta operação.";
+"OK" = "OK";
+"Others" = "Outros";
+"PhoneNumber" = "Telefone";
+"PleaseWait" = "Por favor, aguarde";
+"PleaseTryAgain" = "Por favor, tente novamente";
+"Plumber" = "Encanador";
+"Policy" = "Apólice";
+"PolicyList" = "Apólices";
+"PolicyNotFound" = "Nenhuma apólice localizada."; //"Nenhum carro localizado.";
+"Problem" = "Problema";
+"PropertyAssistance" = "Assistência Residência";
+"Property" = "Residência";
+"Provider" = "Prestador";
+"ProviderLicence" = "Placa do Prestador";
+"MapRoute" = "Traçar rota";
+"Refresh" = "Atualizar";
+"ReverseGeocodeFailWarning" = "Ocorreu um problema ao obter o logradouro referente a sua localização. Por favor, tente novamente.";
+"RoadsideRepair" = "Conserto no local"; //"Conserto no local"
+"Save" = "Salvar";
+"SaveVehicle" = "Salvar veículo";
+"Saving..." = "Salvando...";
+"Schedule" = "Agendar";
+"SearchingAccreditedGarages" = "Pesquisando filiais..."; //"Pesquisando filiais..."; // "Pesquisando oficinas..." // "Pesquisando concessionárias..."
+"SearchingNearestProvider" = "Localizando um Prestador mais próximo...";
+"SearchPolicy" = "Adicionar Apólices"; // "Pesquisar Apólice"; //"Pesquisar Carro"
+"SendAssistanceRequest" = "Enviar solicitação de assistência";
+"SentToProvider" = "Enviado ao prestador";
+"ServiceFinished" = "Serviço concluído";
+"ServiceOnWay" = "Serviço a caminho";
+"ServiceProvider" = "Prestador de serviço";
+"Services" = "Serviços";
+"ServiceScheduled" = "Serviço agendado";
+"SetCustomAddress" = "Informar outro endereço";
+"State" = "Estado";
+"Status" = "Status";
+"StreetAndCity" = "Rua, Cidade";
+"StreetName" = "Rua";
+"StreetNumber" = "Número";
+"ShowOnMap" = "Mostrar no Mapa";
+"To" = "Até";
+"TowTruck" = "Reboque";
+"UnknowError" = "Erro desconhecido";
+"UnknownError" = "Erro desconhecido";
+"UpdatingAddress" = "Carregando endereço";
+"UseCurrentAddress" = "Usar este endereço";
+"Vehicle" = "Veículo";
+"VehicleChassis" = "Chassi";
+"VehicleLicense" = "Placa";
+"VehicleModel" = "Modelo";
+"VehicleYear" = "Ano";
+"UserDocument" = "CPF/CNPJ";
+"Vehicles" = "Veículos";
+"WaitingDispatch" = "Aguardando acionamento";
+"Search" = "Pesquisar";
+"Searching..." = "Pesquisando...";
+"Zipcode" = "CEP";
+
+
+
+
+"Address" = "Endereço";
+"Service" = "Serviço";
+"UnknownError" = "Erro desconhecido";
+
+
+
+"Add" = "Adicionar";
+
+
+
+"SearchAddress" = "Pesquisar";
+
+/* Sign-in button text */
+"Sign in" = "Fazer login";
+
+/* Long form sign-in button text */
+"Sign in with Google" = "Fazer login com o Google";
+
+/* The title of the promotional prompt to install the Google app. */
+"PromoTitle" = "Fazer login com o Google";
+
+/* The body message of the promotional prompt to install the Google app. */
+"PromoMessage" = "Faça o download do Google app gratuitamente e faça login em aplicativos com sua Conta do Google. Não há necessidade de lembrar senhas.";
+
+/* The cancel button on the promotional prompt to install the Google app. */
+"PromoActionCancel" = "Cancelar";
+
+/* The install button on the promotional prompt to install the Google app. */
+"PromoActionInstall" = "Instalar";
+
+
