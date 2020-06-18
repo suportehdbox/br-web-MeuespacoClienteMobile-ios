@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		052ECD6D9DF2BF3D15EC1215 /* libPods-AppAliro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B5EE99ACB1074748E18F6 /* libPods-AppAliro.a */; };
 		08255E3663F751ABC1B0308B /* libPods-appsegurado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC0FCD845CFF85574DF3C3F /* libPods-appsegurado.a */; };
-		7F70A953CD3AF30EB3D3910D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		7F70A953CD3AF30EB3D3910D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		BE17F3B222A5BE47000943C0 /* icon_value.png in Resources */ = {isa = PBXBuildFile; fileRef = BE17F3AC22A5BE3F000943C0 /* icon_value.png */; };
 		BE17F3B322A5BE47000943C0 /* icon_value.png in Resources */ = {isa = PBXBuildFile; fileRef = BE17F3AC22A5BE3F000943C0 /* icon_value.png */; };
 		BE17F3B422A5BE47000943C0 /* icon_warning.png in Resources */ = {isa = PBXBuildFile; fileRef = BE17F3AD22A5BE41000943C0 /* icon_warning.png */; };
@@ -289,6 +289,10 @@
 		BE6A4CFB22A6DFDE002BF7CA /* ExtractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A4CF922A6DFDE002BF7CA /* ExtractTableViewCell.m */; };
 		BEE1DE6B2398547600DD3BB6 /* DeviceUtil+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */; };
 		BEE1DE6C23985B8400DD3BB6 /* DeviceUtil+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */; };
+		BEEE3D66249A82C4001E73C9 /* NewClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */; };
+		BEEE3D68249A93A6001E73C9 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE3D67249A93A6001E73C9 /* UIView+Constraints.swift */; };
+		BEEE3D69249A93A6001E73C9 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE3D67249A93A6001E73C9 /* UIView+Constraints.swift */; };
+		BEEE3D6A249A93DE001E73C9 /* NewClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */; };
 		C70241901DEC537900D81823 /* NewClaimOffView.m in Sources */ = {isa = PBXBuildFile; fileRef = C702418F1DEC537900D81823 /* NewClaimOffView.m */; };
 		C70241931DEC641D00D81823 /* NewClaimOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70241921DEC641D00D81823 /* NewClaimOffViewController.m */; };
 		C703607C1F9A183B00E587C4 /* icon_oval_payment_finish.png in Resources */ = {isa = PBXBuildFile; fileRef = C73A5D051F963EA000FADC9D /* icon_oval_payment_finish.png */; };
@@ -1040,7 +1044,7 @@
 		C7B88F311DAC440C00912CBE /* password_changed.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88F2E1DAC440C00912CBE /* password_changed.png */; };
 		C7B88F321DAC440C00912CBE /* password_changed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88F2F1DAC440C00912CBE /* password_changed@2x.png */; };
 		C7B88F331DAC440C00912CBE /* password_changed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88F301DAC440C00912CBE /* password_changed@3x.png */; };
-		C7BC08721DF834100090D958 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		C7BC08721DF834100090D958 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		C7BC087B1DF8371F0090D958 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BC08771DF836A70090D958 /* libAdIdAccess.a */; };
 		C7BC087C1DF8371F0090D958 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BC08781DF836A70090D958 /* libGoogleAnalyticsServices.a */; };
 		C7BD351F1DF056DF00D5059F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BD351E1DF056DF00D5059F /* Photos.framework */; };
@@ -1415,6 +1419,8 @@
 		BE778B9122E61BD500AE6595 /* appsegurado copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "appsegurado copy3-Info.plist"; path = "/Users/luizenha/Documents/Desenv/iOS/AppSeguradoLibertySegurosiOS/appsegurado/appsegurado copy3-Info.plist"; sourceTree = "<absolute>"; };
 		BEE1DE692398547500DD3BB6 /* DeviceUtil+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DeviceUtil+Constant.h"; sourceTree = "<group>"; };
 		BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeviceUtil+Constant.m"; sourceTree = "<group>"; };
+		BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClubViewController.swift; sourceTree = "<group>"; };
+		BEEE3D67249A93A6001E73C9 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Constraints.swift"; path = "Views/UIView+Constraints.swift"; sourceTree = "<group>"; };
 		C702418E1DEC537900D81823 /* NewClaimOffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewClaimOffView.h; path = Views/NewClaimOffView.h; sourceTree = "<group>"; };
 		C702418F1DEC537900D81823 /* NewClaimOffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewClaimOffView.m; path = Views/NewClaimOffView.m; sourceTree = "<group>"; };
 		C70241911DEC641D00D81823 /* NewClaimOffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewClaimOffViewController.h; path = Controllers/NewClaimOffViewController.h; sourceTree = "<group>"; };
@@ -2278,7 +2284,7 @@
 			files = (
 				C7343EA620FF76E200250B0E /* Foundation.framework in Frameworks */,
 				C78714361EEF2A48001B9AF2 /* CoreTelephony.framework in Frameworks */,
-				C7BC08721DF834100090D958 /* (null) in Frameworks */,
+				C7BC08721DF834100090D958 /* BuildFile in Frameworks */,
 				C7BD351F1DF056DF00D5059F /* Photos.framework in Frameworks */,
 				C7D7058A1DDE33C400499886 /* AVFoundation.framework in Frameworks */,
 				C73F4FF91DA2D09E00CB69DF /* LocalAuthentication.framework in Frameworks */,
@@ -2293,7 +2299,7 @@
 				C724CC011D70878300CD3B27 /* AddressBook.framework in Frameworks */,
 				C724CBFF1D7081FD00CD3B27 /* CoreLocation.framework in Frameworks */,
 				C7CB08941D6DEC6F00DE6E58 /* MapKit.framework in Frameworks */,
-				7F70A953CD3AF30EB3D3910D /* (null) in Frameworks */,
+				7F70A953CD3AF30EB3D3910D /* BuildFile in Frameworks */,
 				08255E3663F751ABC1B0308B /* libPods-appsegurado.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2954,6 +2960,7 @@
 				C79841271D6CE8100071D6CB /* WelcomeHomeViewController.h */,
 				C79841281D6CE8110071D6CB /* WelcomeHomeViewController.m */,
 				BE332D59246437CE004C5CD7 /* HomeAssistWebViewController.swift */,
+				BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -3084,6 +3091,7 @@
 				BE332D562461E96C004C5CD7 /* NewAccidentView.swift */,
 				BE332D542461E96B004C5CD7 /* appsegurado-Bridging-Header.h */,
 				BE332D552461E96B004C5CD7 /* AppAliro-Bridging-Header.h */,
+				BEEE3D67249A93A6001E73C9 /* UIView+Constraints.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -4583,6 +4591,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-resources.sh",
 				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
 				"${PODS_ROOT}/FontAwesome/Resources/FontAwesome.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_ROOT}/RMessage/RMessage/Resources/RMessageView.xib",
 				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/Contents.json",
@@ -4605,6 +4614,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageView.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contents.json",
@@ -4677,6 +4687,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-resources.sh",
 				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
 				"${PODS_ROOT}/FontAwesome/Resources/FontAwesome.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_ROOT}/RMessage/RMessage/Resources/RMessageView.xib",
 				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/Contents.json",
@@ -4699,6 +4710,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageView.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contents.json",
@@ -4770,6 +4782,7 @@
 				C72E1EEE1F87A8E80093C360 /* DocumentBeans.m in Sources */,
 				C718242B2044A34C0064B778 /* ChangePhoneViewController.m in Sources */,
 				C72E1EEF1F87A8E80093C360 /* Reachability.m in Sources */,
+				BEEE3D6A249A93DE001E73C9 /* NewClubViewController.swift in Sources */,
 				C72E1EF01F87A8E80093C360 /* FBUserBeans.m in Sources */,
 				C72E1EF11F87A8E80093C360 /* CustomTextField.m in Sources */,
 				C72E1EF21F87A8E80093C360 /* CircleTimer.m in Sources */,
@@ -4796,6 +4809,7 @@
 				C72E1F041F87A8E80093C360 /* ChangePasswordView.m in Sources */,
 				C72E1F051F87A8E80093C360 /* UserProfileViewController.m in Sources */,
 				C72E1F061F87A8E80093C360 /* Tools.m in Sources */,
+				BEEE3D69249A93A6001E73C9 /* UIView+Constraints.swift in Sources */,
 				C72E1F071F87A8E80093C360 /* PolicyBeans.m in Sources */,
 				C72E1F081F87A8E80093C360 /* UserOptionsTableViewCell.m in Sources */,
 				C72E1F091F87A8E80093C360 /* ParcelsView.m in Sources */,
@@ -4903,6 +4917,7 @@
 				C780AA2C1DAE78A000C13B84 /* ContactViewController.m in Sources */,
 				C798411D1D6C93DB0071D6CB /* CustomButton.m in Sources */,
 				BE17F3C022A6A86E000943C0 /* ExtractViewController.m in Sources */,
+				BEEE3D66249A82C4001E73C9 /* NewClubViewController.swift in Sources */,
 				C709049120F7DA73003165D2 /* DetailNotificationViewController.m in Sources */,
 				C7B3DBB61DC28A9A009306A1 /* ExtendParcelViewController.m in Sources */,
 				C7C00A701DC115CB008A2A51 /* ParcelsViewController.m in Sources */,
@@ -4984,6 +4999,7 @@
 				C718242E2044B4390064B778 /* ChangePhoneModel.m in Sources */,
 				C7A7B9CC1DD3A54500A81F10 /* ForgotEmailView.m in Sources */,
 				C74814FD1EF1CF1A00A3E24A /* README.md in Sources */,
+				BEEE3D68249A93A6001E73C9 /* UIView+Constraints.swift in Sources */,
 				C7AC64E81D6B73FE0003EC64 /* AppDelegate.m in Sources */,
 				C70C7F4C1DE716CC001DBF35 /* StatusClaimView.m in Sources */,
 				C72F503A1EB10872006DB3BE /* CoverageBeans.m in Sources */,

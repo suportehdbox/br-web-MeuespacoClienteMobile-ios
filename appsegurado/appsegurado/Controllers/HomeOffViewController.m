@@ -8,10 +8,12 @@
 
 #import "HomeOffViewController.h"
 #import "AppDelegate.h"
+#import <appsegurado-Swift.h>
+
 @interface HomeOffViewController (){
     AutoWorkShopModel *model;
     BOOL alreadyLoaded;
-    
+    NewClubViewController *club;
 }
 
 @end
@@ -97,7 +99,12 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (IBAction)showClub:(id)sender {
-    [self performSegueWithIdentifier:@"ShowClub" sender:nil];
+    if(club == nil){
+        club = [[NewClubViewController alloc] init];
+    }
+    [self.navigationController pushViewController:club animated:true];
+//    [self performSegueWithIdentifier:@"ShowClub" sender:nil];
+    
 }
 #pragma mark - Navigation
 

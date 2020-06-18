@@ -16,29 +16,29 @@
 
 //Localizable.String file for the Portuguese version.
 
-"NavBarCollor" = "#1a1444";
-"AzulEscuro" = "#1a1444";
+"NavBarCollor" = "#1A1446";
+"AzulEscuro" = "#1A1446";
 "AzulClaro" = "#447add";
-"AzulRegistrar" = "#1a1444";
-"AzulLogin" = "#1a1444";
+"AzulRegistrar" = "#1A1446";
+"AzulLogin" = "#1A1446";
 "Vermelho" = "#e6131c";
-"Verde" = "#78e1e1";//"#01b538";
+"Verde" = "#78E1E1";//"#01b538";
 "Laranja" = "#edb112";
 "CinzaEscuro" = "#626262";
 "CinzaClaro" = "#aaaaaa";
-"CinzaFundo" = "#EFEFEF";
+"CinzaFundo" = "#F2F2F2";
 "CinzaBotao" = "#e5e5e3";
 "Branco" = "#FFFFFF";
 "FundoMenu" = "#393467";
-"MenuSelecionado" = "#1a1444";
+"MenuSelecionado" = "#1A1446";
 "CellBGSelected" = "#3464ac";
 "CellBG" = "#D8E2EB";
-"MenuSelecionado" = "#1a1444";
-"MenuSelecionado2" = "#1a1444";
+"MenuSelecionado" = "#1A1446";
+"MenuSelecionado2" = "#1A1446";
 "TextoDestaque" = "#003B73";
-"CorBotoes" = "#1a1444";
-"Amarelo" = "#ffdb00";
-"LblCustomText" = "#1a1444";
+"CorBotoes" = "#1A1446";
+"Amarelo" = "#FFD000";
+"LblCustomText" = "#1A1446";
 
 
 
@@ -302,7 +302,15 @@
 
 "NenhumaNotificacao" = "Nenhuma notificação disponível";
 
-
+"Step0" = "A Liberty se preocupa\nem oferecer vantagens que\nvão além do seguro contratado.";
+"Step1" = "Por isso, clientes e corretores\nfazem parte do clube +Liberty,\ncom vantagens que fazem toda\na diferença na hora de economizar\ne aproveitar com a família.";
+"Step2" = "São diversas oportunidades\nexclusivas para usar no seu\ndia a dia.";
+"Step2_Itens" = "• Fácil de usar\n• 200 parceiros\n• Compras Online e Físicas\n• Descontos de até 60%• Acesso gratuito";
+"Step3" = "Aceite os novos termos e condições\npara aproveitar as vantagens\nque preparamos para você!";
+"Step3off" = "Faça seu login ou cadastre-se\nno App para aproveitar as vantagens\nque preparamos para você!";
+"NovosTermos" = "Concordo com os novos";
+"NovosTermosLine" = "termos, condições e política de privacidade";
+"BtAcessar" = "ACESSAR O +LIBERTY";
 
 //Claim
 "Sinistro" = "Sinistro Auto";
