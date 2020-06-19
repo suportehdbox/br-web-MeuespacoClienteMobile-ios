@@ -34,7 +34,7 @@ public extension UIView{
         self.bottomAnchor.constraint(equalTo: withAnchor, constant: constant).isActive = true
     }
     
-    func setCenterYConstarint(withAnchor:NSLayoutAnchor<NSLayoutYAxisAnchor>, constant: CGFloat){
+    func setCenterYConstraint(withAnchor:NSLayoutAnchor<NSLayoutYAxisAnchor>, constant: CGFloat){
         self.centerYAnchor.constraint(equalTo: withAnchor, constant: constant).isActive = true
     }
     

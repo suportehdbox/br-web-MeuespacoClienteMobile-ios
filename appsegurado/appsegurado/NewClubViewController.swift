@@ -204,7 +204,11 @@ class NewClubTutorialStep : UIViewController {
     class NewClubView: UIView {
         private var lblMessage: UILabel!
         private var imgView: UIImageView!
+        private var btGotoLogin: CustomButton!
         private var loggedIn:Bool = false
+        
+        private var imgNames: [String] = ["image_baloes" , "imagem_familia", "Imagem_Loja", "imagem_celular"]
+
         
         override init(frame: CGRect){
             super.init(frame: frame)
@@ -223,31 +227,116 @@ class NewClubTutorialStep : UIViewController {
             fatalError("init(coder:) has not been implemented")
         }
         
+        
+        
         private func setupView(stepIndex: Int){
+            
+            imgView = UIImageView()
+            imgView.translatesAutoresizingMaskIntoConstraints = false
+            self.addSubview(imgView)
+            
             lblMessage = UILabel()
             lblMessage.translatesAutoresizingMaskIntoConstraints = false
             self.addSubview(lblMessage)
             
-            lblMessage.setCenterYConstarint(withAnchor: self.centerYAnchor, constant: 0)
-            lblMessage.setHeightConstraint(constant: 200)
-            lblMessage.setLeadingConstraint(withAnchor: self.leadingAnchor, constant: 40)
-            lblMessage.setTrailingConstraint(withAnchor: self.trailingAnchor, constant: -40)
+            
+            imgView.setLeadingConstraint(withAnchor: self.leadingAnchor, constant: 40)
+            imgView.setTrailingConstraint(withAnchor: self.trailingAnchor, constant: -40)
+                       
+        
+            imgView.image = UIImage(named: imgNames[stepIndex])
+            imgView.contentMode = .scaleAspectFit
+           
             lblMessage.numberOfLines = 0
             lblMessage.textAlignment = .center
             lblMessage.textColor = .black
                 
-            if(stepIndex==3){
-                setupView3()
-            }else{
+            if(stepIndex != 3){
+                lblMessage.setLeadingConstraint(withAnchor: self.leadingAnchor, constant: 40)
+                lblMessage.setTrailingConstraint(withAnchor: self.trailingAnchor, constant: -40)
                 lblMessage.text = NSLocalizedString("Step"+String(stepIndex), comment: "")
                 lblMessage.font = BaseView.getDefatulFont(Large, bold: false)
             }
-            lblMessage.addInterlineSpacing(spacingValue: 10)
             
+            
+            switch stepIndex {
+                 case 1:
+                    lblMessage.setTopConstraint(withAnchor: self.topAnchor, constant: 40)
+                    lblMessage.setHeightConstraint(constant: 200)
+                    imgView.setTopConstraint(withAnchor: self.centerYAnchor, constant: -40)
+                    if #available(iOS 11.0, *) {
+                        imgView.setBottomConstraint(withAnchor: self.safeAreaLayoutGuide.bottomAnchor, constant: -40)
+                    }else{
+                        imgView.setBottomConstraint(withAnchor: self.bottomAnchor, constant: -40)
+                    }
+                    break;
+                 case 2:
+                    lblMessage.setTopConstraint(withAnchor: self.topAnchor, constant: 40)
+                    lblMessage.setHeightConstraint(constant: 80)
+                    imgView.setTopConstraint(withAnchor: lblMessage.bottomAnchor, constant: 20)
+                    imgView.setBottomConstraint(withAnchor: self.centerYAnchor, constant: 40)
+                    
+                    break;
+                 case 3:
+                    setupView3()
+                    break;
+                 default:
+                    imgView.setTopConstraint(withAnchor: self.topAnchor, constant: 30)
+                    imgView.setBottomConstraint(withAnchor: self.bottomAnchor, constant: -30)
+                    lblMessage.setCenterYConstraint(withAnchor: self.centerYAnchor, constant: 0)
+                    lblMessage.setHeightConstraint(constant: 200)
+             }
+            
+            //Deve ser chamada ao final para aplicar corretamente
+            lblMessage.addInterlineSpacing(spacingValue: 5)
         }
         
         private func setupView3(){
             let offApend:String = self.loggedIn ? "" : "off"
+            if(self.loggedIn){
+                
+            }else{
+                imgView.setTopConstraint(withAnchor: self.topAnchor, constant: 40)
+                imgView.setBottomConstraint(withAnchor: self.centerYAnchor, constant: -30)
+                lblMessage.setCenterYConstraint(withAnchor: self.centerYAnchor, constant: 40)
+                lblMessage.setLeadingConstraint(withAnchor: self.leadingAnchor, constant: 20)
+                lblMessage.setTrailingConstraint(withAnchor: self.trailingAnchor, constant: -20)
+                lblMessage.setHeightConstraint(constant: 100)
+                lblMessage.numberOfLines = 3
+                lblMessage.adjustsFontSizeToFitWidth = true
+                lblMessage.minimumScaleFactor = 0.5
+                
+                let tempView = UIView()
+                tempView.translatesAutoresizingMaskIntoConstraints = false
+                self.addSubview(tempView)
+                
+                tempView.setTopConstraint(withAnchor: lblMessage.bottomAnchor, constant: 0)
+                tempView.setLeadingConstraint(withAnchor: self.leadingAnchor, constant: 0)
+                tempView.setTrailingConstraint(withAnchor: self.trailingAnchor, constant: 0)
+                tempView.setBottomConstraint(withAnchor: self.bottomAnchor, constant: 0)
+                
+                btGotoLogin = CustomButton()
+                btGotoLogin.translatesAutoresizingMaskIntoConstraints = false
+                tempView.addSubview(btGotoLogin)
+                
+                btGotoLogin.setLeadingConstraint(withAnchor: tempView.leadingAnchor, constant: 20)
+                btGotoLogin.setTrailingConstraint(withAnchor: tempView.trailingAnchor, constant: -20)
+                btGotoLogin.setBottomConstraint(withAnchor: tempView.centerYAnchor, constant: -20)
+                btGotoLogin.setHeightConstraint(constant: 45)
+                btGotoLogin.setTitle(NSLocalizedString("Logar", comment: ""), for: .normal)
+                btGotoLogin.titleLabel?.font = BaseView.getDefatulFont(Small, bold: false)
+                btGotoLogin.customizeBorderColor(BaseView.getColor("CorBotoes"), borderWidth: 1, borderRadius: 0)
+                btGotoLogin.customizeBackground(BaseView.getColor("CorBotoes"))
+                btGotoLogin.reloadCustomization()
+//
+//                   [_btRegister.titleLabel setFont:[BaseView getDefatulFont:Small bold:false]];
+//                   [_btRegister customizeBackground:[BaseView getColor:@"Branco"]];
+//                   [_btRegister setTitleColor:[BaseView getColor:@"CorBotoes"] forState:UIControlStateNormal ];
+//                   [_btRegister setTitle:NSLocalizedString(@"Cadastrar", @"") forState:UIControlStateNormal ];
+//                   [_btRegister customizeBorderColor:[BaseView getColor:@"CorBotoes"] borderWidth:1 borderRadius:7];
+
+                
+            }
             lblMessage.text = NSLocalizedString("Step3"+offApend, comment: "")
             lblMessage.font = BaseView.getDefatulFont(Large, bold: false)
         }
