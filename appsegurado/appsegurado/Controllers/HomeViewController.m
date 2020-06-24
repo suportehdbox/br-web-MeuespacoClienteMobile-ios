@@ -184,7 +184,8 @@
     [self performSegueWithIdentifier:@"ShowDetailPolicy" sender:currentBeans];
 }
 - (IBAction)showClub:(id)sender {
-    [self performSegueWithIdentifier:@"ShowClub" sender:nil];
+    NewClubViewController *club = [[NewClubViewController alloc] init];
+    [[self navigationController] pushViewController:club animated:YES];
 }
 
 

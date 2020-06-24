@@ -10,3 +10,4 @@
 #import "Config.h"
 #import "AppDelegate.h"
 #import "CustomButton.h"
+#import "ClubModel.h"

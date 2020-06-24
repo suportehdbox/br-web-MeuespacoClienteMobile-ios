@@ -89,12 +89,12 @@
                                @"workshops.png",@"image",@"ShowAutoWorkShops", @"identifier", nil]];
     }else if([appDelegate isUserLogged] &&  [[[appDelegate getLoggeduser] policyHome] insurance].allowPHS){
         [arrayMenus addObject:[[NSDictionary alloc] initWithObjectsAndKeys:NSLocalizedString(@"AcidenteMenu",@""),@"title",
-        @"accident.png",@"image", @"ShowAccidentAssistHome", @"identifier",nil]];
+                               @"accident.png",@"image", @"ShowAccidentAssistHome", @"identifier",nil]];
     }
     
     if(![Config isAliroProject]){
         [arrayMenus addObject:[[NSDictionary alloc] initWithObjectsAndKeys:NSLocalizedString(@"ClubeMenu",@""),@"title",
-                               @"club.png",@"image",@"ShowClub", @"identifier", nil]];
+                               @"club.png",@"image",@"ShowNewClub", @"identifier", nil]];
     }
     
     if([appDelegate isUserLogged]){
@@ -226,18 +226,24 @@
             
             
             [self dismissViewControllerAnimated:YES completion:nil];
-        }else  if([identifier isEqualToString:@"ShowAccidentAssistHome"]){
+        }else if([identifier isEqualToString:@"ShowAccidentAssistHome"]){
             
-                   if(wvc == nil){
-                        wvc = [[HomeAssistWebViewController alloc] init];
-                    }
+            if(wvc == nil){
+                wvc = [[HomeAssistWebViewController alloc] init];
+            }
             
-                    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:wvc];
-                    [self.revealViewController pushFrontViewController:navController animated:YES];
-                
-               }else{
+            UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:wvc];
+            [self.revealViewController pushFrontViewController:navController animated:YES];
+            
+        }else if([identifier isEqualToString:@"ShowNewClub"]){
+            NewClubViewController *newClub = [[NewClubViewController alloc] init];
+            UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:newClub];
+            [self.revealViewController pushFrontViewController:navController animated:YES];
+            
+        }else{
             [self performSegueWithIdentifier:identifier sender:nil];
         }
+        
     }
 }
 

@@ -39,6 +39,7 @@
 "CorBotoes" = "#1A1446";
 "Amarelo" = "#FFD000";
 "LblCustomText" = "#1A1446";
+"CorBtDisabled" = "#E6E6E6";
 
 
 
@@ -47,7 +48,7 @@
 "TracarRota" = "TRAÇAR ROTA";
 "SinistroAssitencia" = "ACIDENTE OU ASSISTÊNCIA";
 "OficinasReferenciadas" = "OFICINAS REFERENCIADAS";
-"ClubeVantagens" = "Clube Liberty Momentos";
+"ClubeVantagens" = "+Liberty";
 "Cadastrar" = "FAÇA SEU CADASTRO";
 "Logar" = "LOGIN";
 "TituloOficinaProxima" = "Oficina referenciada mais próxima: ";
@@ -63,7 +64,7 @@
 "AcidenteMenu" = "Acidente ou Assistência";
 "OficinasMenu" = "Oficinas referenciadas";
 "ApolicesMenu" = "Meus Seguros";
-"ClubeMenu" = "Clube Liberty Momentos";
+"ClubeMenu" = "+Liberty";
 "FaleConoscomenu" = "Fale conosco";
 "SairMenu" = "Sair";
 "NotificacoesMenu" = "Notificações";
@@ -303,9 +304,9 @@
 "NenhumaNotificacao" = "Nenhuma notificação disponível";
 
 "Step0" = "A Liberty se preocupa\nem oferecer vantagens que\nvão além do seguro contratado.";
-"Step1" = "Por isso, clientes e corretores\nfazem parte do clube +Liberty,\ncom vantagens que fazem toda\na diferença na hora de economizar\ne aproveitar com a família.";
+"Step1" = "Por isso, clientes e corretores fazem parte do clube +Liberty, com vantagens que fazem toda a diferença na hora de economizar e aproveitar com a família.";
 "Step2" = "São diversas oportunidades\nexclusivas para usar no seu\ndia a dia.";
-"Step2_Itens" = "• Fácil de usar\n• 200 parceiros\n• Compras Online e Físicas\n• Descontos de até 60%• Acesso gratuito";
+"Step2_Itens" = "<center><span style='font-family:ArialMT; font-size:20px'>• <b>Fácil</b> de usar<br><br>• <b>200</b> parceiros<br><br>• Compras <b>Online</b> e Físicas<br><br>• Descontos de até <b>60%</b><br><br>• Acesso <b>gratuito</b></span></center>";
 "Step3" = "Aceite os novos termos e condições\npara aproveitar as vantagens\nque preparamos para você!";
 "Step3off" = "Faça seu login ou cadastre-se\nno App para aproveitar as vantagens\nque preparamos para você!";
 "NovosTermos" = "Concordo com os novos";

@@ -36,6 +36,10 @@
     [super viewWillAppear:animated];
     self.title = NSLocalizedString(@"TituloHomeDeslogada",@"");
 }
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    self.title = @"";
+}
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     if(!alreadyLoaded){

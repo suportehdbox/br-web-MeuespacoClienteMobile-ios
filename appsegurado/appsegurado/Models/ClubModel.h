@@ -17,5 +17,6 @@
 @property (nonatomic) id<ClubModelDelegate> delegate;
 -(void) getClientSession;
 -(void) getClubImage;
-
+-(BOOL) getAlreadyAgreed;
+-(void) setAgreedTerms;
 @end

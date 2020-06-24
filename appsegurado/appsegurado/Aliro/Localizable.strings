@@ -39,7 +39,7 @@
 "TracarRota" = "TRAÇAR ROTA";
 "SinistroAssitencia" = "Acidente ou Assistência";
 "OficinasReferenciadas" = "Oficinas\nreferenciadas";
-"ClubeVantagens" = "Clube Liberty Momentos";
+"ClubeVantagens" = "Clube +Liberty";
 "Cadastrar" = "FAÇA SEU CADASTRO";
 "Logar" = "LOGIN";
 "TituloOficinaProxima" = "Oficina referenciada mais próxima: ";
@@ -55,7 +55,7 @@
 "AcidenteMenu" = "Acidente ou Assistência";
 "OficinasMenu" = "Oficinas referenciadas";
 "ApolicesMenu" = "Meus Seguros";
-"ClubeMenu" = "Clube Liberty Momentos";
+"ClubeMenu" = "Clube +Liberty";
 "FaleConoscomenu" = "Fale conosco";
 "SairMenu" = "Sair";
 "NotificacoesMenu" = "Notificações";

@@ -23,8 +23,8 @@ public extension UIView{
     }
     
     func setWidthConstraint(constant: CGFloat){
-         self.widthAnchor.constraint(equalToConstant: constant).isActive = true
-     }
+        self.widthAnchor.constraint(equalToConstant: constant).isActive = true
+    }
     
     func setTopConstraint(withAnchor:NSLayoutAnchor<NSLayoutYAxisAnchor> , constant: CGFloat){
         self.topAnchor.constraint(equalTo: withAnchor, constant: constant).isActive = true
@@ -38,16 +38,17 @@ public extension UIView{
         self.centerYAnchor.constraint(equalTo: withAnchor, constant: constant).isActive = true
     }
     
+    
 }
 
 extension UILabel {
-
+    
     // MARK: - spacingValue is spacing that you need
     func addInterlineSpacing(spacingValue: CGFloat = 2) {
-
+        
         // MARK: - Check if there's any text
         guard let textString = text else { return }
-
+        
         let attributedString = NSMutableAttributedString(string: textString)
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = spacingValue
@@ -70,5 +71,19 @@ extension UILabel {
         
         attributedText = attributedString
     }
+    
 
+}
+
+extension String {
+    
+    func htmlAttributedString() -> NSAttributedString? {
+        guard let data = self.data(using: String.Encoding.utf16, allowLossyConversion: false) else { return nil }
+        guard let html = try? NSMutableAttributedString(
+            data: data,
+            options: [NSAttributedString.DocumentReadingOptionKey.documentType: NSAttributedString.DocumentType.html],
+            documentAttributes: nil) else { return nil }
+        return html
+    }
+    
 }

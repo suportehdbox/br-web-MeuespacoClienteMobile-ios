@@ -10,6 +10,7 @@
 @interface CustomButton(){
     UIColor *_backgroundColorHighlighted;
     UIColor *_borderColorHighlighted;
+    BOOL noRoundedEffect;
 }
 @end
 @implementation CustomButton
@@ -22,6 +23,9 @@
     [self reloadCustomization];
 }
 
+-(void) setNoRounedEffect{
+    noRoundedEffect = true;
+}
 
 -(void) customizeBackground:(UIColor*)color{
     _backgroundColor = color;
@@ -69,15 +73,15 @@
 -(void) reloadCustomization{
     self.layer.borderColor = [_borderColor CGColor];
     self.layer.borderWidth = _borderWidth;
-//    if([Config isAliroProject]){
+
+    if(!noRoundedEffect){
         if(self.frame.size.height == 0){
             self.layer.cornerRadius = 25;
         }else{
             self.layer.cornerRadius =  self.frame.size.height/2;
         }
-//    }else{
-//        self.layer.cornerRadius = _borderRound;
-//    }
+    }
+
     self.layer.backgroundColor = [_backgroundColor CGColor];
 }
 

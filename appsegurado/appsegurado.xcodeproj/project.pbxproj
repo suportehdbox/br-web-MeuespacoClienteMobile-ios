@@ -289,6 +289,14 @@
 		BE6A4CFB22A6DFDE002BF7CA /* ExtractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A4CF922A6DFDE002BF7CA /* ExtractTableViewCell.m */; };
 		BEE1DE6B2398547600DD3BB6 /* DeviceUtil+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */; };
 		BEE1DE6C23985B8400DD3BB6 /* DeviceUtil+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */; };
+		BEEE257624A12CAC006A853F /* NewClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257524A12CAC006A853F /* NewClubView.swift */; };
+		BEEE257724A12CAC006A853F /* NewClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257524A12CAC006A853F /* NewClubView.swift */; };
+		BEEE257924A12CD0006A853F /* NewClubTutorialStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */; };
+		BEEE257A24A12CD0006A853F /* NewClubTutorialStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */; };
+		BEEE257C24A24093006A853F /* NewClubWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257B24A24093006A853F /* NewClubWebViewController.swift */; };
+		BEEE257D24A24093006A853F /* NewClubWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257B24A24093006A853F /* NewClubWebViewController.swift */; };
+		BEEE258024A25B6C006A853F /* AccidentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257E24A25B63006A853F /* AccidentViewController.m */; };
+		BEEE258124A25B6C006A853F /* AccidentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257E24A25B63006A853F /* AccidentViewController.m */; };
 		BEEE3D66249A82C4001E73C9 /* NewClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */; };
 		BEEE3D68249A93A6001E73C9 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE3D67249A93A6001E73C9 /* UIView+Constraints.swift */; };
 		BEEE3D69249A93A6001E73C9 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE3D67249A93A6001E73C9 /* UIView+Constraints.swift */; };
@@ -330,7 +338,6 @@
 		C7045AEA1D6F790200C95E64 /* bg_home@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7045AE71D6F790200C95E64 /* bg_home@3x.jpg */; };
 		C70481B8206454A7009D6EC8 /* DigitableLineBeans.m in Sources */ = {isa = PBXBuildFile; fileRef = C70481B7206454A7009D6EC8 /* DigitableLineBeans.m */; };
 		C70481B9206454A7009D6EC8 /* DigitableLineBeans.m in Sources */ = {isa = PBXBuildFile; fileRef = C70481B7206454A7009D6EC8 /* DigitableLineBeans.m */; };
-		C706B2EC1DCBBCE4004FDA84 /* ClubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C706B2EB1DCBBCE4004FDA84 /* ClubViewController.m */; };
 		C706B2EF1DCBC84C004FDA84 /* ClubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C706B2EE1DCBC84C004FDA84 /* ClubModel.m */; };
 		C709049120F7DA73003165D2 /* DetailNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C709049020F7DA73003165D2 /* DetailNotificationViewController.m */; };
 		C709049220F7DA73003165D2 /* DetailNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C709049020F7DA73003165D2 /* DetailNotificationViewController.m */; };
@@ -396,7 +403,6 @@
 		C72E1EDC1F87A8E80093C360 /* SearchPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = C765A59B1D772252008AD0B5 /* SearchPopUpView.m */; };
 		C72E1EDD1F87A8E80093C360 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79841121D6C80E20071D6CB /* BaseViewController.m */; };
 		C72E1EDE1F87A8E80093C360 /* CityBeans.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF76B91E1D702F0060D741 /* CityBeans.m */; };
-		C72E1EDF1F87A8E80093C360 /* ClubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C706B2EB1DCBBCE4004FDA84 /* ClubViewController.m */; };
 		C72E1EE01F87A8E80093C360 /* AutoWorkShopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C765A5951D771DA8008AD0B5 /* AutoWorkShopsViewController.m */; };
 		C72E1EE11F87A8E80093C360 /* DetailPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C711C6601DB512BF0041FB05 /* DetailPolicyViewController.m */; };
 		C72E1EE21F87A8E80093C360 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DFAF571DB69FE3005B64C5 /* UIImageView+Letters.m */; };
@@ -481,10 +487,8 @@
 		C72E1F321F87A8E80093C360 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DEBE4D1DDA2221000F545C /* NotificationViewController.m */; };
 		C72E1F331F87A8E80093C360 /* PaymentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C716DC391DC91FC6000A2973 /* PaymentModel.m */; };
 		C72E1F341F87A8E80093C360 /* ForgotPasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F4FF61DA29D0E00CB69DF /* ForgotPasswordModel.m */; };
-		C72E1F351F87A8E80093C360 /* AccidentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B46A241D7A092200391D21 /* AccidentViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C72E1F361F87A8E80093C360 /* JNExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C710F2F81EAE635500B3CDA4 /* JNExpandableTableView.m */; };
 		C72E1F371F87A8E80093C360 /* RegisterBeans.m in Sources */ = {isa = PBXBuildFile; fileRef = C740A2051DA447E200958B3C /* RegisterBeans.m */; };
-		C72E1F381F87A8E80093C360 /* AccidentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B46A211D7A021F00391D21 /* AccidentView.m */; };
 		C72E1F391F87A8E80093C360 /* NotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DEBE5C1DDA524F000F545C /* NotificationModel.m */; };
 		C72E1F3A1F87A8E80093C360 /* CustomImageFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D215B01E1530B10011B736 /* CustomImageFlowLayout.m */; };
 		C72E1F3B1F87A8E80093C360 /* ChangeEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77ADE241DAD5D34004D27B3 /* ChangeEmailViewController.m */; };
@@ -516,7 +520,6 @@
 		C72E1F561F87A8E80093C360 /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB08F41D6E49F600DE6E58 /* CircleButton.m */; };
 		C72E1F571F87A8E80093C360 /* PolicyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C75955FB1DB0319B0081B409 /* PolicyModel.m */; };
 		C72E1F581F87A8E80093C360 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C75955D41DAFF6540081B409 /* ContactModel.m */; };
-		C72E1F591F87A8E80093C360 /* ClubView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C51FF01DCCBCF400718095 /* ClubView.m */; };
 		C72E1F5B1F87A8E80093C360 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78714351EEF2A48001B9AF2 /* CoreTelephony.framework */; };
 		C72E1F5D1F87A8E80093C360 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BD351E1DF056DF00D5059F /* Photos.framework */; };
 		C72E1F5E1F87A8E80093C360 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D705891DDE33C400499886 /* AVFoundation.framework */; };
@@ -1042,8 +1045,6 @@
 		C7AC65271D6B7BF60003EC64 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AC65261D6B7BF60003EC64 /* BaseModel.m */; };
 		C7B3DBB61DC28A9A009306A1 /* ExtendParcelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B3DBB51DC28A9A009306A1 /* ExtendParcelViewController.m */; };
 		C7B3DBB91DC296DD009306A1 /* ExtendParcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B3DBB81DC296DD009306A1 /* ExtendParcelView.m */; };
-		C7B46A221D7A021F00391D21 /* AccidentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B46A211D7A021F00391D21 /* AccidentView.m */; };
-		C7B46A251D7A092200391D21 /* AccidentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B46A241D7A092200391D21 /* AccidentViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C7B88F0E1DABBAA600912CBE /* icon_exit.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88EF91DABBAA600912CBE /* icon_exit.png */; };
 		C7B88F0F1DABBAA600912CBE /* icon_exit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88EFA1DABBAA600912CBE /* icon_exit@2x.png */; };
 		C7B88F101DABBAA600912CBE /* icon_exit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88EFB1DABBAA600912CBE /* icon_exit@3x.png */; };
@@ -1079,7 +1080,6 @@
 		C7C51FEC1DCCBAD200718095 /* photo_club@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C51FE91DCCBAD200718095 /* photo_club@3x.png */; };
 		C7C51FED1DCCBAD200718095 /* photo_club@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C51FEA1DCCBAD200718095 /* photo_club@2x.png */; };
 		C7C51FEE1DCCBAD200718095 /* photo_club.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C51FEB1DCCBAD200718095 /* photo_club.png */; };
-		C7C51FF11DCCBCF400718095 /* ClubView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C51FF01DCCBCF400718095 /* ClubView.m */; };
 		C7C7B5771DE8BB5200F1BA0C /* icon_exclamation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C7B5741DE8BB5000F1BA0C /* icon_exclamation@3x.png */; };
 		C7C7B5781DE8BB5200F1BA0C /* icon_exclamation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C7B5751DE8BB5100F1BA0C /* icon_exclamation@2x.png */; };
 		C7C7B5791DE8BB5200F1BA0C /* icon_exclamation.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C7B5761DE8BB5100F1BA0C /* icon_exclamation.png */; };
@@ -1443,6 +1443,11 @@
 		BE778B9122E61BD500AE6595 /* appsegurado copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "appsegurado copy3-Info.plist"; path = "/Users/luizenha/Documents/Desenv/iOS/AppSeguradoLibertySegurosiOS/appsegurado/appsegurado copy3-Info.plist"; sourceTree = "<absolute>"; };
 		BEE1DE692398547500DD3BB6 /* DeviceUtil+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DeviceUtil+Constant.h"; sourceTree = "<group>"; };
 		BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeviceUtil+Constant.m"; sourceTree = "<group>"; };
+		BEEE257524A12CAC006A853F /* NewClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewClubView.swift; path = Views/NewClubView.swift; sourceTree = "<group>"; };
+		BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewClubTutorialStep.swift; path = Controllers/NewClubTutorialStep.swift; sourceTree = "<group>"; };
+		BEEE257B24A24093006A853F /* NewClubWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewClubWebViewController.swift; path = Controllers/NewClubWebViewController.swift; sourceTree = "<group>"; };
+		BEEE257E24A25B63006A853F /* AccidentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccidentViewController.m; sourceTree = "<group>"; };
+		BEEE257F24A25B6B006A853F /* AccidentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccidentViewController.h; sourceTree = "<group>"; };
 		BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClubViewController.swift; sourceTree = "<group>"; };
 		BEEE3D67249A93A6001E73C9 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Constraints.swift"; path = "Views/UIView+Constraints.swift"; sourceTree = "<group>"; };
 		BEEE3D6B249D0B84001E73C9 /* Imagem_Loja@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Imagem_Loja@3x.png"; sourceTree = "<group>"; };
@@ -1466,8 +1471,6 @@
 		C7045AE71D6F790200C95E64 /* bg_home@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_home@3x.jpg"; sourceTree = "<group>"; };
 		C70481B6206454A7009D6EC8 /* DigitableLineBeans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DigitableLineBeans.h; path = Beans/DigitableLineBeans.h; sourceTree = "<group>"; };
 		C70481B7206454A7009D6EC8 /* DigitableLineBeans.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DigitableLineBeans.m; path = Beans/DigitableLineBeans.m; sourceTree = "<group>"; };
-		C706B2EA1DCBBCE3004FDA84 /* ClubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClubViewController.h; path = Controllers/ClubViewController.h; sourceTree = "<group>"; };
-		C706B2EB1DCBBCE4004FDA84 /* ClubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClubViewController.m; path = Controllers/ClubViewController.m; sourceTree = "<group>"; };
 		C706B2ED1DCBC84C004FDA84 /* ClubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClubModel.h; path = Models/ClubModel.h; sourceTree = "<group>"; };
 		C706B2EE1DCBC84C004FDA84 /* ClubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClubModel.m; path = Models/ClubModel.m; sourceTree = "<group>"; };
 		C709048F20F7DA73003165D2 /* DetailNotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailNotificationViewController.h; path = Controllers/DetailNotificationViewController.h; sourceTree = "<group>"; };
@@ -2054,10 +2057,6 @@
 		C7B3DBB51DC28A9A009306A1 /* ExtendParcelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtendParcelViewController.m; path = Controllers/ExtendParcelViewController.m; sourceTree = "<group>"; };
 		C7B3DBB71DC296DD009306A1 /* ExtendParcelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtendParcelView.h; path = Views/ExtendParcelView.h; sourceTree = "<group>"; };
 		C7B3DBB81DC296DD009306A1 /* ExtendParcelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtendParcelView.m; path = Views/ExtendParcelView.m; sourceTree = "<group>"; };
-		C7B46A201D7A021F00391D21 /* AccidentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccidentView.h; path = Views/AccidentView.h; sourceTree = "<group>"; };
-		C7B46A211D7A021F00391D21 /* AccidentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccidentView.m; path = Views/AccidentView.m; sourceTree = "<group>"; };
-		C7B46A231D7A092200391D21 /* AccidentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccidentViewController.h; path = Controllers/AccidentViewController.h; sourceTree = "<group>"; };
-		C7B46A241D7A092200391D21 /* AccidentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccidentViewController.m; path = Controllers/AccidentViewController.m; sourceTree = "<group>"; };
 		C7B88EF91DABBAA600912CBE /* icon_exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_exit.png; sourceTree = "<group>"; };
 		C7B88EFA1DABBAA600912CBE /* icon_exit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_exit@2x.png"; sourceTree = "<group>"; };
 		C7B88EFB1DABBAA600912CBE /* icon_exit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_exit@3x.png"; sourceTree = "<group>"; };
@@ -2100,8 +2099,6 @@
 		C7C51FE91DCCBAD200718095 /* photo_club@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_club@3x.png"; sourceTree = "<group>"; };
 		C7C51FEA1DCCBAD200718095 /* photo_club@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_club@2x.png"; sourceTree = "<group>"; };
 		C7C51FEB1DCCBAD200718095 /* photo_club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_club.png; sourceTree = "<group>"; };
-		C7C51FEF1DCCBCF400718095 /* ClubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClubView.h; path = Views/ClubView.h; sourceTree = "<group>"; };
-		C7C51FF01DCCBCF400718095 /* ClubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClubView.m; path = Views/ClubView.m; sourceTree = "<group>"; };
 		C7C7B5741DE8BB5000F1BA0C /* icon_exclamation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_exclamation@3x.png"; sourceTree = "<group>"; };
 		C7C7B5751DE8BB5100F1BA0C /* icon_exclamation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_exclamation@2x.png"; sourceTree = "<group>"; };
 		C7C7B5761DE8BB5100F1BA0C /* icon_exclamation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_exclamation.png; sourceTree = "<group>"; };
@@ -2927,8 +2924,8 @@
 		C79841101D6C80B50071D6CB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C7B46A231D7A092200391D21 /* AccidentViewController.h */,
-				C7B46A241D7A092200391D21 /* AccidentViewController.m */,
+				BEEE257F24A25B6B006A853F /* AccidentViewController.h */,
+				BEEE257E24A25B63006A853F /* AccidentViewController.m */,
 				C742CEAF21224D3800B04DB2 /* ActivationViewController.h */,
 				C742CEB021224D3800B04DB2 /* ActivationViewController.m */,
 				C765A5941D771DA8008AD0B5 /* AutoWorkShopsViewController.h */,
@@ -2945,8 +2942,6 @@
 				C7EF76B01E1D5B250060D741 /* CitiesViewController.m */,
 				C776BF961DDB3AD500FCF010 /* ClaimViewController.h */,
 				C776BF971DDB3AD500FCF010 /* ClaimViewController.m */,
-				C706B2EA1DCBBCE3004FDA84 /* ClubViewController.h */,
-				C706B2EB1DCBBCE4004FDA84 /* ClubViewController.m */,
 				C780AA2A1DAE78A000C13B84 /* ContactViewController.h */,
 				C780AA2B1DAE78A000C13B84 /* ContactViewController.m */,
 				C710F2FA1EAE6A0B00B3CDA4 /* CoveragesViewController.h */,
@@ -3009,6 +3004,8 @@
 				C79841281D6CE8110071D6CB /* WelcomeHomeViewController.m */,
 				BE332D59246437CE004C5CD7 /* HomeAssistWebViewController.swift */,
 				BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */,
+				BEEE257B24A24093006A853F /* NewClubWebViewController.swift */,
+				BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -3016,8 +3013,6 @@
 		C79841141D6C86F10071D6CB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C7B46A201D7A021F00391D21 /* AccidentView.h */,
-				C7B46A211D7A021F00391D21 /* AccidentView.m */,
 				C780AA301DAE88A200C13B84 /* AgentContactViewCell.h */,
 				C780AA311DAE88A200C13B84 /* AgentContactViewCell.m */,
 				C765A5A61D778820008AD0B5 /* AutoWorkShopCell.h */,
@@ -3050,8 +3045,6 @@
 				C776BFA01DDB3BF000FCF010 /* ClaimStep3View.m */,
 				C776BFA21DDB3C0200FCF010 /* ClaimStep4View.h */,
 				C776BFA31DDB3C0200FCF010 /* ClaimStep4View.m */,
-				C7C51FEF1DCCBCF400718095 /* ClubView.h */,
-				C7C51FF01DCCBCF400718095 /* ClubView.m */,
 				C780AA271DAE764600C13B84 /* ContactTableViewCell.h */,
 				C780AA281DAE764600C13B84 /* ContactTableViewCell.m */,
 				C780AA2D1DAE78B500C13B84 /* ContactView.h */,
@@ -3140,6 +3133,7 @@
 				BE332D542461E96B004C5CD7 /* appsegurado-Bridging-Header.h */,
 				BE332D552461E96B004C5CD7 /* AppAliro-Bridging-Header.h */,
 				BEEE3D67249A93A6001E73C9 /* UIView+Constraints.swift */,
+				BEEE257524A12CAC006A853F /* NewClubView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -4828,10 +4822,10 @@
 				C72E1EDB1F87A8E80093C360 /* PoliticsViewController.m in Sources */,
 				C72E1EDC1F87A8E80093C360 /* SearchPopUpView.m in Sources */,
 				C72E1EDD1F87A8E80093C360 /* BaseViewController.m in Sources */,
+				BEEE257D24A24093006A853F /* NewClubWebViewController.swift in Sources */,
 				BEE1DE6C23985B8400DD3BB6 /* DeviceUtil+Constant.m in Sources */,
 				C7DDD72B1FB0D5CE0007C033 /* DeviceUtil.m in Sources */,
 				C72E1EDE1F87A8E80093C360 /* CityBeans.m in Sources */,
-				C72E1EDF1F87A8E80093C360 /* ClubViewController.m in Sources */,
 				C72E1EE01F87A8E80093C360 /* AutoWorkShopsViewController.m in Sources */,
 				C7833A8C2149C28000D67590 /* SecondPolicyViewController.m in Sources */,
 				C72E1EE11F87A8E80093C360 /* DetailPolicyViewController.m in Sources */,
@@ -4895,6 +4889,7 @@
 				C72E1F101F87A8E80093C360 /* CoverageView.m in Sources */,
 				C72E1F111F87A8E80093C360 /* ClaimStep2View.m in Sources */,
 				C718242F2044B4390064B778 /* ChangePhoneModel.m in Sources */,
+				BEEE258124A25B6C006A853F /* AccidentViewController.m in Sources */,
 				C72E1F121F87A8E80093C360 /* PolicyViewController.m in Sources */,
 				C72E1F131F87A8E80093C360 /* ChangeEmailView.m in Sources */,
 				C72E1F141F87A8E80093C360 /* ForgotEmailView.m in Sources */,
@@ -4932,11 +4927,9 @@
 				C72E1F321F87A8E80093C360 /* NotificationViewController.m in Sources */,
 				C72E1F331F87A8E80093C360 /* PaymentModel.m in Sources */,
 				C72E1F341F87A8E80093C360 /* ForgotPasswordModel.m in Sources */,
-				C72E1F351F87A8E80093C360 /* AccidentViewController.m in Sources */,
 				BE17F3C722A6B44D000943C0 /* Vision360Beans.m in Sources */,
 				C72E1F361F87A8E80093C360 /* JNExpandableTableView.m in Sources */,
 				C72E1F371F87A8E80093C360 /* RegisterBeans.m in Sources */,
-				C72E1F381F87A8E80093C360 /* AccidentView.m in Sources */,
 				C72E1F391F87A8E80093C360 /* NotificationModel.m in Sources */,
 				C72E1F3A1F87A8E80093C360 /* CustomImageFlowLayout.m in Sources */,
 				C709049620F7DA9A003165D2 /* NotificationDetailView.m in Sources */,
@@ -4963,6 +4956,7 @@
 				C72E1F4D1F87A8E80093C360 /* CitiesView.m in Sources */,
 				C72E1F4E1F87A8E80093C360 /* AutoWorkShopDetailView.m in Sources */,
 				C72E1F4F1F87A8E80093C360 /* ContactTableViewCell.m in Sources */,
+				BEEE257A24A12CD0006A853F /* NewClubTutorialStep.swift in Sources */,
 				C72E1F501F87A8E80093C360 /* HomeModel.m in Sources */,
 				C72E1F511F87A8E80093C360 /* StatusClaimViewController.m in Sources */,
 				BE6A4CFB22A6DFDE002BF7CA /* ExtractTableViewCell.m in Sources */,
@@ -4972,11 +4966,11 @@
 				C72E1F541F87A8E80093C360 /* CityModel.m in Sources */,
 				C72E1F551F87A8E80093C360 /* LoginView.m in Sources */,
 				C72E1F561F87A8E80093C360 /* CircleButton.m in Sources */,
+				BEEE257724A12CAC006A853F /* NewClubView.swift in Sources */,
 				C738ABF82098F54400D1FAA8 /* CustomWebViewController.m in Sources */,
 				BE332D5B246437CE004C5CD7 /* HomeAssistWebViewController.swift in Sources */,
 				C72E1F571F87A8E80093C360 /* PolicyModel.m in Sources */,
 				C72E1F581F87A8E80093C360 /* ContactModel.m in Sources */,
-				C72E1F591F87A8E80093C360 /* ClubView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5003,11 +4997,11 @@
 				C7AC65241D6B7BE90003EC64 /* AutoWorkShopModel.m in Sources */,
 				C79134151DEDF6C500408A13 /* PoliticsViewController.m in Sources */,
 				C765A59C1D772252008AD0B5 /* SearchPopUpView.m in Sources */,
+				BEEE257C24A24093006A853F /* NewClubWebViewController.swift in Sources */,
 				C79841131D6C80E20071D6CB /* BaseViewController.m in Sources */,
 				BEE1DE6B2398547600DD3BB6 /* DeviceUtil+Constant.m in Sources */,
 				C7DDD72A1FB0D5CE0007C033 /* DeviceUtil.m in Sources */,
 				C7EF76BA1E1D702F0060D741 /* CityBeans.m in Sources */,
-				C706B2EC1DCBBCE4004FDA84 /* ClubViewController.m in Sources */,
 				C765A5961D771DA8008AD0B5 /* AutoWorkShopsViewController.m in Sources */,
 				C7833A8B2149C28000D67590 /* SecondPolicyViewController.m in Sources */,
 				C711C6611DB512BF0041FB05 /* DetailPolicyViewController.m in Sources */,
@@ -5070,6 +5064,7 @@
 				C77ADE1C1DAD4DCC004D27B3 /* ChangeEmailView.m in Sources */,
 				C718242E2044B4390064B778 /* ChangePhoneModel.m in Sources */,
 				C7A7B9CC1DD3A54500A81F10 /* ForgotEmailView.m in Sources */,
+				BEEE258024A25B6C006A853F /* AccidentViewController.m in Sources */,
 				C74814FD1EF1CF1A00A3E24A /* README.md in Sources */,
 				BEEE3D68249A93A6001E73C9 /* UIView+Constraints.swift in Sources */,
 				C7AC64E81D6B73FE0003EC64 /* AppDelegate.m in Sources */,
@@ -5107,11 +5102,9 @@
 				C7DEBE4E1DDA2221000F545C /* NotificationViewController.m in Sources */,
 				C716DC3A1DC91FC6000A2973 /* PaymentModel.m in Sources */,
 				C73F4FF71DA29D0E00CB69DF /* ForgotPasswordModel.m in Sources */,
-				C7B46A251D7A092200391D21 /* AccidentViewController.m in Sources */,
 				BE17F3C622A6B44D000943C0 /* Vision360Beans.m in Sources */,
 				C710F2F91EAE635500B3CDA4 /* JNExpandableTableView.m in Sources */,
 				C740A2061DA447E200958B3C /* RegisterBeans.m in Sources */,
-				C7B46A221D7A021F00391D21 /* AccidentView.m in Sources */,
 				C7DEBE5D1DDA524F000F545C /* NotificationModel.m in Sources */,
 				C7D215B11E1530B10011B736 /* CustomImageFlowLayout.m in Sources */,
 				C709049520F7DA9A003165D2 /* NotificationDetailView.m in Sources */,
@@ -5138,6 +5131,7 @@
 				C7EF76B41E1D5B680060D741 /* CitiesView.m in Sources */,
 				C7CB08971D6DED4B00DE6E58 /* AutoWorkShopDetailView.m in Sources */,
 				C780AA291DAE764600C13B84 /* ContactTableViewCell.m in Sources */,
+				BEEE257924A12CD0006A853F /* NewClubTutorialStep.swift in Sources */,
 				C79E1AA01DA57DB100C5F335 /* HomeModel.m in Sources */,
 				C70C7F491DE71696001DBF35 /* StatusClaimViewController.m in Sources */,
 				BE6A4CFA22A6DFDE002BF7CA /* ExtractTableViewCell.m in Sources */,
@@ -5147,11 +5141,11 @@
 				C7FE2B4E1E1BE21B0064BABC /* CityModel.m in Sources */,
 				C70C4D1B1D99672700E453D9 /* LoginView.m in Sources */,
 				C7CB08F51D6E49F600DE6E58 /* CircleButton.m in Sources */,
+				BEEE257624A12CAC006A853F /* NewClubView.swift in Sources */,
 				C738ABF72098F54400D1FAA8 /* CustomWebViewController.m in Sources */,
 				BE332D5A246437CE004C5CD7 /* HomeAssistWebViewController.swift in Sources */,
 				C75955FC1DB0319B0081B409 /* PolicyModel.m in Sources */,
 				C75955D51DAFF6540081B409 /* ContactModel.m in Sources */,
-				C7C51FF11DCCBCF400718095 /* ClubView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

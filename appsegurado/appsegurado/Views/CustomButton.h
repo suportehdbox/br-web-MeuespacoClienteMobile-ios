@@ -17,4 +17,5 @@ IB_DESIGNABLE
 -(void) customizeBackground:(UIColor*)color;
 -(void) customizeBorderColor:(UIColor*)color borderWidth:(CGFloat)width borderRadius:(CGFloat) radius;
 -(void) reloadCustomization;
+-(void) setNoRounedEffect;
 @end

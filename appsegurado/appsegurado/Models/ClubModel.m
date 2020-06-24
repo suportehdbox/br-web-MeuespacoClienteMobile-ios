@@ -12,26 +12,48 @@
 
 @interface ClubModel (){
     Conexao *connImage;
+    AppDelegate *appDelegate;
 }
 
 @end
 @implementation ClubModel
 @synthesize delegate;
 
+- (id) init
+{
+    self = [super init];
+    if (self) {
+        appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+        
+    }
+    return self;
+}
+
+-(NSUserDefaults*) getUserDefault {
+    return [[NSUserDefaults alloc] initWithSuiteName:[appDelegate getCPF]];
+}
+-(BOOL) getAlreadyAgreed {
+    if(![appDelegate isUserLogged]){
+        return false;
+    }
+    return [[self getUserDefault] boolForKey:@"agreed_club"];
+}
+
+-(void) setAgreedTerms {
+    if(![appDelegate isUserLogged]){
+        return;
+    }
+    NSUserDefaults *defaults = [self getUserDefault];
+    [defaults setBool:YES forKey:@"agreed_club"];
+    [defaults synchronize];
+}
 
 -(void) getClientSession{
     
-    conn = [[Conexao alloc] initWithURL:[NSString stringWithFormat:@"%@Segurado/Clube",[super getBaseUrl:@"v2"]] contentType:@"application/x-www-form-urlencoded"];
+    conn = [[Conexao alloc] initWithURL:[NSString stringWithFormat:@"%@Segurado/Clube",[super getBaseUrl:@"v3"]] contentType:@"application/x-www-form-urlencoded"];
     
     AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
-    
-    
     [conn addHeaderValue:[NSString stringWithFormat:@"Bearer %@",[appDelegate getLoggeduser].access_token] field:@"Authorization"];
-    //    [conn addGetParameters:[appDelegate getLoggeduser].cpfCnpj key:@"CpfCnpj"];
-    
-    
-    
-    [conn addPostParameters:@"0" key:@"a"];
     [conn setDelegate:self];
     [conn setRetornoConexao:@selector(returnSession:)];
     [conn startRequest];
@@ -58,11 +80,11 @@
                 }
             }else{
                 @try {
-
+                    
                     if(delegate && [delegate respondsToSelector:@selector(clubeSession:)]){
-                        [delegate clubeSession:[result objectForKey:@"sessionId"]];
+                        [delegate clubeSession:[result objectForKey:@"url"]];
                     }
-
+                    
                 } @catch (NSException *exception) {
                     NSLog(@"Exception %@", exception.description);
                     if(delegate && [delegate respondsToSelector:@selector(clubeError:)]){
@@ -85,8 +107,8 @@
     }
 }
 
-    
-    
+
+
 -(void)retornaErroConexao:(NSDictionary *)dictUserInfo response:(NSURLResponse *)response error:(NSError *)error{
     if(delegate && [delegate respondsToSelector:@selector(clubeError:)]){
         [delegate clubeError:error.localizedDescription];
