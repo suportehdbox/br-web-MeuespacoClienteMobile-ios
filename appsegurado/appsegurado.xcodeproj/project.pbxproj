@@ -5267,6 +5267,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "appsegurado/AppAliro-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "appsegurado-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -5332,6 +5333,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "appsegurado/AppAliro-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "appsegurado-Swift.h";
 				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
@@ -5455,7 +5457,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.1.3;
+				MARKETING_VERSION = 4.1.4;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5521,7 +5523,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.1.3;
+				MARKETING_VERSION = 4.1.4;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
