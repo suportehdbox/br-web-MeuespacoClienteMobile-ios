@@ -16,8 +16,14 @@ class NewClubWebViewController: BaseViewController, WKNavigationDelegate, ClubMo
 //        alertCo
     }
     
-    func clubeSession(_ sessionID: String!) {
-        webView.load(URLRequest(url: URL(string: sessionID )!))
+    func clubeSession(_ sessionID: String!, url: String!) {
+        var urlRequest = URLRequest(url: URL(string: url)!)
+        urlRequest.httpMethod = "POST"
+        urlRequest.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+        
+        let postString = "token="+sessionID
+        urlRequest.httpBody = postString.data(using: .utf8)
+        webView.load(urlRequest)
         
     }
     

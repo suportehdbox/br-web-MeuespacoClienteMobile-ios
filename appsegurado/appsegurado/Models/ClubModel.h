@@ -9,7 +9,7 @@
 #import "BaseModel.h"
 @protocol ClubModelDelegate <NSObject>
 -(void) clubeError:(NSString*)message;
--(void) clubeSession:(NSString*)sessionID;
+-(void) clubeSession:(NSString*)sessionID url:(NSString*) url;
 -(void) updateClubImage:(UIImage*)image;
 @end
 @interface ClubModel : BaseModel  <ConexaoDelegate>

@@ -81,8 +81,9 @@
             }else{
                 @try {
                     
-                    if(delegate && [delegate respondsToSelector:@selector(clubeSession:)]){
-                        [delegate clubeSession:[result objectForKey:@"url"]];
+                    if(delegate && [delegate respondsToSelector:@selector(clubeSession:url:)]){
+                        NSString *token = [result objectForKey:@"token"] == nil ? @"" : [result objectForKey:@"token"];
+                        [delegate clubeSession:token url:[result objectForKey:@"url"]];
                     }
                     
                 } @catch (NSException *exception) {
