@@ -69,7 +69,7 @@ class NewClubView: UIView {
         
         //        lblMessage.numberOfLines = 0
         lblMessage.textAlignment = .center
-        lblMessage.textColor = .black
+        lblMessage.textColor = BaseView.getColor("AzulEscuro")
         
         lblMessage.font = BaseView.getDefatulFont(Large, bold: false)
         lblMessage.numberOfLines = 0
@@ -105,13 +105,14 @@ class NewClubView: UIView {
             if let lbl = lblItens {
                 self.addSubview(lbl)
                 lbl.translatesAutoresizingMaskIntoConstraints = false
+                lbl.textColor = BaseView.getColor("AzulEscuro")
                 lbl.setLeadingConstraint(withAnchor: self.leadingAnchor, constant: 35)
                 lbl.setTrailingConstraint(withAnchor: self.trailingAnchor, constant: -35)
                 lbl.setTopConstraint(withAnchor: imgView.bottomAnchor, constant: 20)
                 lbl.setBottomConstraint(withAnchor: self.bottomAnchor, constant: 20)
                 lbl.numberOfLines = 0
                 let str: NSMutableAttributedString = NSMutableAttributedString(attributedString:  NSLocalizedString("Step2_Itens", comment: "").htmlAttributedString()!)
-                
+                str.addAttributes([NSMutableAttributedString.Key.foregroundColor : BaseView.getColor("AzulEscuro")!], range: NSMakeRange(0, str.length))
                 lbl.attributedText = str
             }
             
@@ -177,17 +178,17 @@ class NewClubView: UIView {
             
             let txtAgreement = NSMutableAttributedString(string: NSLocalizedString("NovosTermos", comment: ""), attributes: [
                 NSAttributedString.Key.font : BaseView.getDefatulFont(Small, bold: false)!,
-                NSAttributedString.Key.foregroundColor : BaseView.getColor("CinzaEscuro")!
+                NSAttributedString.Key.foregroundColor : BaseView.getColor("AzulEscuro")!
             ])
             txtAgreement.append(NSAttributedString(string: "\n"))
             txtAgreement.append(NSAttributedString(string: NSLocalizedString("NovosTermosLine", comment: ""), attributes: [
                 NSAttributedString.Key.font : BaseView.getDefatulFont(Small, bold: false)!,
-                NSAttributedString.Key.foregroundColor : BaseView.getColor("CinzaEscuro")!,
+                NSAttributedString.Key.foregroundColor : BaseView.getColor("AzulEscuro")!,
                 NSAttributedString.Key.underlineStyle : NSUnderlineStyle.single.rawValue,
-                NSAttributedString.Key.underlineColor : BaseView.getColor("CinzaEscuro")!
+                NSAttributedString.Key.underlineColor : BaseView.getColor("AzulEscuro")!
             ]))
             lblAgreement.setAttributedTitle(txtAgreement, for: .normal)
-            lblAgreement.setTitleColor(BaseView.getColor("CinzaEscuro"), for: .normal)
+            lblAgreement.setTitleColor(BaseView.getColor("AzulEscuro"), for: .normal)
             lblAgreement.titleLabel?.numberOfLines = 2
             lblAgreement.titleLabel?.adjustsFontSizeToFitWidth = true
             

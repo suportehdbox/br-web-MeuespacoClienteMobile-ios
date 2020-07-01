@@ -35,7 +35,7 @@ class NewClubWebViewController: BaseViewController, WKNavigationDelegate, ClubMo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = NSLocalizedString("ClubeVantagens", comment: "")
+        
         
         let baseModel = ClubModel()!
         baseModel.delegate = self
@@ -55,6 +55,7 @@ class NewClubWebViewController: BaseViewController, WKNavigationDelegate, ClubMo
         if(self.navigationController?.viewControllers.first == self){
             super.addLeftMenu()
         }
+        self.title = NSLocalizedString("ClubeVantagens", comment: "")
     }
     
     

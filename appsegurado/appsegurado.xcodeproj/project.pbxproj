@@ -2026,7 +2026,7 @@
 		C7AB4C9D1F8E833000C81EA8 /* boleto_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boleto_icon@2x.png"; sourceTree = "<group>"; };
 		C7AB4C9E1F8E833100C81EA8 /* boleto_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boleto_icon@3x.png"; sourceTree = "<group>"; };
 		C7AB4C9F1F8E851300C81EA8 /* AssetsAliro.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AssetsAliro.xcassets; sourceTree = "<group>"; };
-		C7AC64E01D6B73FE0003EC64 /* appsegurado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appsegurado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AC64E01D6B73FE0003EC64 /* Liberty Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liberty Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AC64E41D6B73FE0003EC64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7AC64E61D6B73FE0003EC64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7AC64E71D6B73FE0003EC64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -3169,7 +3169,7 @@
 		C7AC64E11D6B73FE0003EC64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7AC64E01D6B73FE0003EC64 /* appsegurado.app */,
+				C7AC64E01D6B73FE0003EC64 /* Liberty Mobile.app */,
 				C7AC64F91D6B74000003EC64 /* appseguradoTests.xctest */,
 				C7AC65041D6B74000003EC64 /* appseguradoUITests.xctest */,
 				C72E20881F87A8E80093C360 /* AppAliro.app */,
@@ -3601,7 +3601,7 @@
 			);
 			name = appsegurado;
 			productName = appsegurado;
-			productReference = C7AC64E01D6B73FE0003EC64 /* appsegurado.app */;
+			productReference = C7AC64E01D6B73FE0003EC64 /* Liberty Mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C7AC64F81D6B74000003EC64 /* appseguradoTests */ = {
@@ -5436,7 +5436,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -5483,10 +5483,11 @@
 					"\"SystemConfiguration\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.libertyseguros.mobile.Liberty-Mobile";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Liberty Mobile";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "appsegurado/appsegurado-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "appsegurado-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "arm64 armv7 armv7s";
@@ -5503,7 +5504,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
@@ -5549,10 +5550,11 @@
 					"\"SystemConfiguration\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.libertyseguros.mobile.Liberty-Mobile";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Liberty Mobile";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "appsegurado/appsegurado-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "appsegurado-Swift.h";
 				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
