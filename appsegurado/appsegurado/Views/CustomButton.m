@@ -80,6 +80,8 @@
         }else{
             self.layer.cornerRadius =  self.frame.size.height/2;
         }
+    }else{
+        self.layer.cornerRadius = 0;
     }
 
     self.layer.backgroundColor = [_backgroundColor CGColor];

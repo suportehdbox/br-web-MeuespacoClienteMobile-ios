@@ -8,7 +8,10 @@
 
 #import "BaseView.h"
 #import "CustomTextField.h"
+#import "LoginViewController.h"
+
 @import GoogleSignIn;
+
 
 @interface LoginView : BaseView <UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UIImageView *imgLogoLiberty;
@@ -28,9 +31,9 @@
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *widthImage;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *acitivty;
 @property (strong, nonatomic) IBOutlet GIDSignInButton *btGoogle;
+@property (strong, nonatomic) IBOutlet UIView *viewBtApple;
 
-
--(void) loadView;
+-(void) loadView:(LoginViewController *)controller;
 -(void) unloadView;
 -(NSString*) getEmailCPF;
 -(void) showEmailCPFError:(NSString*)message;

@@ -11,6 +11,7 @@
 #import "FBUserBeans.h"
 
 @import GoogleSignIn;
+@import AuthenticationServices;
 @protocol LoginModelDelegate <NSObject>
 
 @optional
@@ -24,7 +25,7 @@
 -(void) activationReturn:(NSString*)message;
 
 @end
-@interface LoginModel : BaseModel <ConexaoDelegate, GIDSignInDelegate>
+@interface LoginModel : BaseModel <ConexaoDelegate, GIDSignInDelegate, ASAuthorizationControllerDelegate>
 
 
 
@@ -39,4 +40,5 @@
 -(void) doGoogleLogin:(id<GIDSignInUIDelegate>)currentViewController;
 -(void) doGoogleLink:(id<GIDSignInUIDelegate>)currentViewController;
 -(void) sendActivation:(NSDictionary*)dict;
+-(void)doAppleLogin:(id)currentViewController;
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "LoginView.h"
+
+
 @interface LoginView(){
     UITapGestureRecognizer *tap;
 }
@@ -20,7 +22,31 @@
     // Drawing code
 }
 */
--(void) loadView{
+-(void) loadView:(LoginViewController*)controller{
+    
+    if (@available(iOS 13.0, *)) {
+        ASAuthorizationAppleIDButton *btApple = [[ASAuthorizationAppleIDButton alloc] initWithAuthorizationButtonType:ASAuthorizationAppleIDButtonTypeSignIn authorizationButtonStyle:ASAuthorizationAppleIDButtonStyleBlack];
+        [btApple setFrame:CGRectZero];
+        [btApple addTarget:controller action:@selector(loginAppleClick:) forControlEvents:UIControlEventTouchUpInside];
+        [btApple setContentHorizontalAlignment: UIControlContentHorizontalAlignmentLeft];
+        
+        [btApple setCornerRadius:0];
+        
+        [_viewBtApple addSubview:btApple];
+        btApple.translatesAutoresizingMaskIntoConstraints = false;
+        
+        [btApple.leadingAnchor constraintEqualToAnchor:_viewBtApple.leadingAnchor constant:0].active = true;
+        [btApple.trailingAnchor constraintEqualToAnchor:_viewBtApple.trailingAnchor constant:0].active = true;
+        [btApple.topAnchor constraintEqualToAnchor:_viewBtApple.topAnchor constant:0].active = true;
+        [btApple.bottomAnchor constraintEqualToAnchor:_viewBtApple.bottomAnchor constant:0].active = true;
+        [BaseView addDropShadow:_viewBtApple];
+        
+        [self updateConstraints];
+    } else {
+        // Fallback on earlier versions
+        [_viewBtApple setHidden:YES];
+    }
+    
     
     
     if([Config isAliroProject]){
@@ -51,25 +77,20 @@
     [btLoginLater setTitleColor:[BaseView getColor:@"AzulLogin"] forState:UIControlStateNormal];
     [btLoginLater setBackgroundColor:[BaseView getColor:@"CinzaBotao"]];
     
-//    NSMutableAttributedString *instructions = [[NSMutableAttributedString alloc] initWithString:NSLocalizedString(@"InstrucoesLogin", @"")];
-//    
-//    [instructions addAttribute:NSFontAttributeName value:[BaseView getDefatulFont:Small bold:NO] range:NSRangeFromString(NSLocalizedString(@"InstrucoesLogin", @""))];
-//    
-//    NSRange rangeBold = [NSLocalizedString(@"InstrucoesLogin", @"") rangeOfString:@"TOUCH ID"];
-//    [instructions addAttribute:NSFontAttributeName value:[BaseView getDefatulFont:Small bold:YES] range: rangeBold];
-//    [instructions addAttribute:NSForegroundColorAttributeName value:[BaseView getColor:@"AzulEscuro"] range:NSMakeRange(0, [NSLocalizedString(@"InstrucoesLogin", @"") length])];
-    
-//    [_lblTouchId setAttributedText:instructions];
-//    [_lblTouchId setAdjustsFontSizeToFitWidth:YES];
-//    [_lblTouchId setMinimumScaleFactor:0.3];
-//    [_lblTouchId setNumberOfLines:2];
     
     [_btLoginFacebook setTitle:NSLocalizedString(@"LoginFacebook", @"") forState:UIControlStateNormal];
+    [_btLoginFacebook setBorderRound:0];
+    [_btLoginFacebook setNoRounedEffect];
+    [_btLoginFacebook customizeBorderColor:0 borderWidth:0 borderRadius:0];
+    [_btLoginFacebook customizeBackground:[UIColor colorWithRed:0.259f green:0.404f blue:0.698f alpha:1]];
+    [BaseView addDropShadow:_btLoginFacebook];
+    [_btLoginFacebook updateConstraints];
     
 //    _btGoogle = [[GIDSignInButton alloc] initWithFrame:_btGoogle.frame];
     [btGoogle setColorScheme:kGIDSignInButtonColorSchemeLight];
     
     [btGoogle setStyle:kGIDSignInButtonStyleWide];
+    
 //    [_btGoogle setUserInteractionEnabled:YES];
 //    [_btGoogle sendActionsForControlEvents:UIControlEventTouchUpInside];
 //    [_btGoogle addTarget:target action:@selector(googleSiginClicked:) forControlEvents:UIControlEventTouchUpInside];
@@ -222,6 +243,7 @@
 
 -(void) adjustScreen{
     [_scrollView setContentSize:CGSizeMake(self.frame.size.width, CGRectGetMaxY(_btPrivacy.frame)+15)];
+   
 }
 
 
@@ -386,7 +408,9 @@
     [_swLogado setHidden:YES];
     [_acitivty setHidden:NO];
     [btGoogle setHidden:YES];
+    [_viewBtApple setHidden:YES];
     [_acitivty startAnimating];
+    
     [_scrollView setContentOffset:CGPointZero animated:YES];
 }
 
@@ -404,6 +428,7 @@
     [_btForgetPassword setHidden:NO];
     [btLoginLater setHidden:NO];
     [btGoogle setHidden:NO];
+    [_viewBtApple setHidden:NO];
 //    [_swLogado setHidden:NO];
     [_acitivty setHidden:YES];
     [_acitivty stopAnimating];

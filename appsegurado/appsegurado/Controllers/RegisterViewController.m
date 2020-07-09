@@ -9,10 +9,12 @@
 #import "RegisterViewController.h"
 #import "RegisterBeans.h"
 #import "AppDelegate.h"
+#import <appsegurado-Swift.h>
 @interface RegisterViewController (){
     FBUserBeans * currentFBUser;
     RegisterView *view;
     RegisterModel *model;
+    CustomPopUpViewController *custom;
 }
 
 @end
@@ -47,6 +49,12 @@
     [super viewWillAppear:animated];
     
     self.title = NSLocalizedString(@"TituloTelaCadastro", @"");
+    
+    
+    custom = [[CustomPopUpViewController alloc] initWithTitle:@"Olá" text:NSLocalizedString(@"DescClub", @"") btTitle:@"OK"];
+    [custom addButtonActionWithTarget:self action:@selector(closePopUp) pfor:UIControlEventTouchUpInside];
+    [self presentViewController:custom animated:YES completion:nil];
+    
 }
 
 -(void) loadWithFbUserBeans:(FBUserBeans*) fbUser{
@@ -65,6 +73,9 @@
 }
 #pragma mark Actions
 
+-(void) closePopUp{
+    [custom dismissViewControllerAnimated:YES completion:nil];
+}
 - (IBAction)viewTermsClicked:(id)sender {
     [super openTerms];
     

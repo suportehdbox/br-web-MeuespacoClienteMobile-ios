@@ -287,6 +287,8 @@
 		BE5BAB36246C8CA40060BCDF /* icon_oval_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5BAB30246C8CA40060BCDF /* icon_oval_home@2x.png */; };
 		BE6A4CFA22A6DFDE002BF7CA /* ExtractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A4CF922A6DFDE002BF7CA /* ExtractTableViewCell.m */; };
 		BE6A4CFB22A6DFDE002BF7CA /* ExtractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A4CF922A6DFDE002BF7CA /* ExtractTableViewCell.m */; };
+		BE9DCDA824B7A10C0090DD8D /* CustomPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */; };
+		BE9DCDA924B7A10C0090DD8D /* CustomPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */; };
 		BEE1DE6B2398547600DD3BB6 /* DeviceUtil+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */; };
 		BEE1DE6C23985B8400DD3BB6 /* DeviceUtil+Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */; };
 		BEEE257624A12CAC006A853F /* NewClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE257524A12CAC006A853F /* NewClubView.swift */; };
@@ -1441,6 +1443,7 @@
 		BE6A4CF922A6DFDE002BF7CA /* ExtractTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ExtractTableViewCell.m; path = Views/ExtractTableViewCell.m; sourceTree = "<group>"; };
 		BE77899122E5F71A00AE6595 /* AppAliro copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppAliro copy-Info.plist"; path = "/Users/luizenha/Documents/Desenv/iOS/AppSeguradoLibertySegurosiOS/appsegurado/AppAliro copy-Info.plist"; sourceTree = "<absolute>"; };
 		BE778B9122E61BD500AE6595 /* appsegurado copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "appsegurado copy3-Info.plist"; path = "/Users/luizenha/Documents/Desenv/iOS/AppSeguradoLibertySegurosiOS/appsegurado/appsegurado copy3-Info.plist"; sourceTree = "<absolute>"; };
+		BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomPopUpViewController.swift; path = Controllers/CustomPopUpViewController.swift; sourceTree = "<group>"; };
 		BEE1DE692398547500DD3BB6 /* DeviceUtil+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DeviceUtil+Constant.h"; sourceTree = "<group>"; };
 		BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeviceUtil+Constant.m"; sourceTree = "<group>"; };
 		BEEE257524A12CAC006A853F /* NewClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewClubView.swift; path = Views/NewClubView.swift; sourceTree = "<group>"; };
@@ -3006,6 +3009,7 @@
 				BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */,
 				BEEE257B24A24093006A853F /* NewClubWebViewController.swift */,
 				BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */,
+				BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -4950,6 +4954,7 @@
 				BE17F3C922A6B44D000943C0 /* Vision360EventBeans.m in Sources */,
 				C72E1F481F87A8E80093C360 /* UserBeans.m in Sources */,
 				C72E1F491F87A8E80093C360 /* DocumentsView.m in Sources */,
+				BE9DCDA924B7A10C0090DD8D /* CustomPopUpViewController.swift in Sources */,
 				C72E1F4A1F87A8E80093C360 /* ChangePasswordModel.m in Sources */,
 				C72E1F4B1F87A8E80093C360 /* DetailPolicyView.m in Sources */,
 				C72E1F4C1F87A8E80093C360 /* ContactView.m in Sources */,
@@ -5125,6 +5130,7 @@
 				BE17F3C822A6B44D000943C0 /* Vision360EventBeans.m in Sources */,
 				C7C1A2401D9C3F4D0067C657 /* UserBeans.m in Sources */,
 				C7F6CEE61F1E565500F6FE9A /* DocumentsView.m in Sources */,
+				BE9DCDA824B7A10C0090DD8D /* CustomPopUpViewController.swift in Sources */,
 				C7B88F2D1DAC329100912CBE /* ChangePasswordModel.m in Sources */,
 				C711C6641DB512E90041FB05 /* DetailPolicyView.m in Sources */,
 				C780AA2F1DAE78B500C13B84 /* ContactView.m in Sources */,

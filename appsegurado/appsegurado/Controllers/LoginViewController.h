@@ -7,12 +7,12 @@
 //
 
 #import "BaseViewController.h"
-#import "LoginView.h"
 #import "LoginModel.h"
 
 @import GoogleSignIn;
+@import AuthenticationServices;
 
+@interface LoginViewController : BaseViewController <LoginModelDelegate, GIDSignInUIDelegate, ASAuthorizationProvider>
 
-@interface LoginViewController : BaseViewController <LoginModelDelegate, GIDSignInUIDelegate>
-
+-(IBAction) loginAppleClick:(id)sender;
 @end

@@ -27,6 +27,7 @@
 @property (nonatomic) BOOL gotoLoginView;
 @property (nonatomic) BOOL shouldShowRMessage;
 @property (nonatomic) BOOL loggedWithFacebook;
+@property (nonatomic) BOOL loggedWithApple;
 @property (nonatomic) BOOL has_auto_policy;
 @property (nonatomic,strong) SmiResult* currentSr;
 @property(nonatomic, readonly, strong) NSString *registrationKey;

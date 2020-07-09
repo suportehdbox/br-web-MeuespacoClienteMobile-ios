@@ -255,7 +255,14 @@
     [_txtName setText:user.name];
     [_txtEmail setText:user.email];
     [_txtRepeatEmail setText:user.email];
+    
+    
+    if(user.type == Apple){
+        return;
+    }
+    
     isFbUser = true;
+    
     [_pwdBox setHidden:YES];
     [_pwdBoxHeight setConstant:0];
     

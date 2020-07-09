@@ -10,7 +10,7 @@
 #import "RegisterViewController.h"
 #import "AppDelegate.h"
 #import "ExtendParcelViewController.h"
-
+#import "LoginView.h"
 
 @interface LoginViewController (){
     LoginView *view;
@@ -27,7 +27,7 @@
 
     
     view = (LoginView*) self.view;
-    [view loadView];
+    [view loadView:self];
     
     
     model = [[LoginModel alloc] init];
@@ -170,6 +170,11 @@ dismissViewController:(UIViewController *)viewController {
     [super sendActionEvent:@"Clique" label:@"Manter Logado"];
 }
 
+-(IBAction) loginAppleClick:(id)sender{
+    [view showLoading];
+    [model doAppleLogin:self];
+}
+
 
 #pragma mark Login Delegates
 
@@ -208,6 +213,13 @@ dismissViewController:(UIViewController *)viewController {
     [self presentViewController:controller animated:YES completion:nil];
 
 }
+
+#pragma mark - ASAuthorization window provider
+ - (ASPresentationAnchor)presentationAnchorForAuthorizationController:(ASAuthorizationController *)controller API_AVAILABLE(ios(13.0)){
+    NSLog(@"window：%s", __FUNCTION__);
+    return self.view.window;
+}
+
 
 #pragma mark - Navigation
 

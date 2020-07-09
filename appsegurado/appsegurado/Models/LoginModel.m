@@ -12,6 +12,7 @@
 #import "AppDelegate.h"
 #import <LocalAuthentication/LocalAuthentication.h>
 #import "DeviceUtil.h"
+#import "NSString+URLEncoding.h"
 
 @interface LoginModel (){
     BOOL stayLogged;
@@ -118,6 +119,8 @@
     
     if(fbUser.type == Facebook){
         [conn addPostParameters:@"byFacebook" key:@"type"];
+    }else if(fbUser.type == Apple){
+        [conn addPostParameters:@"byApple" key:@"type"];
     }else{
         [conn addPostParameters:@"byGooglePlus" key:@"type"];
     }
@@ -126,7 +129,7 @@
     [conn addPostParameters:idDevice key:@"deviceId"];
     [conn addPostParameters:hardwareDescription key:@"deviceModel"];
     [conn addPostParameters:@"1" key:@"deviceOS"];
-    [conn addPostParameters:[NSString stringWithFormat:@"%@",fbUser.idUser] key:@"idMidiaSocial"];
+    [conn addPostParameters:[fbUser getFormattedUserID] key:@"idMidiaSocial"];
     [conn addPostParameters:fbUser.email key:@"userId"];
     [conn addPostParameters:@"true" key:@"useToken"];
     [conn addPostParameters:brandMarketing key:@"brandMarketing"];
@@ -274,6 +277,7 @@
     }
 }
 
+
 -(void) doGoogleLogin:(id<GIDSignInUIDelegate>)currentViewController{
     [GIDSignIn sharedInstance].uiDelegate = currentViewController;
     [[GIDSignIn sharedInstance] signIn];
@@ -358,6 +362,96 @@
          }];
     });
 }
+
+
+-(void)doAppleLogin:(id)currentViewController{
+    if (@available(iOS 13.0, *)) {
+        ASAuthorizationAppleIDProvider *appleIDProvider = [[ASAuthorizationAppleIDProvider alloc] init];
+        ASAuthorizationAppleIDRequest *request = appleIDProvider.createRequest;
+        request.requestedScopes = @[ASAuthorizationScopeFullName, ASAuthorizationScopeEmail];
+        
+        ASAuthorizationController *controller = [[ASAuthorizationController alloc] initWithAuthorizationRequests:@[request]];
+        controller.delegate = self;
+        controller.presentationContextProvider = currentViewController;
+        [controller performRequests];
+        
+        
+    }
+}
+
+ - (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithAuthorization:(ASAuthorization *)authorization  API_AVAILABLE(ios(13.0)){
+
+    NSLog(@"%@", controller);
+    NSLog(@"%@", authorization);
+    NSLog(@"authorization.credential：%@", authorization.credential);
+
+     if ([authorization.credential isKindOfClass:[ASAuthorizationAppleIDCredential class]]) {
+        ASAuthorizationAppleIDCredential *appleIDCredential = authorization.credential;
+        NSString *user = appleIDCredential.user;
+        NSString *familyName = appleIDCredential.fullName.familyName;
+        NSString *givenName = appleIDCredential.fullName.givenName;
+        NSString *email = appleIDCredential.email;
+        
+        FBUserBeans *fbUser = [[FBUserBeans alloc] init];
+        [fbUser setType:Apple];
+        [fbUser setAppleUserId:user];
+        
+         if(email == nil || [email isEqualToString:@""]){
+            [fbUser fillWithEncodedString:[self getStoreInfo:fbUser]];
+             if(fbUser.email == nil){
+                 [fbUser setEmail:user];
+            }
+        }else{
+            [fbUser setName:[NSString stringWithFormat:@"%@ %@", givenName, familyName]];
+            [fbUser setEmail:email];
+            [self storeUserInfoUntilRegister:fbUser];
+        }
+        
+        //[fbUser setAppleUserId:[NSString stringWithFormat:@"%@2",user]];
+        
+        [self doLoginFacebook:fbUser];
+        
+    }
+}
+-(NSString*) getStoreInfo:(FBUserBeans*) userInfo{
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
+    NSString * encodedString = [defaults valueForKey:[userInfo getFormattedUserID]];
+    return encodedString;
+}
+
+-(void) storeUserInfoUntilRegister:(FBUserBeans*) userInfo{
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
+    [defaults setValue:[userInfo getEncodedPesistenceString] forKey:[userInfo getFormattedUserID]];
+    [defaults synchronize];
+}
+
+
+
+- (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithError:(NSError *)error  API_AVAILABLE(ios(13.0)){
+
+    NSString *errorMsg = nil;
+    switch (error.code) {
+        case ASAuthorizationErrorCanceled:
+            errorMsg = @"ASAuthorizationErrorCanceled";
+            break;
+        case ASAuthorizationErrorInvalidResponse:
+            errorMsg = @"ASAuthorizationErrorInvalidResponse";
+            break;
+        case ASAuthorizationErrorNotHandled:
+            errorMsg = @"ASAuthorizationErrorNotHandled";
+            break;
+    }
+    
+    if(errorMsg){
+        return;
+    }
+
+    if(delegate && [delegate respondsToSelector:@selector(loginError:)]){
+        [delegate loginError:error.localizedDescription];
+    }
+    
+}
+
 
 -(void) requestPassword{
     UIAlertController *passwordController = [UIAlertController alertControllerWithTitle:@"Password" message:@"Enter password." preferredStyle:UIAlertControllerStyleAlert];

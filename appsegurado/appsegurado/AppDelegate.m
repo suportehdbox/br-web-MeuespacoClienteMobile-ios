@@ -35,7 +35,7 @@
 NSString *const SubscriptionTopic = @"global";
 
 @implementation AppDelegate
-@synthesize openingExternalProgram,gotoLoginView, shouldShowRMessage, currentSr, mainPolicyNumber, loggedWithFacebook, has_auto_policy, current_controller;
+@synthesize openingExternalProgram,gotoLoginView, shouldShowRMessage, currentSr, mainPolicyNumber, loggedWithFacebook, has_auto_policy, current_controller, loggedWithApple;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

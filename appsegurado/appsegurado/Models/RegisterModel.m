@@ -115,11 +115,14 @@
     [conn addPostParameters:beans.name key:@"InsuredsName"];
     
     if(beans.facebookInfo != nil){
-        [conn addPostParameters:[NSString stringWithFormat:@"%@",beans.facebookInfo.idUser] key:@"IdMidiaSocial"];
+        [conn addPostParameters:[beans.facebookInfo getFormattedUserID] key:@"IdMidiaSocial"];
         //
         if(beans.facebookInfo.type == Facebook){
             [conn addPostParameters:[NSString stringWithFormat:@"https=//graph.facebook.com/%@/picture",beans.facebookInfo.idUser] key:@"Photo"];
             [conn addPostParameters:@"2" key:@"OrigemCadastro"];
+        }else if(beans.facebookInfo.type == Apple){
+            [conn addPostParameters:@"" key:@"Photo"];
+            [conn addPostParameters:@"5" key:@"OrigemCadastro"];
         }else{
             [conn addPostParameters:beans.facebookInfo.picture key:@"Photo"];
             [conn addPostParameters:@"1" key:@"OrigemCadastro"];

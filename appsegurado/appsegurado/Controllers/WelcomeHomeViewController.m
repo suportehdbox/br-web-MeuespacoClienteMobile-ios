@@ -11,7 +11,6 @@
 #import "AppDelegate.h"
 
 
-
 @interface WelcomeHomeViewController (){
     WelcomeHomeView *view;
     WelcomeHomeModel *model;
@@ -55,8 +54,9 @@
     }else{
         [self finishedPopUp];
     }
-    
+
 }
+
 -(void) checkToShowPopUp{
     if([appDelegate currentSr] != nil){
         if([appDelegate currentSr].sdState == SD_AVAILABLE){
