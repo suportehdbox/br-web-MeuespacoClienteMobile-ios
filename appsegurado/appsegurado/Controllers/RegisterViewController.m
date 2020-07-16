@@ -50,10 +50,11 @@
     
     self.title = NSLocalizedString(@"TituloTelaCadastro", @"");
     
-    
-    custom = [[CustomPopUpViewController alloc] initWithTitle:@"Olá" text:NSLocalizedString(@"DescClub", @"") btTitle:@"OK"];
-    [custom addButtonActionWithTarget:self action:@selector(closePopUp) pfor:UIControlEventTouchUpInside];
-    [self presentViewController:custom animated:YES completion:nil];
+    if(currentFBUser.type == Apple){
+        custom = [[CustomPopUpViewController alloc] initWithTitle:NSLocalizedString(@"ApplePopUpTitle", @"") text:NSLocalizedString(@"ApplePopUpText", @"") btTitle:NSLocalizedString(@"ApplePopUpButton", @"")];
+        [custom addButtonActionWithTarget:self action:@selector(closePopUp) pfor:UIControlEventTouchUpInside];
+        [self presentViewController:custom animated:YES completion:nil];
+    }
     
 }
 

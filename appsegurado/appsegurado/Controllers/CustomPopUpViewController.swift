@@ -49,6 +49,7 @@ class CustomPopUpViewController: UIViewController {
         lblTitle.text = title
         txtMessage.text = text
         button.setTitle(btTitle, for: .normal)
+        self.modalTransitionStyle = .crossDissolve
         self.modalPresentationStyle = .overCurrentContext
         
     }
@@ -75,11 +76,11 @@ class CustomPopUpViewController: UIViewController {
         lblTitle.setTrailingConstraint(withAnchor: bgPopUp.trailingAnchor, constant: -27)
         lblTitle.setTopConstraint(withAnchor: bgPopUp.topAnchor, constant: 35)
         lblTitle.setHeightConstraint(constant: 40)
-        
         bgPopUp.addSubview(txtMessage)
+        
         txtMessage.setLeadingConstraint(withAnchor: bgPopUp.leadingAnchor, constant: 27)
         txtMessage.setTrailingConstraint(withAnchor: bgPopUp.trailingAnchor, constant: -27)
-        txtMessage.setTopConstraint(withAnchor: lblTitle.bottomAnchor, constant: 35)
+        txtMessage.setTopConstraint(withAnchor: lblTitle.bottomAnchor, constant: 15)
         txtMessage.setMinimumHeight(constant: 100)
         
         txtMessage.sizeToFit()

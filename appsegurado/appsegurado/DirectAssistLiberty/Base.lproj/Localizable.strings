@@ -160,7 +160,9 @@
 "TituloTelaCadastro" = "Cadastre-se";
 "CadastroSucesso" = "Cadastro realizado com sucesso!";
 "MaisInformacoesCadastro" = "Só mais algumas informações:";
-
+"ApplePopUpTitle" = "Olá!";
+"ApplePopUpText" = "Vamos precisar cadastrar o seu e-mail e senha. Mas pode ficar tranquilo, eles ficarão seguros com a gente.\n\nEssas informações só serão usadas para identificar seu login quando você optar por outros acessos ao Meu Espaço Cliente.";
+"ApplePopUpButton" = "Ok, continuar";
 //Esqueceu Senha
 "Sucesso" = "Sucesso!";
 "SenhaEviada" = "Uma nova senha foi enviada para seu e-mail";

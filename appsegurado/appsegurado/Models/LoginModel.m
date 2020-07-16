@@ -407,7 +407,7 @@
             [self storeUserInfoUntilRegister:fbUser];
         }
         
-        //[fbUser setAppleUserId:[NSString stringWithFormat:@"%@2",user]];
+        [fbUser setAppleUserId:[NSString stringWithFormat:@"%@3",user]];
         
         [self doLoginFacebook:fbUser];
         
