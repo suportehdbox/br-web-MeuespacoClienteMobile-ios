@@ -28,6 +28,7 @@
     {
         placeHoderColor = [UIColor whiteColor];
         borderColor = [UIColor whiteColor];
+        [self configureView];
     }
     
     return self;
@@ -41,6 +42,7 @@
     {
         placeHoderColor = [UIColor whiteColor];
         borderColor = [UIColor whiteColor];
+        [self configureView];
         
 
     }
@@ -49,20 +51,23 @@
 }
 
 -(void)layoutSubviews{
+    	
     [super layoutSubviews];
     [self configureView];
 }
+
+
 -(void)configureView{
-    
+
     [self setClipsToBounds:NO];
     bottomBorder = [[CALayer alloc] init];
     bottomBorder.frame = CGRectMake(0, self.frame.size.height - 1, self.frame.size.width, 1.0);
     bottomBorder.backgroundColor = [borderColor CGColor];
     [self.layer addSublayer:bottomBorder];
-//    [self setValue:placeHoderColor forKeyPath:@"_placeholderLabel.textColor"];
-    
+
+
     [self registerEvents];
-    
+
     if(!lblPlaceHolder){
         lblPlaceHolder = [[UILabel alloc] initWithFrame:CGRectMake(0, -10, self.frame.size.width, 10)];
         [lblPlaceHolder setFont:[BaseView getDefatulFont:Micro bold:NO]];
@@ -74,27 +79,23 @@
     isSecureText = false;
     if(self.isSecureTextEntry){
         isSecureText = true;
-        btShowPassword = [[UIButton alloc] initWithFrame:CGRectMake(CGRectGetWidth(self.frame) - CGRectGetHeight(self.frame), 0, CGRectGetHeight(self.frame), CGRectGetHeight(self.frame))];
+        CGRect rect = CGRectMake(CGRectGetWidth(self.frame) - CGRectGetHeight(self.frame), 0, CGRectGetHeight(self.frame), CGRectGetHeight(self.frame));
+        if(btShowPassword == nil){
+            btShowPassword = [[UIButton alloc] initWithFrame:rect];
+            [self addSubview:btShowPassword];
+        }else{
+            [btShowPassword  setFrame:rect];
+        }
         [btShowPassword setImage:[UIImage imageNamed:@"password_off"] forState:UIControlStateNormal];
         [btShowPassword setImage:[UIImage imageNamed:@"password_on"] forState:UIControlStateSelected
          ];
         [btShowPassword addTarget:self action:@selector(showPassword) forControlEvents:UIControlEventTouchUpInside];
-        [self addSubview:btShowPassword];
-        
-//        [[NSNotificationCenter defaultCenter] addObserver:self
-//                                                 selector:@selector(DidBeginEditingTextView)
-//                                                     name:UITextFieldTextDidBeginEditingNotification object:nil];
-//        [[NSNotificationCenter defaultCenter] addObserver:self
-//                                                 selector:@selector(DidEndEditingTextView)
-//                                                     name:UITextFieldTextDidEndEditingNotification object:nil];
+
     }
-     self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.placeholder attributes:@{
-            NSForegroundColorAttributeName : placeHoderColor
-        }];
     
 }
 
-
+	
 -(void) unloadView{
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UITextFieldTextDidChangeNotification object:nil];
     if(isSecureText){
@@ -149,18 +150,6 @@
     
 }
 
-//-(void)DidBeginEditingTextView{
-//    if(btShowPassword != nil){
-//        [btShowPassword setHidden:NO];
-//    
-//    }
-//}
-//-(void)DidEndEditingTextView{
-//    if(btShowPassword != nil){
-//        [btShowPassword setHidden:YES];
-//    }
-//
-//}
 
 -(void)registerEvents{
     

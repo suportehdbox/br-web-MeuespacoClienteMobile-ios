@@ -4663,21 +4663,7 @@
 				"${PODS_ROOT}/FontAwesome/Resources/FontAwesome.ttf",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				"${PODS_ROOT}/RMessage/RMessage/Resources/RMessageView.xib",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundErrorIcon.imageset/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundErrorIcon.imageset/NotificationBackgroundErrorIcon.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundErrorIcon.imageset/NotificationBackgroundErrorIcon@2x.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundSuccessIcon.imageset/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundSuccessIcon.imageset/NotificationBackgroundSuccessIcon.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundSuccessIcon.imageset/NotificationBackgroundSuccessIcon@2x.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundWarningIcon.imageset/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundWarningIcon.imageset/NotificationBackgroundWarningIcon.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundWarningIcon.imageset/NotificationBackgroundWarningIcon@2x.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationButtonBackground.imageset/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationButtonBackground.imageset/NotificationButtonBackground.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationButtonBackground.imageset/NotificationButtonBackground@2x.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/RMessageDefaultDesign.json",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RMessage/RMessage.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/VMaskTextField/VMaskTextField.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -4686,17 +4672,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contents.json",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageDefaultDesign.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessage.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VMaskTextField.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4759,21 +4735,7 @@
 				"${PODS_ROOT}/FontAwesome/Resources/FontAwesome.ttf",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				"${PODS_ROOT}/RMessage/RMessage/Resources/RMessageView.xib",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundErrorIcon.imageset/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundErrorIcon.imageset/NotificationBackgroundErrorIcon.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundErrorIcon.imageset/NotificationBackgroundErrorIcon@2x.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundSuccessIcon.imageset/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundSuccessIcon.imageset/NotificationBackgroundSuccessIcon.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundSuccessIcon.imageset/NotificationBackgroundSuccessIcon@2x.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundWarningIcon.imageset/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundWarningIcon.imageset/NotificationBackgroundWarningIcon.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundWarningIcon.imageset/NotificationBackgroundWarningIcon@2x.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationButtonBackground.imageset/Contents.json",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationButtonBackground.imageset/NotificationButtonBackground.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationButtonBackground.imageset/NotificationButtonBackground@2x.png",
-				"${PODS_ROOT}/RMessage/RMessage/Assets/RMessageDefaultDesign.json",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RMessage/RMessage.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/VMaskTextField/VMaskTextField.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -4782,17 +4744,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contents.json",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageDefaultDesign.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessage.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VMaskTextField.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5442,9 +5394,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/",
@@ -5510,9 +5462,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/",
