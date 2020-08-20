@@ -94,6 +94,9 @@ class CustomPopUpViewController: UIViewController {
         
         bgPopUp.setBottomConstraint(withAnchor: button.bottomAnchor, constant: 20)
         
+        if(Config.isAliroProject()){
+            button.setTitleColor(BaseView.getColor("Branco"), for: .normal)
+        }
     }
     
     

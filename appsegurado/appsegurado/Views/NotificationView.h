@@ -11,6 +11,7 @@
 @interface NotificationView : BaseView <UIWebViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *table;
 @property (strong, nonatomic) IBOutlet UIView *bgTable;
+@property (strong, nonatomic) IBOutlet UIButton *btLGPD;
 
 -(void) loadView;
 -(void) unloadView;

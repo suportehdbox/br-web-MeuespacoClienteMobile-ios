@@ -18,4 +18,5 @@
 -(void) showContactViewController;
 -(void) sendActionEvent:(NSString*) action label:(NSString*)label;
 -(void) openTerms;
+-(IBAction)openLGPDSite:(id)sender;
 @end

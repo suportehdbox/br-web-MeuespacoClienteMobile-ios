@@ -38,6 +38,9 @@
 //    [arrayOptions addObject:[[NSDictionary alloc] initWithObjectsAndKeys:@"icon_eye",@"icon",NSLocalizedString(@"VisualizarCartao",@""), @"title", @"",@"destination", nil]];
     
     [arrayOptions addObject:[[NSDictionary alloc] initWithObjectsAndKeys:@"icon_phone",@"icon",NSLocalizedString(@"FaleConosco",@""), @"title",@"ShowContact",@"destination", nil]];
+    
+    [arrayOptions addObject:[[NSDictionary alloc] initWithObjectsAndKeys:@"icon_lgpd_app",@"icon",NSLocalizedString(@"TratamentoDados",@""), @"title",@"ShowTratamentoDados",@"destination", nil]];
+    
     [arrayOptions addObject:[[NSDictionary alloc] initWithObjectsAndKeys:@"icon_exit",@"icon",NSLocalizedString(@"Sair",@""), @"title",@"dismiss",@"destination", nil]];
     
     

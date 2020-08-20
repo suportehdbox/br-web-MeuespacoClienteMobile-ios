@@ -10,7 +10,7 @@
 #import "CustomButton.h"
 
 @interface BaseView : UIView
-@property (strong, nonatomic) IBOutlet CustomButton *btPhone;
+@property (strong, nonatomic) IBOutlet CustomButton * _Nullable btPhone;
 @property (strong, nonatomic) IBOutlet CustomButton *btLoginLater;
 
 - (IBAction)btOpenContacts:(id)sender;
@@ -38,4 +38,6 @@ typedef enum {
 -(void) removeErrorMessage;
 -(void) showErrorLoadingMessage;
 -(void) showLoadingMessage:(NSString*)message;
+-(NSAttributedString*_Nullable) getLGPDText;
+-(NSAttributedString*_Nullable) getLGPDText:(FontSize)fontsize;
 @end

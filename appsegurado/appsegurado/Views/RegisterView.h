@@ -49,6 +49,7 @@
 @property (strong, nonatomic) IBOutlet UISwitch *swAgreeTerms;
 
 @property (strong, nonatomic) IBOutlet UIButton *btTerms;
+@property (strong, nonatomic) IBOutlet UIButton *btLGPD;
 @property (strong, nonatomic) IBOutlet CustomButton *btRegister;
 @property (nonatomic) IBOutlet NSLayoutConstraint *widthView;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activity;

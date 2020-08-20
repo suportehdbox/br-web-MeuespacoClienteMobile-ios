@@ -122,7 +122,7 @@
             }
         }else{
             if(indexPath.section == [arrayPhones count]+1){
-                return 250;
+                return 220;
             }
         }
     }
@@ -235,7 +235,7 @@
             
             [cell.btSkype setImage:[UIImage imageNamed:@"skype.png"] forState:UIControlStateNormal];
             [cell.btSkype setAttributedTitle:attributedString forState:UIControlStateNormal];
-            [cell.btSkype setHidden:NO];
+            [cell.btSkype setHidden:YES];
             [cell setBackgroundColor:[BaseView getColor:@"CinzaFundo"]];
             [BaseView addDropShadow:cell.bgView];
         }

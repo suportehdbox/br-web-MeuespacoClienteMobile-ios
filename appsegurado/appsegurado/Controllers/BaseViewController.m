@@ -94,6 +94,15 @@
     [self.navigationController showViewController:vc sender:nil];
 }
 
+-(IBAction)openLGPDSite:(id)sender{
+    NSString *urlStr = NSLocalizedString(@"LGPDLink", @"");
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] < 10.0) {
+       [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlStr]];
+   } else {
+       [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlStr] options:@{} completionHandler:nil];
+   }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

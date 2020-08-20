@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		052ECD6D9DF2BF3D15EC1215 /* libPods-AppAliro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B5EE99ACB1074748E18F6 /* libPods-AppAliro.a */; };
 		08255E3663F751ABC1B0308B /* libPods-appsegurado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC0FCD845CFF85574DF3C3F /* libPods-appsegurado.a */; };
+		2299BEC424E6CB7800DB83BF /* icon_lgpd_app@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC124E6CB7400DB83BF /* icon_lgpd_app@3x.png */; };
+		2299BEC524E6CB7800DB83BF /* icon_lgpd_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC224E6CB7600DB83BF /* icon_lgpd_app@2x.png */; };
+		2299BEC624E6CB7800DB83BF /* icon_lgpd_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */; };
+		22DAD9C124D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */; };
+		22DAD9C224D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */; };
+		22DAD9DB24E498DF0085A0E3 /* icon_lgpd_app@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DAD9D824E498DF0085A0E3 /* icon_lgpd_app@3x.png */; };
+		22DAD9DC24E498DF0085A0E3 /* icon_lgpd_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DAD9D924E498DF0085A0E3 /* icon_lgpd_app.png */; };
+		22DAD9DD24E498DF0085A0E3 /* icon_lgpd_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DAD9DA24E498DF0085A0E3 /* icon_lgpd_app@2x.png */; };
 		7F70A953CD3AF30EB3D3910D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		BE17F3B222A5BE47000943C0 /* icon_value.png in Resources */ = {isa = PBXBuildFile; fileRef = BE17F3AC22A5BE3F000943C0 /* icon_value.png */; };
 		BE17F3B322A5BE47000943C0 /* icon_value.png in Resources */ = {isa = PBXBuildFile; fileRef = BE17F3AC22A5BE3F000943C0 /* icon_value.png */; };
@@ -428,7 +436,6 @@
 		C72E1EF41F87A8E80093C360 /* UIViewController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74814F71EF1CF1A00A3E24A /* UIViewController+PPTopMostController.m */; };
 		C72E1EF51F87A8E80093C360 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A737581DB95C5700BACF8E /* NSString+URLEncoding.m */; };
 		C72E1EF61F87A8E80093C360 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C775F3D91D9AE13100A777B5 /* LoginModel.m */; };
-		C72E1EF71F87A8E80093C360 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C74814EA1EF1CF0400A3E24A /* README.md */; };
 		C72E1EF81F87A8E80093C360 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C745B7A31D748321002B4546 /* MenuTableViewCell.m */; };
 		C72E1EF91F87A8E80093C360 /* WelcomeHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79841281D6CE8110071D6CB /* WelcomeHomeViewController.m */; };
 		C72E1EFA1F87A8E80093C360 /* DocumentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A60F8F1F1816EE003B2DF0 /* DocumentsModel.m */; };
@@ -458,7 +465,6 @@
 		C72E1F121F87A8E80093C360 /* PolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75955F81DB030B80081B409 /* PolicyViewController.m */; };
 		C72E1F131F87A8E80093C360 /* ChangeEmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C77ADE1B1DAD4DCC004D27B3 /* ChangeEmailView.m */; };
 		C72E1F141F87A8E80093C360 /* ForgotEmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A7B9CB1DD3A54500A81F10 /* ForgotEmailView.m */; };
-		C72E1F151F87A8E80093C360 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C74814F81EF1CF1A00A3E24A /* README.md */; };
 		C72E1F161F87A8E80093C360 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AC64E71D6B73FE0003EC64 /* AppDelegate.m */; };
 		C72E1F171F87A8E80093C360 /* StatusClaimView.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C7F4B1DE716CC001DBF35 /* StatusClaimView.m */; };
 		C72E1F181F87A8E80093C360 /* CoverageBeans.m in Sources */ = {isa = PBXBuildFile; fileRef = C72F50391EB10872006DB3BE /* CoverageBeans.m */; };
@@ -882,11 +888,9 @@
 		C745B7A41D748321002B4546 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C745B7A31D748321002B4546 /* MenuTableViewCell.m */; };
 		C745B7B31D74BB6B002B4546 /* WelcomeHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C745B7B21D74BB6B002B4546 /* WelcomeHomeModel.m */; };
 		C74814EB1EF1CF0400A3E24A /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = C74814E81EF1CF0400A3E24A /* HexColors.m */; };
-		C74814ED1EF1CF0400A3E24A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C74814EA1EF1CF0400A3E24A /* README.md */; };
 		C74814FA1EF1CF1A00A3E24A /* UINavigationController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74814F31EF1CF1A00A3E24A /* UINavigationController+PPTopMostController.m */; };
 		C74814FB1EF1CF1A00A3E24A /* UITabBarController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74814F51EF1CF1A00A3E24A /* UITabBarController+PPTopMostController.m */; };
 		C74814FC1EF1CF1A00A3E24A /* UIViewController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74814F71EF1CF1A00A3E24A /* UIViewController+PPTopMostController.m */; };
-		C74814FD1EF1CF1A00A3E24A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C74814F81EF1CF1A00A3E24A /* README.md */; };
 		C75833571D7F142A0060EFE1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C75833551D7F142A0060EFE1 /* Reachability.m */; };
 		C75955D51DAFF6540081B409 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C75955D41DAFF6540081B409 /* ContactModel.m */; };
 		C75955D81DB020F80081B409 /* PolicyViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C75955D71DB020F80081B409 /* PolicyViewCell.m */; };
@@ -1289,6 +1293,13 @@
 
 /* Begin PBXFileReference section */
 		02733EEC6B7BC3286B81DA22 /* Pods-appsegurado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsegurado.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appsegurado/Pods-appsegurado.debug.xcconfig"; sourceTree = "<group>"; };
+		2299BEC124E6CB7400DB83BF /* icon_lgpd_app@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@3x.png"; sourceTree = "<group>"; };
+		2299BEC224E6CB7600DB83BF /* icon_lgpd_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@2x.png"; sourceTree = "<group>"; };
+		2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_lgpd_app.png; sourceTree = "<group>"; };
+		22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataTreatmentViewController.swift; path = Controllers/DataTreatmentViewController.swift; sourceTree = "<group>"; };
+		22DAD9D824E498DF0085A0E3 /* icon_lgpd_app@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_lgpd_app@3x.png"; path = "../../../../../../../Downloads/ios 2/icon_lgpd_app@3x.png"; sourceTree = "<group>"; };
+		22DAD9D924E498DF0085A0E3 /* icon_lgpd_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_lgpd_app.png; path = "../../../../../../../Downloads/ios 2/icon_lgpd_app.png"; sourceTree = "<group>"; };
+		22DAD9DA24E498DF0085A0E3 /* icon_lgpd_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_lgpd_app@2x.png"; path = "../../../../../../../Downloads/ios 2/icon_lgpd_app@2x.png"; sourceTree = "<group>"; };
 		2382643EE1F68BBA519582AD /* Pods-AppAliro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppAliro/Pods-AppAliro.debug.xcconfig"; sourceTree = "<group>"; };
 		31AA0288D6EEB8839302A487 /* Pods-AppAliro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppAliro/Pods-AppAliro.release.xcconfig"; sourceTree = "<group>"; };
 		5CC0FCD845CFF85574DF3C3F /* libPods-appsegurado.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appsegurado.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1812,7 +1823,6 @@
 		C74814E71EF1CF0400A3E24A /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
 		C74814E81EF1CF0400A3E24A /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		C74814E91EF1CF0400A3E24A /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
-		C74814EA1EF1CF0400A3E24A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C74814EF1EF1CF1A00A3E24A /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
 		C74814F11EF1CF1A00A3E24A /* PPTopMostControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTopMostControllerProtocol.h; sourceTree = "<group>"; };
 		C74814F21EF1CF1A00A3E24A /* UINavigationController+PPTopMostController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PPTopMostController.h"; sourceTree = "<group>"; };
@@ -1821,7 +1831,6 @@
 		C74814F51EF1CF1A00A3E24A /* UITabBarController+PPTopMostController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+PPTopMostController.m"; sourceTree = "<group>"; };
 		C74814F61EF1CF1A00A3E24A /* UIViewController+PPTopMostController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PPTopMostController.h"; sourceTree = "<group>"; };
 		C74814F71EF1CF1A00A3E24A /* UIViewController+PPTopMostController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PPTopMostController.m"; sourceTree = "<group>"; };
-		C74814F81EF1CF1A00A3E24A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C748F9AC1F892D3200FBB413 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		C75833551D7F142A0060EFE1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		C75833561D7F142A0060EFE1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -2712,6 +2721,9 @@
 		C72E21131F87AF320093C360 /* ImagensAliro */ = {
 			isa = PBXGroup;
 			children = (
+				2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */,
+				2299BEC224E6CB7600DB83BF /* icon_lgpd_app@2x.png */,
+				2299BEC124E6CB7400DB83BF /* icon_lgpd_app@3x.png */,
 				C72E21141F87AF320093C360 /* accident_button.png */,
 				BE1BDF2A23AD0438002A6E6C /* logo_login.png */,
 				BE1BDF2923AD0438002A6E6C /* logo_login@2x.png */,
@@ -2866,7 +2878,6 @@
 			children = (
 				C74814E61EF1CF0400A3E24A /* Classes */,
 				C74814E91EF1CF0400A3E24A /* LICENCE */,
-				C74814EA1EF1CF0400A3E24A /* README.md */,
 			);
 			name = HexColors;
 			path = Libraries/HexColors;
@@ -2886,7 +2897,6 @@
 			children = (
 				C74814EF1EF1CF1A00A3E24A /* LICENCE */,
 				C74814F01EF1CF1A00A3E24A /* PPTopMostController-Files */,
-				C74814F81EF1CF1A00A3E24A /* README.md */,
 			);
 			name = PPTopMostController;
 			path = Libraries/PPTopMostController;
@@ -3010,6 +3020,7 @@
 				BEEE257B24A24093006A853F /* NewClubWebViewController.swift */,
 				BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */,
 				BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */,
+				22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -3347,6 +3358,9 @@
 		C7CB08981D6E260100DE6E58 /* ImagesLiberty */ = {
 			isa = PBXGroup;
 			children = (
+				22DAD9D924E498DF0085A0E3 /* icon_lgpd_app.png */,
+				22DAD9DA24E498DF0085A0E3 /* icon_lgpd_app@2x.png */,
+				22DAD9D824E498DF0085A0E3 /* icon_lgpd_app@3x.png */,
 				C796FB312195BFB9003E3C59 /* payment_waiting.png */,
 				C796FB322195BFC2003E3C59 /* payment_waiting@2x.png */,
 				C796FB332195BFCB003E3C59 /* payment_waiting@3x.png */,
@@ -3967,6 +3981,7 @@
 				C72E22F31F87C26B0093C360 /* steps_3_4@2x.png in Resources */,
 				BE20D75E23ABC5F500118920 /* artboard12.png in Resources */,
 				C72E219F1F87BF780093C360 /* car_green@3x.png in Resources */,
+				2299BEC524E6CB7800DB83BF /* icon_lgpd_app@2x.png in Resources */,
 				C72E218C1F87BF780093C360 /* auto_icon@2x.png in Resources */,
 				C72E21B21F87BF780093C360 /* icon_exclamation.png in Resources */,
 				C72E21E11F87BF780093C360 /* play@3x.png in Resources */,
@@ -4100,6 +4115,7 @@
 				C72E21891F87BF780093C360 /* audio@2x.png in Resources */,
 				BE20D7CE23ABC5F600118920 /* artboard18@2x.png in Resources */,
 				C79839DB20CAFAC400A4B96E /* ic_analise.png in Resources */,
+				2299BEC424E6CB7800DB83BF /* icon_lgpd_app@3x.png in Resources */,
 				BE1BDF2E23AD0439002A6E6C /* logo_login@3x.png in Resources */,
 				C72E21A31F87BF780093C360 /* clock.png in Resources */,
 				C72E21C11F87BF780093C360 /* icon_phone.png in Resources */,
@@ -4148,6 +4164,7 @@
 				BE17F3B322A5BE47000943C0 /* icon_value.png in Resources */,
 				C72E21DD1F87BF780093C360 /* photo_club@2x.png in Resources */,
 				BE20D80E23ABC5F600118920 /* artboard17@2x.png in Resources */,
+				2299BEC624E6CB7800DB83BF /* icon_lgpd_app.png in Resources */,
 				C72E21E01F87BF780093C360 /* play@2x.png in Resources */,
 				C72E21D91F87BF780093C360 /* phone_green.png in Resources */,
 				C72E22D11F87C26B0093C360 /* selected@2x.png in Resources */,
@@ -4172,6 +4189,7 @@
 				BE5BAB35246C8CA40060BCDF /* icon_oval_home@2x.png in Resources */,
 				C7EEA52E2048687A00CAE513 /* home_register@2x.png in Resources */,
 				BE20D77723ABC5F600118920 /* artboard39.png in Resources */,
+				22DAD9DB24E498DF0085A0E3 /* icon_lgpd_app@3x.png in Resources */,
 				C7D15C362177A8280045A2CF /* status_30@3x.png in Resources */,
 				C7CB066E1DE334A300DDC14B /* calendar@3x.png in Resources */,
 				C72E232A1F87C26B0093C360 /* mail_black@3x.png in Resources */,
@@ -4349,6 +4367,7 @@
 				C72E23321F87C26B0093C360 /* notification_red@2x.png in Resources */,
 				C738ABEC2098F33000D1FAA8 /* icon_oval_glass.png in Resources */,
 				C72E231D1F87C26B0093C360 /* exit@2x.png in Resources */,
+				22DAD9DC24E498DF0085A0E3 /* icon_lgpd_app.png in Resources */,
 				BE20D76323ABC5F500118920 /* artboard9@3x.png in Resources */,
 				C724CE301D70DA3C00CD3B27 /* Localizable.strings in Resources */,
 				BE20D84523ABC5F600118920 /* artboard21.png in Resources */,
@@ -4579,6 +4598,7 @@
 				BE20D80D23ABC5F600118920 /* artboard17@2x.png in Resources */,
 				BEEE3D8B249D0B8E001E73C9 /* image_baloes.png in Resources */,
 				BE20D7A123ABC5F600118920 /* artboard15@3x.png in Resources */,
+				22DAD9DD24E498DF0085A0E3 /* icon_lgpd_app@2x.png in Resources */,
 				BE20D7EB23ABC5F600118920 /* artboard14.png in Resources */,
 				C7CB08EF1D6E3DA500DE6E58 /* accident_button@3x.png in Resources */,
 				C7CB08F21D6E3DA500DE6E58 /* car_green@2x.png in Resources */,
@@ -4772,6 +4792,7 @@
 				C72E1ED61F87A8E80093C360 /* AutoWorkShopView.m in Sources */,
 				C72E1ED71F87A8E80093C360 /* ExtendParcelView.m in Sources */,
 				C72E1ED81F87A8E80093C360 /* WelcomeHomeModel.m in Sources */,
+				22DAD9C224D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */,
 				C796538320B366A400FE7F22 /* PaymentPopUpViewController.m in Sources */,
 				C72E1ED91F87A8E80093C360 /* PopUpFreeNavigationView.m in Sources */,
 				C72E1EDA1F87A8E80093C360 /* AutoWorkShopModel.m in Sources */,
@@ -4813,7 +4834,6 @@
 				C72F92A42062F67400EFF4CE /* DigitableLineView.m in Sources */,
 				C72E1EF51F87A8E80093C360 /* NSString+URLEncoding.m in Sources */,
 				C72E1EF61F87A8E80093C360 /* LoginModel.m in Sources */,
-				C72E1EF71F87A8E80093C360 /* README.md in Sources */,
 				C72E1EF81F87A8E80093C360 /* MenuTableViewCell.m in Sources */,
 				C72E1EF91F87A8E80093C360 /* WelcomeHomeViewController.m in Sources */,
 				C72E1EFA1F87A8E80093C360 /* DocumentsModel.m in Sources */,
@@ -4849,7 +4869,6 @@
 				C72E1F121F87A8E80093C360 /* PolicyViewController.m in Sources */,
 				C72E1F131F87A8E80093C360 /* ChangeEmailView.m in Sources */,
 				C72E1F141F87A8E80093C360 /* ForgotEmailView.m in Sources */,
-				C72E1F151F87A8E80093C360 /* README.md in Sources */,
 				C72E1F161F87A8E80093C360 /* AppDelegate.m in Sources */,
 				C72E1F171F87A8E80093C360 /* StatusClaimView.m in Sources */,
 				C72E1F181F87A8E80093C360 /* CoverageBeans.m in Sources */,
@@ -4948,6 +4967,7 @@
 				C787600A1DB79F280054E8D9 /* PaymentBeans.m in Sources */,
 				C765A5991D771EBA008AD0B5 /* AutoWorkShopView.m in Sources */,
 				C7B3DBB91DC296DD009306A1 /* ExtendParcelView.m in Sources */,
+				22DAD9C124D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */,
 				C745B7B31D74BB6B002B4546 /* WelcomeHomeModel.m in Sources */,
 				C796538220B366A400FE7F22 /* PaymentPopUpViewController.m in Sources */,
 				C7D3131A1EF454E900809146 /* PopUpFreeNavigationView.m in Sources */,
@@ -4988,7 +5008,6 @@
 				C7A737591DB95C5700BACF8E /* NSString+URLEncoding.m in Sources */,
 				C72F92A32062F67400EFF4CE /* DigitableLineView.m in Sources */,
 				C775F3DA1D9AE13100A777B5 /* LoginModel.m in Sources */,
-				C74814ED1EF1CF0400A3E24A /* README.md in Sources */,
 				C745B7A41D748321002B4546 /* MenuTableViewCell.m in Sources */,
 				C79841291D6CE8110071D6CB /* WelcomeHomeViewController.m in Sources */,
 				C7A60F901F1816EE003B2DF0 /* DocumentsModel.m in Sources */,
@@ -5022,7 +5041,6 @@
 				C718242E2044B4390064B778 /* ChangePhoneModel.m in Sources */,
 				C7A7B9CC1DD3A54500A81F10 /* ForgotEmailView.m in Sources */,
 				BEEE258024A25B6C006A853F /* AccidentViewController.m in Sources */,
-				C74814FD1EF1CF1A00A3E24A /* README.md in Sources */,
 				BEEE3D68249A93A6001E73C9 /* UIView+Constraints.swift in Sources */,
 				C7AC64E81D6B73FE0003EC64 /* AppDelegate.m in Sources */,
 				C70C7F4C1DE716CC001DBF35 /* StatusClaimView.m in Sources */,
@@ -5177,7 +5195,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5195,7 +5213,7 @@
 					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.0.10;
+				MARKETING_VERSION = 4.2.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5243,7 +5261,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5261,7 +5279,7 @@
 					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.0.10;
+				MARKETING_VERSION = 4.2.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5394,7 +5412,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
@@ -5415,7 +5433,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.1.5;
+				MARKETING_VERSION = 4.2.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5462,7 +5480,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
@@ -5482,7 +5500,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.1.5;
+				MARKETING_VERSION = 4.2.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

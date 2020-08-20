@@ -170,7 +170,10 @@
     NSDateFormatter *dateformat = [[NSDateFormatter alloc] init];
     NSCalendar *cal = [NSCalendar currentCalendar];
     [dateformat setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZ"];
-    NSDate *dataEndPolicyDate = [dateformat dateFromString:dataEndPolicy];
+      
+    NSArray *arrayDataEnd = [dataEndPolicy componentsSeparatedByString:@"T"];
+    
+    NSDate *dataEndPolicyDate = [dateformat dateFromString:[NSMutableString stringWithFormat:@"%@T23:59:59Z", arrayDataEnd[0]]];
     NSDate *dataStartPolicyDate = [dateformat dateFromString:dataStartPolicy];
     
     NSDateComponents *components = [cal components:NSCalendarUnitDay
@@ -178,10 +181,7 @@
                                             toDate:dataEndPolicyDate
                                            options:0];
     
-    //    NSDateComponents *components2 = [cal components:NSCalendarUnitDay
-    //                                           fromDate:[NSDate date]
-    //                                             toDate:dataEndPolicyDate
-    //                                            options:0];
+
     totalDuration = (int)[components day];
     
     NSTimeInterval timeInterval = [dataEndPolicyDate timeIntervalSinceNow];

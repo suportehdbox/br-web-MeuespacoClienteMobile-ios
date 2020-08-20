@@ -32,6 +32,12 @@
     [activity setCenter:self.center];
     [activity startAnimating];
     [self addSubview:activity];
+    
+    [_btLGPD setAttributedTitle:[self getLGPDText] forState:UIControlStateNormal];
+    [_btLGPD.titleLabel setNumberOfLines:6];
+    [_btLGPD.titleLabel setAdjustsFontSizeToFitWidth:YES];
+    [_btLGPD.titleLabel setMinimumScaleFactor:0.5];
+
 }
 -(void) unloadView{
     

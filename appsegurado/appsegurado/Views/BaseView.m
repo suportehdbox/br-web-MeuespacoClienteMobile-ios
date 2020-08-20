@@ -30,8 +30,26 @@
 - (IBAction)btOpenWithoutLogin:(id)sender {
     
 }
-
-
+-(NSAttributedString*) getLGPDText{
+   return [self getLGPDText:Nano];
+}
+-(NSAttributedString*_Nullable) getLGPDText:(FontSize)fontsize{
+    
+    NSMutableAttributedString *lgpdtext = [[NSMutableAttributedString alloc] initWithString: NSLocalizedString(@"LGPDText", @"")];
+     
+    
+    [lgpdtext appendAttributedString:[[NSMutableAttributedString alloc] initWithString: NSLocalizedString(@"LGPDText2", @"")]];
+    
+    
+    [lgpdtext addAttribute:NSUnderlineStyleAttributeName
+                           value:[NSNumber numberWithInt:NSUnderlineStyleSingle] range:NSMakeRange([NSLocalizedString(@"LGPDText", @"") length], [NSLocalizedString(@"LGPDText2", @"") length])];
+    [lgpdtext addAttribute:NSUnderlineColorAttributeName
+    value:[BaseView getColor:@"AzulEscuro"] range:NSMakeRange([NSLocalizedString(@"LGPDText", @"") length],  [NSLocalizedString(@"LGPDText2", @"") length])];
+    
+    [lgpdtext addAttribute:NSFontAttributeName value:[BaseView getDefatulFont:fontsize bold:NO] range:NSMakeRange(0, [NSLocalizedString(@"LGPDText", @"") length] + [NSLocalizedString(@"LGPDText2", @"") length])];
+    [lgpdtext addAttribute:NSForegroundColorAttributeName value:[BaseView getColor:@"AzulEscuro"] range:NSMakeRange(0, [NSLocalizedString(@"LGPDText", @"") length] + [NSLocalizedString(@"LGPDText2", @"") length])];
+    return lgpdtext;
+}
 
 
 +(UIColor *) getColor:(NSString*) nameColor{

@@ -205,6 +205,7 @@
     NSString *textDate =  beans.dateOc;
     NSDate *dateCurrent = [dateFormatter dateFromString:textDate];
     
+    
     dateTxt = [dateTxt stringByAppendingString:[finalDate stringFromDate:dateCurrent]];
     
     [_lblDate  setText:dateTxt];

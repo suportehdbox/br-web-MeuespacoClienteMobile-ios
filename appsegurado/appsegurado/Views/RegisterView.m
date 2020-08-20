@@ -238,6 +238,12 @@
     [_btTerms setAttributedTitle:terms forState:UIControlStateNormal];
     [_btTerms.titleLabel setNumberOfLines:2];
     
+       
+    
+    [_btLGPD setAttributedTitle:[self getLGPDText] forState:UIControlStateNormal];
+    [_btLGPD.titleLabel setNumberOfLines:6];
+    [_btLGPD.titleLabel setAdjustsFontSizeToFitWidth:YES];
+    [_btLGPD.titleLabel setMinimumScaleFactor:0.5];
     
     
     [_activity setHidden:YES];
@@ -336,10 +342,12 @@
                     [textField setText:cepvalues];
                 }
             }
-            if(lenght > 9){
+            if(lenght >= 8){
                 if (range.length <= 0) {
                     NSString *cleanString = [textField.text stringByReplacingOccurrencesOfString:@"-" withString:@""];
-                    textField.text = cleanString;
+                    if([cleanString rangeOfCharacterFromSet:[NSCharacterSet letterCharacterSet]].location == NSNotFound){
+                        textField.text = cleanString;
+                    }
                 }
             }
         }else{

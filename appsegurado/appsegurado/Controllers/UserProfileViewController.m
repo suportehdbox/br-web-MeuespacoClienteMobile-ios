@@ -10,7 +10,7 @@
 #import "UserProfileView.h"
 #import "AppDelegate.h"
 #import "PolicyViewController.h"
-
+#import <appsegurado-Swift.h>
 
 
 @interface UserProfileViewController (){
@@ -18,6 +18,7 @@
     LoginModel *model;
     RegisterModel *registerModel;
     AppDelegate *appDelegate;
+    DataTreatmentViewController *dataController;
 }
 
 @end
@@ -83,6 +84,10 @@
                 [appDelegate logoutUser];
             }
             [self dismissViewControllerAnimated:YES completion:nil];
+        }else if([segue isEqualToString:@"ShowTratamentoDados"]){
+            self.title = @"";
+            dataController = [[DataTreatmentViewController alloc] init];
+            [self.navigationController showViewController:dataController sender:nil];
         }else{
             [self performSegueWithIdentifier:segue sender:nil];
         }
