@@ -49,6 +49,15 @@
 
 }
 
+-(NSString *) getAutoClaimUrl {
+    
+    if(PRODUCTION){
+        return @"https://mobile.libertyseguros.com.br/AvisoSinistroAutoApp/";
+    }else{
+        return @"https://act-dmz.libertyseguros.com.br/AvisoSinistroAutoApp/";
+    }
+}
+
 -(NSString*) getClubUrl{
     
     if(PRODUCTION){

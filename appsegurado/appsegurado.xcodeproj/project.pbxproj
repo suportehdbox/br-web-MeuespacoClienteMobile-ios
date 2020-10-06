@@ -12,6 +12,8 @@
 		22780A2D252CAA0B0058F361 /* icon_lgpd_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22780A2A252CAA0A0058F361 /* icon_lgpd_app@2x.png */; };
 		22780A2E252CAA0B0058F361 /* icon_lgpd_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 22780A2B252CAA0A0058F361 /* icon_lgpd_app.png */; };
 		22780A2F252CAA0B0058F361 /* icon_lgpd_app@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22780A2C252CAA0B0058F361 /* icon_lgpd_app@3x.png */; };
+		22780A35252CBD750058F361 /* AutoClaimWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22780A34252CBD750058F361 /* AutoClaimWebViewController.swift */; };
+		22780A36252CBD750058F361 /* AutoClaimWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22780A34252CBD750058F361 /* AutoClaimWebViewController.swift */; };
 		2299BEC424E6CB7800DB83BF /* icon_lgpd_app@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC124E6CB7400DB83BF /* icon_lgpd_app@3x.png */; };
 		2299BEC524E6CB7800DB83BF /* icon_lgpd_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC224E6CB7600DB83BF /* icon_lgpd_app@2x.png */; };
 		2299BEC624E6CB7800DB83BF /* icon_lgpd_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */; };
@@ -1296,6 +1298,7 @@
 		22780A2A252CAA0A0058F361 /* icon_lgpd_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@2x.png"; sourceTree = "<group>"; };
 		22780A2B252CAA0A0058F361 /* icon_lgpd_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_lgpd_app.png; sourceTree = "<group>"; };
 		22780A2C252CAA0B0058F361 /* icon_lgpd_app@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@3x.png"; sourceTree = "<group>"; };
+		22780A34252CBD750058F361 /* AutoClaimWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AutoClaimWebViewController.swift; path = Controllers/AutoClaimWebViewController.swift; sourceTree = "<group>"; };
 		2299BEC124E6CB7400DB83BF /* icon_lgpd_app@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@3x.png"; sourceTree = "<group>"; };
 		2299BEC224E6CB7600DB83BF /* icon_lgpd_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@2x.png"; sourceTree = "<group>"; };
 		2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_lgpd_app.png; sourceTree = "<group>"; };
@@ -3021,6 +3024,7 @@
 				BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */,
 				BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */,
 				22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */,
+				22780A34252CBD750058F361 /* AutoClaimWebViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -4828,6 +4832,7 @@
 				BEEE3D6A249A93DE001E73C9 /* NewClubViewController.swift in Sources */,
 				C72E1EF01F87A8E80093C360 /* FBUserBeans.m in Sources */,
 				C72E1EF11F87A8E80093C360 /* CustomTextField.m in Sources */,
+				22780A36252CBD750058F361 /* AutoClaimWebViewController.swift in Sources */,
 				C72E1EF21F87A8E80093C360 /* CircleTimer.m in Sources */,
 				C72E1EF31F87A8E80093C360 /* HomeOffViewController.m in Sources */,
 				C72E1EF41F87A8E80093C360 /* UIViewController+PPTopMostController.m in Sources */,
@@ -5003,6 +5008,7 @@
 				C72CF2AD1D9EE1C50099836B /* FBUserBeans.m in Sources */,
 				C765A59F1D774E67008AD0B5 /* CustomTextField.m in Sources */,
 				C79E1AA31DA5989000C5F335 /* CircleTimer.m in Sources */,
+				22780A35252CBD750058F361 /* AutoClaimWebViewController.swift in Sources */,
 				C7CB08921D6DEB2900DE6E58 /* HomeOffViewController.m in Sources */,
 				C74814FC1EF1CF1A00A3E24A /* UIViewController+PPTopMostController.m in Sources */,
 				C7A737591DB95C5700BACF8E /* NSString+URLEncoding.m in Sources */,
@@ -5195,7 +5201,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5213,7 +5219,7 @@
 					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.2.1;
+				MARKETING_VERSION = 4.2.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5261,7 +5267,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5279,7 +5285,7 @@
 					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.2.1;
+				MARKETING_VERSION = 4.2.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5412,7 +5418,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
@@ -5433,7 +5439,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.2.1;
+				MARKETING_VERSION = 4.2.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5480,7 +5486,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
@@ -5500,7 +5506,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.2.1;
+				MARKETING_VERSION = 4.2.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
