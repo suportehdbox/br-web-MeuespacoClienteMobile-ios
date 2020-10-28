@@ -65,7 +65,7 @@ class NewClubWebViewController: BaseViewController, WKNavigationDelegate, ClubMo
             return
         }
         
-        if(["tel", "sms"].contains(url.scheme)){
+        if(["tel", "sms"].contains(url.scheme) || url.absoluteString.contains("#external")){
             UIApplication.shared.openURL(url)
             decisionHandler(.cancel);
         }else  if(["share"].contains(url.scheme)){

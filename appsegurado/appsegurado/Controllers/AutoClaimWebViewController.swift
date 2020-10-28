@@ -38,10 +38,10 @@ class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
         webView.navigationDelegate = self;
         self.view = webView;
         
-//        let delegate:AppDelegate =  UIApplication.shared.delegate as! AppDelegate
+        let delegate:AppDelegate =  UIApplication.shared.delegate as! AppDelegate
 //        let token: String! = delegate.getLoggeduser()?.access_token
         
-        webView.load(URLRequest(url: URL(string: (baseModel.getAutoClaimUrl()) )!))
+        webView.load(URLRequest(url: URL(string: "\( baseModel.getAutoClaimUrl()!)?plate=\(beans.licensePlate ?? "")&document=\(delegate.getCPF()!)" )!))
         
         webView.allowsBackForwardNavigationGestures = false;
         webView.isMultipleTouchEnabled = false
