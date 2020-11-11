@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Conexao.h"
-#define PRODUCTION TRUE
+#define PRODUCTION FALSE
+
 
 @interface BaseModel : NSObject
 {
