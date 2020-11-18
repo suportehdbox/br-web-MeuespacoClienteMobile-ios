@@ -270,4 +270,7 @@
     }
     return nil;
 }
+-(NSString*) getBrandMarketing {
+    return brandMarketing;
+}
 @end

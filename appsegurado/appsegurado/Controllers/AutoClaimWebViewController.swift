@@ -40,8 +40,10 @@ class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
         
         let delegate:AppDelegate =  UIApplication.shared.delegate as! AppDelegate
 //        let token: String! = delegate.getLoggeduser()?.access_token
-        
-        webView.load(URLRequest(url: URL(string: "\( baseModel.getAutoClaimUrl()!)?plate=\(beans.licensePlate ?? "")&document=\(delegate.getCPF()!)" )!))
+      
+        let item: ItemInsurance =  beans.itens[0] as! ItemInsurance
+        let uri: String = "\( baseModel.getAutoClaimUrl()!)?plate=\(beans.licensePlate ?? "")&document=\(delegate.getCPF()!)&issuingAgency=\(beans.issuingAgency)&itemCode=\(item.code)&brandMarketing=\( baseModel.getBrandMarketing()!)"
+        webView.load(URLRequest(url: URL(string: uri)!))
         
         webView.allowsBackForwardNavigationGestures = false;
         webView.isMultipleTouchEnabled = false
@@ -62,8 +64,11 @@ class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
             return
         }
         
-        if(["tel", "sms", "#external"].contains(url.scheme)){
+        if(["tel", "sms"].contains(url.scheme) || url.absoluteString.contains("#external")){
             UIApplication.shared.openURL(url)
+            decisionHandler(.cancel);
+        }else if(url.absoluteString.contains("#home")){
+            self.navigationController?.popToRootViewController(animated: false)
             decisionHandler(.cancel);
         }else  if(["share"].contains(url.scheme)){
             

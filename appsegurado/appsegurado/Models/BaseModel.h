@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Conexao.h"
-#define PRODUCTION TRUE
+#define PRODUCTION FALSE
 
 @interface BaseModel : NSObject
 {
@@ -22,6 +22,7 @@
 -(NSString*) getBaseUrl:(NSString*) version;
 -(NSString*) getOnlinePaymentUrl;
 -(NSString*) getFacilAssist;
+-(NSString*) getBrandMarketing;
 
 - (BOOL)validateCPFWithNSString:(NSString *)cpfParam;
 - (BOOL)validarCNPJ:(NSString *)cnpj;
