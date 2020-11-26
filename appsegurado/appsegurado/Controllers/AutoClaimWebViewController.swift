@@ -13,6 +13,7 @@ import WebKit
 class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
     var webView: WKWebView!
     var beans : InsuranceBeans!
+    var cpfLogged : String!
     
     init(){
         super.init(nibName: nil, bundle: nil)
@@ -42,7 +43,9 @@ class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
 //        let token: String! = delegate.getLoggeduser()?.access_token
       
         let item: ItemInsurance =  beans.itens[0] as! ItemInsurance
-        let uri: String = "\( baseModel.getAutoClaimUrl()!)?plate=\(beans.licensePlate ?? "")&document=\(delegate.getCPF()!)&issuingAgency=\(beans.issuingAgency)&itemCode=\(item.code)&brandMarketing=\( baseModel.getBrandMarketing()!)"
+        
+        let cpf = delegate.getCPF()! == "" ? self.cpfLogged! : delegate.getCPF()
+        let uri: String = "\( baseModel.getAutoClaimUrl()!)?plate=\(beans.licensePlate ?? "")&document=\(cpf!)&issuingAgency=\(beans.issuingAgency)&itemCode=\(item.code)&brandMarketing=\( baseModel.getBrandMarketing()!)"
         webView.load(URLRequest(url: URL(string: uri)!))
         
         webView.allowsBackForwardNavigationGestures = false;
@@ -56,6 +59,10 @@ class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
     
    @objc func setInsuranceBeans(_ b: InsuranceBeans) -> Void{
         self.beans = b
+    }
+    
+    @objc func setUserNotLoggendInCPF ( _ cpf : String) -> Void {
+        self.cpfLogged = cpf
     }
     
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {

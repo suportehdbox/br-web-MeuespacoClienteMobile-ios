@@ -152,6 +152,7 @@
             }else{
                 if([Config newClaimEnable]){
                     AutoClaimWebViewController *claim = [[AutoClaimWebViewController alloc] init];
+                    [claim setUserNotLoggendInCPF:[dicClaim objectForKey:@"cpf"]];
                     [claim setInsuranceBeans:beans];
                     self.title = @"";
                     [self.navigationController pushViewController:claim animated:YES];
