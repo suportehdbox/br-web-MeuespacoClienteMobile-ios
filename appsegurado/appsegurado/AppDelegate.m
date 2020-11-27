@@ -11,8 +11,6 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 #import <RMessage/RMessage.h>
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
 #import "DetailNotificationViewController.h"
 #import "ActivationViewController.h"
 
@@ -47,7 +45,7 @@ NSString *const SubscriptionTopic = @"global";
     //Configuring FIR Messaging | Google Messaging
     [FIRMessaging messaging].delegate = self;
     [FIRAnalytics setAnalyticsCollectionEnabled:YES];
-    [Fabric with:@[[Crashlytics class]]];
+    
 
     [[FIRInstanceID instanceID] instanceIDWithHandler:^(FIRInstanceIDResult * _Nullable result,
                                                         NSError * _Nullable error) {
@@ -399,10 +397,10 @@ NSString *const SubscriptionTopic = @"global";
 -(void) setLoggedUser:(UserBeans*)user stayLogged:(BOOL)logged{
     currentUser = user;
 
-    
-    [CrashlyticsKit setUserEmail:currentUser.emailCpf];
-    
 
+    [[FIRCrashlytics crashlytics] setUserID:currentUser.emailCpf];
+    [[FIRCrashlytics crashlytics] log:@"Simple string message"];
+    @[][2];
 
     NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
     
@@ -412,6 +410,7 @@ NSString *const SubscriptionTopic = @"global";
         [defaults setObject:currentUser.authToken forKey:@"authToken"];
     }
     [defaults synchronize];
+    
     
 }
 

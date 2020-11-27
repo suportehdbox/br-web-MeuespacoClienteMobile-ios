@@ -1,29 +1,32 @@
+
+
 def default_pods
-#pod 'Google/CloudMessaging'
-pod 'FBSDKCoreKit'
-pod 'FBSDKLoginKit'
-pod 'FBSDKShareKit'
-pod 'Firebase/Core'
-pod 'Firebase/Auth'
-pod 'Firebase/Messaging'
-pod 'Firebase/Analytics'
-pod 'GoogleSignIn', '4.4.0'
-pod 'UITextView+Placeholder', '~> 1.2'
-pod "VMaskTextField"
-#pod 'Google/Analytics'
-pod "UIImage-ResizeMagick"
-pod 'Fabric'
-pod 'Crashlytics'
-pod "RMessage"
-pod 'FontAwesome'
-pod 'FontAwesome.swift'
-#pod 'MarketingCloudSDK'
+  #pod 'Google/CloudMessaging'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Analytics'
+  pod 'GoogleSignIn', '4.4.0'
+  pod 'UITextView+Placeholder', '~> 1.2'
+  pod "VMaskTextField"
+  #pod 'Google/Analytics'
+  pod "UIImage-ResizeMagick"
+  pod "RMessage"
+  pod 'FontAwesome'
+  pod 'FontAwesome.swift'
+  #pod 'MarketingCloudSDK'
 end
 
 target 'appsegurado' do
+  platform :ios, '9.3'
 	default_pods
 end
 
 target 'AppAliro' do
+  platform :ios, '9.3'
 	default_pods
 end
