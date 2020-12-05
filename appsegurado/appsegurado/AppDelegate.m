@@ -400,7 +400,6 @@ NSString *const SubscriptionTopic = @"global";
 
     [[FIRCrashlytics crashlytics] setUserID:currentUser.emailCpf];
     [[FIRCrashlytics crashlytics] log:@"Simple string message"];
-    @[][2];
 
     NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
     
