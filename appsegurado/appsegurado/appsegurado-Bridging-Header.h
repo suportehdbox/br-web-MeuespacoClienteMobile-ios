@@ -11,3 +11,4 @@
 #import "AppDelegate.h"
 #import "CustomButton.h"
 #import "ClubModel.h"
+#import "InsuranceBeans.h"

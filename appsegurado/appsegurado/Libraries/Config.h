@@ -10,4 +10,5 @@
 
 @interface Config : NSObject
 +(BOOL) isAliroProject;
++(BOOL) newClaimEnable;
 @end

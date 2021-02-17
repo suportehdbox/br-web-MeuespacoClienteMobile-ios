@@ -16,4 +16,10 @@
     }
     return NO;
 }
++(BOOL) newClaimEnable {
+//    if([Config isAliroProject]){
+//        return false;
+//    }
+    return true;
+}
 @end

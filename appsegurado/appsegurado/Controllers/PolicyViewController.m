@@ -15,6 +15,7 @@
 #import "Open24AssistViewController.h"
 #import "AppDelegate.h"
 #import "CustomWebViewController.h"
+#import <appsegurado-Swift.h>
 
 @interface PolicyViewController(){
     PolicyView * view;
@@ -149,7 +150,15 @@
 //                [self performSegueWithIdentifier:@"Open24Assist" sender:beans];
                 [self openNewAsssit:beans];
             }else{
-                [self performSegueWithIdentifier:@"OpenClaim" sender:beans];
+                if([Config newClaimEnable]){
+                    AutoClaimWebViewController *claim = [[AutoClaimWebViewController alloc] init];
+                    [claim setUserNotLoggendInCPF:[dicClaim objectForKey:@"cpf"]];
+                    [claim setInsuranceBeans:beans];
+                    self.title = @"";
+                    [self.navigationController pushViewController:claim animated:YES];
+                }else{
+                    [self performSegueWithIdentifier:@"OpenClaim" sender:beans];
+                }
             }
             
         }else if(documentsPolices){
@@ -268,8 +277,10 @@
      
      }else if([segue.identifier isEqualToString:@"OpenClaim"]){
          InsuranceBeans *beans = (InsuranceBeans*) sender;
-         ClaimViewController *destiny = (ClaimViewController*) segue.destinationViewController;
-         [destiny setInsurance:beans cpf:[dicClaim objectForKey:@"cpf"]];
+         
+             
+             ClaimViewController *destiny = (ClaimViewController*) segue.destinationViewController;
+             [destiny setInsurance:beans cpf:[dicClaim objectForKey:@"cpf"]];
          
      }else if([segue.identifier isEqualToString:@"PolicyDocuments"]){
          InsuranceBeans *beans = (InsuranceBeans*) sender;
