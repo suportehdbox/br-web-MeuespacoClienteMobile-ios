@@ -13,7 +13,7 @@ import WebKit
 class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
     var webView: WKWebView!
     var beans : InsuranceBeans!
-    var cpfLogged : String!
+    var cpfLogged : String = ""
     
     init(){
         super.init(nibName: nil, bundle: nil)
@@ -44,7 +44,7 @@ class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
       
         let item: ItemInsurance =  beans.itens[0] as! ItemInsurance
         
-        let cpf = delegate.getCPF()! == "" ? self.cpfLogged! : delegate.getCPF()
+        let cpf = self.cpfLogged != "" ? self.cpfLogged : delegate.getCPF()
         let uri: String = "\( baseModel.getAutoClaimUrl()!)?plate=\(beans.licensePlate ?? "")&document=\(cpf!)&issuingAgency=\(beans.issuingAgency)&itemCode=\(item.code)&brandMarketing=\( baseModel.getBrandMarketing()!)"
         webView.load(URLRequest(url: URL(string: uri)!))
         
@@ -63,6 +63,22 @@ class AutoClaimWebViewController: BaseViewController, WKNavigationDelegate  {
     
     @objc func setUserNotLoggendInCPF ( _ cpf : String) -> Void {
         self.cpfLogged = cpf
+    }
+    
+    func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+        let alert = UIAlertController(title: "Erro", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Fechar", style: .default, handler: { (UIAlertAction) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+        let alert = UIAlertController(title: "Erro", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Fechar", style: .default, handler: { (UIAlertAction) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
     
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
