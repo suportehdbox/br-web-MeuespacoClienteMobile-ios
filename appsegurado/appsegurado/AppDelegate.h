@@ -11,10 +11,12 @@
 
 
 #import "SmiSdk.h"
+#import "FlutterController.h"
 
 @import Firebase;
 @import UserNotifications;
 @import GoogleSignIn;
+
 //@import FirebaseAuth;
 
 
@@ -52,5 +54,6 @@
 -(NSString*) getCPF;
 -(void) setUsesTouchID:(BOOL)use;
 -(BOOL) usesTouchIDLogin;
+-(FlutterController*) getFlutterController;
 @end
 

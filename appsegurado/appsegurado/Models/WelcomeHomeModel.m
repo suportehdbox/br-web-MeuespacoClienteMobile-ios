@@ -8,6 +8,7 @@
 
 #import "WelcomeHomeModel.h"
 #import "Reachability.h"
+
 @implementation WelcomeHomeModel
 @synthesize delegate;
 
@@ -18,6 +19,31 @@
         
     }
     return self;
+}
+
+-(void) getUpdateRequired{
+    conn = [[Conexao alloc] initWithURL:[NSString stringWithFormat:@"%@Acesso/UpdateRequired",[super getBaseUrl]] contentType:@"application/x-www-form-urlencoded"];
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    [conn addGetParameters:version key:@"AppVersion"];
+    [conn setDelegate:self];
+    [conn setRetornoConexao:@selector(returnUpdateRequired:)];
+    [conn startRequest];
+}
+
+-(void)returnUpdateRequired:(NSData *)responseData{
+    NSLog(@"Response: %@",[[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]);
+    
+    NSError *error;
+    NSDictionary *result = [NSJSONSerialization JSONObjectWithData:responseData
+                                                      options:NSJSONReadingMutableContainers error:&error];
+
+    if(!error){
+        if([result objectForKey:@"updateRequired"] != nil){
+            if(delegate && [delegate respondsToSelector:@selector(returnUpdateRequired:)]){
+                [delegate returnUpdateRequired:[[result objectForKey:@"updateRequired" ] boolValue]];
+            }
+        }
+    }
 }
 
 -(void) getWelcomeBackgroundImage{

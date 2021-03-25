@@ -17,6 +17,8 @@
 		2299BEC424E6CB7800DB83BF /* icon_lgpd_app@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC124E6CB7400DB83BF /* icon_lgpd_app@3x.png */; };
 		2299BEC524E6CB7800DB83BF /* icon_lgpd_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC224E6CB7600DB83BF /* icon_lgpd_app@2x.png */; };
 		2299BEC624E6CB7800DB83BF /* icon_lgpd_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */; };
+		22B840FD260B5E3C00BC443B /* FlutterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B840FC260B5E3C00BC443B /* FlutterController.m */; };
+		22B840FE260B5E3C00BC443B /* FlutterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B840FC260B5E3C00BC443B /* FlutterController.m */; };
 		22DAD9C124D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */; };
 		22DAD9C224D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */; };
 		7F70A953CD3AF30EB3D3910D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
@@ -1302,6 +1304,8 @@
 		2299BEC124E6CB7400DB83BF /* icon_lgpd_app@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@3x.png"; sourceTree = "<group>"; };
 		2299BEC224E6CB7600DB83BF /* icon_lgpd_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@2x.png"; sourceTree = "<group>"; };
 		2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_lgpd_app.png; sourceTree = "<group>"; };
+		22B840FB260B5E3C00BC443B /* FlutterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlutterController.h; path = Controllers/FlutterController.h; sourceTree = "<group>"; };
+		22B840FC260B5E3C00BC443B /* FlutterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlutterController.m; path = Controllers/FlutterController.m; sourceTree = "<group>"; };
 		22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataTreatmentViewController.swift; path = Controllers/DataTreatmentViewController.swift; sourceTree = "<group>"; };
 		2382643EE1F68BBA519582AD /* Pods-AppAliro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppAliro/Pods-AppAliro.debug.xcconfig"; sourceTree = "<group>"; };
 		31AA0288D6EEB8839302A487 /* Pods-AppAliro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppAliro/Pods-AppAliro.release.xcconfig"; sourceTree = "<group>"; };
@@ -3025,6 +3029,8 @@
 				BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */,
 				22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */,
 				22780A34252CBD750058F361 /* AutoClaimWebViewController.swift */,
+				22B840FB260B5E3C00BC443B /* FlutterController.h */,
+				22B840FC260B5E3C00BC443B /* FlutterController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -3591,11 +3597,13 @@
 			buildConfigurationList = C72E20851F87A8E80093C360 /* Build configuration list for PBXNativeTarget "AppAliro" */;
 			buildPhases = (
 				559AE585A9648EE9BBC95BE2 /* [CP] Check Pods Manifest.lock */,
+				41DBE16F95A55103250B9A11 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */,
 				C72E1ECD1F87A8E80093C360 /* Sources */,
 				C72E1F5A1F87A8E80093C360 /* Frameworks */,
 				C72E1F701F87A8E80093C360 /* Resources */,
 				D149EEB969361EF8DBF9840E /* [CP] Copy Pods Resources */,
 				C7136D3D1FDEEAAA0096E46B /* ShellScript */,
+				6AB6D8DC0EF048F84EA82165 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -3611,11 +3619,13 @@
 			buildConfigurationList = C7AC650D1D6B74000003EC64 /* Build configuration list for PBXNativeTarget "appsegurado" */;
 			buildPhases = (
 				13F26F41086221828FEC2A83 /* [CP] Check Pods Manifest.lock */,
+				AC0F1042A919BA4B0ED105D4 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */,
 				C7AC64DC1D6B73FE0003EC64 /* Sources */,
 				C7AC64DD1D6B73FE0003EC64 /* Frameworks */,
 				C7AC64DE1D6B73FE0003EC64 /* Resources */,
 				2FC85FA894DB8CA1477F1A8E /* [CP] Copy Pods Resources */,
 				C7802D891FDAF1D600B2F549 /* ShellScript */,
+				157BFED65D38DE4B19EFF060 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4676,6 +4686,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		157BFED65D38DE4B19EFF060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-frameworks.sh",
+				"${PODS_ROOT}/../../../../ios/br-web-flutter-modules/.ios/Flutter/App.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2FC85FA894DB8CA1477F1A8E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -4704,6 +4734,16 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		41DBE16F95A55103250B9A11 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build liberty_flutter_modules Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../../ios/br-web-flutter-modules/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
 		559AE585A9648EE9BBC95BE2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -4722,6 +4762,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6AB6D8DC0EF048F84EA82165 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-frameworks.sh",
+				"${PODS_ROOT}/../../../../ios/br-web-flutter-modules/.ios/Flutter/App.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0F1042A919BA4B0ED105D4 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build liberty_flutter_modules Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../../ios/br-web-flutter-modules/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
 		C7136D3D1FDEEAAA0096E46B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -4733,7 +4803,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 4184877f238774093b7b09ec5b7572c6d22c7846 7653e01f421ad0377cc4431313b8a007999360c5dadff62f7b31067dd0bf95db\n";
+			shellScript = "
+";
 		};
 		C7802D891FDAF1D600B2F549 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4746,7 +4817,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 4184877f238774093b7b09ec5b7572c6d22c7846 7653e01f421ad0377cc4431313b8a007999360c5dadff62f7b31067dd0bf95db";
+			shellScript = "
+";
 		};
 		D149EEB969361EF8DBF9840E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4917,6 +4989,7 @@
 				C72E1F3C1F87A8E80093C360 /* InsuranceBeans.m in Sources */,
 				BE332D582461E96C004C5CD7 /* NewAccidentView.swift in Sources */,
 				C72E1F3D1F87A8E80093C360 /* PolicyView.m in Sources */,
+				22B840FE260B5E3C00BC443B /* FlutterController.m in Sources */,
 				C72E1F3F1F87A8E80093C360 /* ClubModel.m in Sources */,
 				C72E1F401F87A8E80093C360 /* AgentContactViewCell.m in Sources */,
 				C72E1F411F87A8E80093C360 /* NotificationViewCell.m in Sources */,
@@ -5093,6 +5166,7 @@
 				C75955FF1DB03D8A0081B409 /* InsuranceBeans.m in Sources */,
 				BE332D572461E96C004C5CD7 /* NewAccidentView.swift in Sources */,
 				C75956081DB0431F0081B409 /* PolicyView.m in Sources */,
+				22B840FD260B5E3C00BC443B /* FlutterController.m in Sources */,
 				C706B2EF1DCBC84C004FDA84 /* ClubModel.m in Sources */,
 				C780AA321DAE88A200C13B84 /* AgentContactViewCell.m in Sources */,
 				C7DEBE541DDA2885000F545C /* NotificationViewCell.m in Sources */,
@@ -5201,7 +5275,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5219,7 +5293,7 @@
 					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.2.3;
+				MARKETING_VERSION = 4.2.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5267,7 +5341,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5285,7 +5359,7 @@
 					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.2.3;
+				MARKETING_VERSION = 4.2.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5346,6 +5420,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -5392,6 +5468,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -5418,7 +5496,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
@@ -5439,7 +5518,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.2.4;
+				MARKETING_VERSION = 4.2.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5486,7 +5565,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
@@ -5506,7 +5585,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.2.4;
+				MARKETING_VERSION = 4.2.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

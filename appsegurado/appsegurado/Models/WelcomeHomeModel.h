@@ -10,9 +10,11 @@
 @protocol WelcomeHomeModelDelegate <NSObject>
 
 -(void) updateBackgroundImage:(UIImage*)image;
+-(void) returnUpdateRequired:(BOOL) required;
 @end
 @interface WelcomeHomeModel : BaseModel <ConexaoDelegate>
 @property (nonatomic,weak) id<WelcomeHomeModelDelegate> delegate;
 -(void) getWelcomeBackgroundImage;
+-(void) getUpdateRequired;
 -(UIImage*) loadCachedImage;
 @end

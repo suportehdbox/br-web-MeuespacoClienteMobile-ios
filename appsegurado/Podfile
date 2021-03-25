@@ -1,4 +1,6 @@
 
+flutter_application_path = '/Users/luizotha/Documents/Desenv/ios/br-web-flutter-modules'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 
 def default_pods
   #pod 'Google/CloudMessaging'
@@ -24,9 +26,13 @@ end
 target 'appsegurado' do
   platform :ios, '9.3'
 	default_pods
+  install_all_flutter_pods(flutter_application_path)
 end
 
 target 'AppAliro' do
   platform :ios, '9.3'
 	default_pods
+  install_all_flutter_pods(flutter_application_path)
 end
+
+

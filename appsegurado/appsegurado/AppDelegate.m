@@ -20,13 +20,14 @@
     UserBeans *currentUser;
     DetailNotificationViewController *detail;
     ActivationViewController *activation;
-//    NSString * gcm;
+    FlutterController *flutterController;
+    //    NSString * gcm;
     
 }
-    @property(nonatomic, strong) void (^registrationHandler)(NSString *registrationToken, NSError *error);
-    @property(nonatomic, assign) BOOL connectedToGCM;
-    @property(nonatomic, strong) NSString* registrationToken;
-    @property(nonatomic, assign) BOOL subscribedToTopic;
+@property(nonatomic, strong) void (^registrationHandler)(NSString *registrationToken, NSError *error);
+@property(nonatomic, assign) BOOL connectedToGCM;
+@property(nonatomic, strong) NSString* registrationToken;
+@property(nonatomic, assign) BOOL subscribedToTopic;
 
 @end
 
@@ -37,16 +38,19 @@ NSString *const SubscriptionTopic = @"global";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+#pragma mark Flutter Stuffs
     
     
-
+    flutterController = [[FlutterController alloc] init];
+    
+    
 #pragma mark Analytics
     [FIRApp configure];
     //Configuring FIR Messaging | Google Messaging
     [FIRMessaging messaging].delegate = self;
     [FIRAnalytics setAnalyticsCollectionEnabled:YES];
     
-
+    
     [[FIRInstanceID instanceID] instanceIDWithHandler:^(FIRInstanceIDResult * _Nullable result,
                                                         NSError * _Nullable error) {
         if (error != nil) {
@@ -72,14 +76,14 @@ NSString *const SubscriptionTopic = @"global";
     
     
 #pragma mark Customization
-   CGRect windowRect = [[[[UIApplication sharedApplication] delegate] window] frame];
+    CGRect windowRect = [[[[UIApplication sharedApplication] delegate] window] frame];
     
     if(windowRect.size.height <= 568){
         [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[BaseView getColor:@"Branco"], NSForegroundColorAttributeName, [BaseView getDefatulFont:Small bold:YES], NSFontAttributeName, nil]];
     }else{
         [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[BaseView getColor:@"Branco"], NSForegroundColorAttributeName, [BaseView getDefatulFont:Medium bold:YES], NSFontAttributeName, nil]];
     }
-
+    
     
     [[UINavigationBar appearance] setTranslucent:NO];
     [[UINavigationBar appearance] setBarTintColor:[BaseView getColor:@"NavBarCollor"]];
@@ -87,7 +91,7 @@ NSString *const SubscriptionTopic = @"global";
     // Navigation bar buttons appearance
     [[UIBarButtonItem appearance] setTintColor:[BaseView getColor:@"Branco"]];
     [[UIBarButtonItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[BaseView getColor:@"Branco"], NSForegroundColorAttributeName, [BaseView getDefatulFont:Medium bold:YES], NSFontAttributeName, nil] forState:UIControlStateNormal];
-        
+    
     
 #pragma mark Facebook SDK
     [[FBSDKApplicationDelegate sharedInstance] application:application
@@ -97,39 +101,43 @@ NSString *const SubscriptionTopic = @"global";
     
     
 #pragma mark Notifications
- 
     
-        dispatch_async(dispatch_get_main_queue(), ^{
-            if (@available(iOS 10, *)) {
-                // set the UNUserNotificationCenter delegate - the delegate must be set here in didFinishLaunchingWithOptions
-                [UNUserNotificationCenter currentNotificationCenter].delegate = self;
-                
-                [[UNUserNotificationCenter currentNotificationCenter] requestAuthorizationWithOptions:UNAuthorizationOptionAlert | UNAuthorizationOptionSound | UNAuthorizationOptionBadge
-                                                                                    completionHandler:^(BOOL granted, NSError * _Nullable error) {
-                                                                                        if (error == nil) {
-                                                                                            if (granted == YES) {
-                                                                                                dispatch_async(dispatch_get_main_queue(), ^{
-                                                                                                    [[UIApplication sharedApplication] registerForRemoteNotifications];
-                                                                                                });
-                                                                                            }
-                                                                                        }
-                                                                                    }];
-            } else {
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if (@available(iOS 10, *)) {
+            // set the UNUserNotificationCenter delegate - the delegate must be set here in didFinishLaunchingWithOptions
+            [UNUserNotificationCenter currentNotificationCenter].delegate = self;
+            
+            [[UNUserNotificationCenter currentNotificationCenter] requestAuthorizationWithOptions:UNAuthorizationOptionAlert | UNAuthorizationOptionSound | UNAuthorizationOptionBadge
+                                                                                completionHandler:^(BOOL granted, NSError * _Nullable error) {
+                if (error == nil) {
+                    if (granted == YES) {
+                        dispatch_async(dispatch_get_main_queue(), ^{
+                            [[UIApplication sharedApplication] registerForRemoteNotifications];
+                        });
+                    }
+                }
+            }];
+        } else {
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < 100000
-                UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:
-                                                        UIUserNotificationTypeBadge |
-                                                        UIUserNotificationTypeSound |
-                                                        UIUserNotificationTypeAlert
-                                                                                         categories:nil];
-                [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+            UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:
+                                                    UIUserNotificationTypeBadge |
+                                                    UIUserNotificationTypeSound |
+                                                    UIUserNotificationTypeAlert
+                                                                                     categories:nil];
+            [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
 #endif
-                [[UIApplication sharedApplication] registerForRemoteNotifications];
-            }
-        });
-
+            [[UIApplication sharedApplication] registerForRemoteNotifications];
+        }
+    });
+    
     
 
     return YES;
+}
+
+-(FlutterController*) getFlutterController {
+    return flutterController;
 }
 
 -(BOOL)application:(UIApplication *)application continueUserActivity:(nonnull NSUserActivity *)userActivity restorationHandler:(nonnull void (^)(NSArray * _Nullable))restorationHandler
@@ -160,7 +168,7 @@ NSString *const SubscriptionTopic = @"global";
     
     NSLog(@"receivedStateChage, sdState: %ld", (long)sr.sdState);
     NSString *sdStateStr = @"";
-
+    
     if(sr.sdState == SD_AVAILABLE) {
         if(currentSr == nil || currentSr.sdState != sr.sdState){
             if(shouldShowRMessage){
@@ -181,11 +189,11 @@ NSString *const SubscriptionTopic = @"global";
     }
     
     currentSr = sr;
-
+    
     
     [FIRAnalytics logEventWithName:@"SD_STATUS_CHANGE" parameters:@{
-                                                                    kFIRParameterValue: sdStateStr
-                                                                    }];
+        kFIRParameterValue: sdStateStr
+    }];
     
 }
 
@@ -194,7 +202,7 @@ NSString *const SubscriptionTopic = @"global";
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     
-  
+    
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
@@ -225,13 +233,13 @@ NSString *const SubscriptionTopic = @"global";
         return [[GIDSignIn sharedInstance] handleURL:url
                                    sourceApplication:sourceApplication                                     annotation:annotation];
     }
-
+    
     
     return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                                                  openURL:url
-                                                        sourceApplication:sourceApplication
-                                                               annotation:annotation
-                    ];
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation
+            ];
 }
 
 //- (BOOL)application:(nonnull UIApplication *)application
@@ -259,19 +267,19 @@ NSString *const SubscriptionTopic = @"global";
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     [FIRMessaging messaging].APNSToken = deviceToken;
-
+    
 }
 
 
 -(void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(nonnull NSError *)error{
     NSLog(@"Error %@",error.description);
     
-
+    
 }
 
 // The method will be called on the delegate when the user responded to the notification by opening the application, dismissing the notification or choosing a UNNotificationAction. The delegate must be set before the application returns from applicationDidFinishLaunching:.
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)(void))completionHandler {
-
+    
     
     if (completionHandler != nil) {
         completionHandler();
@@ -304,15 +312,15 @@ NSString *const SubscriptionTopic = @"global";
                                        duration:5.0f
                                        callback:nil
                                     buttonTitle:@"Abrir" buttonCallback:^{
-                                        [[NSOperationQueue mainQueue] addOperationWithBlock:^ {
-                                            [RMessage dismissActiveNotification];
-                                            
-                                            detail  = [[DetailNotificationViewController alloc] initWithText:body];
-                                            [current_controller.navigationController pushViewController:detail animated:YES];
-                                            
-                                        }];
-                                        
-                                    } atPosition:RMessagePositionNavBarOverlay canBeDismissedByUser:YES];
+                [[NSOperationQueue mainQueue] addOperationWithBlock:^ {
+                    [RMessage dismissActiveNotification];
+                    
+                    detail  = [[DetailNotificationViewController alloc] initWithText:body];
+                    [current_controller.navigationController pushViewController:detail animated:YES];
+                    
+                }];
+                
+            } atPosition:RMessagePositionNavBarOverlay canBeDismissedByUser:YES];
             
         }
         
@@ -364,7 +372,7 @@ NSString *const SubscriptionTopic = @"global";
 }
 
 -(void)messaging:(FIRMessaging *)messaging didReceiveMessage:(FIRMessagingRemoteMessage *)remoteMessage{
-//    [ setApplicationIconBadgeNumber:[application applicationIconBadgeNumber] + 1];
+    //    [ setApplicationIconBadgeNumber:[application applicationIconBadgeNumber] + 1];
     NSLog(@"Received %@", remoteMessage.description);
 }
 
@@ -396,11 +404,11 @@ NSString *const SubscriptionTopic = @"global";
 
 -(void) setLoggedUser:(UserBeans*)user stayLogged:(BOOL)logged{
     currentUser = user;
-
-
+    
+    
     [[FIRCrashlytics crashlytics] setUserID:currentUser.emailCpf];
     [[FIRCrashlytics crashlytics] log:@"Simple string message"];
-
+    
     NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
     
     [defaults setObject:currentUser.cpfCnpj forKey:@"cpf"];
@@ -417,7 +425,7 @@ NSString *const SubscriptionTopic = @"global";
     NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
     [defaults setObject:email forKey:@"emailUser"];
     [defaults synchronize];
-
+    
 }
 
 -(NSString*) getEmailUser{
@@ -435,7 +443,7 @@ NSString *const SubscriptionTopic = @"global";
     [defaults setObject:@"" forKey:@"cpf"];
     [defaults setBool:FALSE forKey:@"useTouchID"];
     [defaults synchronize];
-
+    
 }
 
 -(NSString*) getAuthToken{
@@ -464,7 +472,7 @@ NSString *const SubscriptionTopic = @"global";
     NSUserDefaults *defaults = [[NSUserDefaults alloc] init];
     BOOL use = [defaults boolForKey:@"useTouchID"];
     return use;
-
+    
 }
 
 
