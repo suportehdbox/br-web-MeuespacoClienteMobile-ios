@@ -158,7 +158,7 @@
 }
 
 -(BOOL) isValidPassword:(NSString*)password{
-    NSString *regex1 = @"^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d$@$!%*#?\\-\\.+\\/\\\\\\(\\)\\_]{6,}$";
+    NSString *regex1 = @"^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d$@$!%*#?\\-\\.+\\/\\\\\\(\\)\\_]{8,}$";
     NSPredicate *test1 = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex1];
     return [test1 evaluateWithObject:password];
 }

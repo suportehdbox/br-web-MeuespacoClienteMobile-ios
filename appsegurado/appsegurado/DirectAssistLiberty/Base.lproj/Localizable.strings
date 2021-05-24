@@ -124,7 +124,7 @@
 "SenhaVaziaConfirmacao" = "Preencha sua senha (Confirmação)";
 "CPFInvalido" = "CPF/CNPJ inválido";
 "EmailInvalido" = "E-mail inválido";
-"SenhaInvalida" = "Sua senha deve conter no mínimo 6 (seis) caracteres entre letras e números";
+"SenhaInvalida" = "Sua senha deve conter no mínimo 8 (oito) caracteres entre letras e números";
 "TituloLogin" = "Liberty Seguros";
 "ErrorTitle" = "Erro!";
 "LoginTouchID" = "Acessar usando minha digital";
@@ -147,7 +147,7 @@
 "ConfirmeSenha" = "Confirme a senha";
 "Apolice" = "Apólice";
 "InstrucoesPassword" = "Atenção!";
-"InstrucoesPassword2" = " Sua senha deve conter no mínimo 6 (seis) caracteres entre letras e números. Não é permitido utilizar seu nome, sobrenome ou \"&\".";
+"InstrucoesPassword2" = " Sua senha deve conter no mínimo 8 (oito) caracteres entre letras e números. Não é permitido utilizar seu nome, sobrenome ou \"&\".";
 "TermosCondições" = "Concordo com os ";
 "TermosCondições2" = "termos, codições e privacidade, e conheço os tratamentos dos meus dados pessoais.";
 "Registrar" = "AVANÇAR";
