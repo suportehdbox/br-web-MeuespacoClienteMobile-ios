@@ -23,6 +23,7 @@
 @property(nonatomic,strong) NSString *photo;
 @property(nonatomic,strong) UIImage *photoImg;
 @property(nonatomic) BOOL hasFacebook;
+@property(nonatomic) BOOL isForceResetPassword;
 @property(nonatomic) BOOL hasGooglePlus;
 @property (nonatomic,strong) InsuranceBeans *insuranceHome __deprecated_msg("Use policyBeans");
 @property (nonatomic,strong) PolicyBeans *policyHome;

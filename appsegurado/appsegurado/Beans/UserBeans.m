@@ -9,7 +9,7 @@
 #import "UserBeans.h"
 
 @implementation UserBeans
-@synthesize access_token,token_type,expires,expires_in,userName,authToken,issued,emailCpf,cpfCnpj, photo, photoImg, insuranceHome, policyHome, hasFacebook,hasGooglePlus;
+@synthesize access_token,token_type,expires,expires_in,userName,authToken,issued,emailCpf,cpfCnpj, photo, photoImg, insuranceHome, policyHome, hasFacebook,hasGooglePlus, isForceResetPassword;
 - (id)initWithDictionary:(NSDictionary*)dic
 {
     self = [super init];
@@ -24,6 +24,12 @@
         cpfCnpj = [dic objectForKey:@"CpfCnpj"];
         emailCpf = [dic objectForKey:@"Email"];
         photo = [dic objectForKey:@"Photo"];
+        
+        if([dic objectForKey:@"isForceResetPassword"] != [NSNull null] && [dic objectForKey:@"isForceResetPassword"] != nil){
+            isForceResetPassword = [[dic objectForKey:@"isForceResetPassword"] boolValue];
+        }else{
+            isForceResetPassword = false;
+        }
         if([dic objectForKey:@"hasFacebook"] != [NSNull null] && [dic objectForKey:@"hasFacebook"] != nil){
             hasFacebook = [[dic objectForKey:@"hasFacebook"] boolValue];
         }else{

@@ -160,4 +160,10 @@
     return [UIImage imageWithContentsOfFile:imagePath];
 }
 
+-(void)retornaErroConexao:(NSDictionary *)dictUserInfo response:(NSURLResponse *)response error:(NSError *)error{
+    
+    NSLog(@"Retorno erro conexão %@, %@", response , error);
+    
+}
+
 @end

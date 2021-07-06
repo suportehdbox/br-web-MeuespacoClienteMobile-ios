@@ -19,6 +19,9 @@
 		2299BEC624E6CB7800DB83BF /* icon_lgpd_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */; };
 		22B840FD260B5E3C00BC443B /* FlutterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B840FC260B5E3C00BC443B /* FlutterController.m */; };
 		22B840FE260B5E3C00BC443B /* FlutterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B840FC260B5E3C00BC443B /* FlutterController.m */; };
+		22BCD27F268B8CED00C0A037 /* ForgotPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E73C201D9D62EF00514791 /* ForgotPasswordView.m */; };
+		22BCD285268EBC1400C0A037 /* PopUpForceResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BCD284268EBC1400C0A037 /* PopUpForceResetPassword.swift */; };
+		22BCD286268EBC1500C0A037 /* PopUpForceResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BCD284268EBC1400C0A037 /* PopUpForceResetPassword.swift */; };
 		22DAD9C124D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */; };
 		22DAD9C224D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */; };
 		7F70A953CD3AF30EB3D3910D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
@@ -1192,7 +1195,6 @@
 		C7E0EDC71DA6E92A00630044 /* UserProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E0EDC61DA6E92A00630044 /* UserProfileView.m */; };
 		C7E3246E20D4026700A544AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7E3246D20D4026600A544AB /* GoogleService-Info.plist */; };
 		C7E3247020D4028C00A544AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7E3246F20D4028C00A544AB /* GoogleService-Info.plist */; };
-		C7E73C211D9D62EF00514791 /* ForgotPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E73C201D9D62EF00514791 /* ForgotPasswordView.m */; };
 		C7E73C241D9D8E6400514791 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E73C231D9D8E6400514791 /* ForgotPasswordViewController.m */; };
 		C7E73C271D9DB0B800514791 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E73C261D9DB0B800514791 /* RegisterView.m */; };
 		C7E73C2A1D9DBB5200514791 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E73C291D9DBB5200514791 /* RegisterViewController.m */; };
@@ -1306,6 +1308,7 @@
 		2299BEC324E6CB7700DB83BF /* icon_lgpd_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_lgpd_app.png; sourceTree = "<group>"; };
 		22B840FB260B5E3C00BC443B /* FlutterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlutterController.h; path = Controllers/FlutterController.h; sourceTree = "<group>"; };
 		22B840FC260B5E3C00BC443B /* FlutterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlutterController.m; path = Controllers/FlutterController.m; sourceTree = "<group>"; };
+		22BCD284268EBC1400C0A037 /* PopUpForceResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpForceResetPassword.swift; sourceTree = "<group>"; };
 		22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataTreatmentViewController.swift; path = Controllers/DataTreatmentViewController.swift; sourceTree = "<group>"; };
 		2382643EE1F68BBA519582AD /* Pods-AppAliro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppAliro/Pods-AppAliro.debug.xcconfig"; sourceTree = "<group>"; };
 		31AA0288D6EEB8839302A487 /* Pods-AppAliro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppAliro/Pods-AppAliro.release.xcconfig"; sourceTree = "<group>"; };
@@ -2242,7 +2245,7 @@
 		C7E0EDC61DA6E92A00630044 /* UserProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileView.m; path = Views/UserProfileView.m; sourceTree = "<group>"; };
 		C7E3246D20D4026600A544AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Aliro/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C7E3246F20D4028C00A544AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C7E73C1F1D9D62EF00514791 /* ForgotPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordView.h; path = Views/ForgotPasswordView.h; sourceTree = "<group>"; };
+		C7E73C1F1D9D62EF00514791 /* ForgotPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordView.h; path = Views/ForgotPasswordView.h; sourceTree = "<group>"; wrapsLines = 1; };
 		C7E73C201D9D62EF00514791 /* ForgotPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPasswordView.m; path = Views/ForgotPasswordView.m; sourceTree = "<group>"; };
 		C7E73C221D9D8E6400514791 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPasswordViewController.h; path = Controllers/ForgotPasswordViewController.h; sourceTree = "<group>"; };
 		C7E73C231D9D8E6400514791 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPasswordViewController.m; path = Controllers/ForgotPasswordViewController.m; sourceTree = "<group>"; };
@@ -3031,6 +3034,7 @@
 				22780A34252CBD750058F361 /* AutoClaimWebViewController.swift */,
 				22B840FB260B5E3C00BC443B /* FlutterController.h */,
 				22B840FC260B5E3C00BC443B /* FlutterController.m */,
+				22BCD284268EBC1400C0A037 /* PopUpForceResetPassword.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -4888,6 +4892,7 @@
 				BE17F3CD22A6B461000943C0 /* Vision360Model.m in Sources */,
 				C72E1EE51F87A8E80093C360 /* HomeViewController.m in Sources */,
 				C7182427204495A90064B778 /* ChangePhoneView.m in Sources */,
+				22BCD286268EBC1500C0A037 /* PopUpForceResetPassword.swift in Sources */,
 				C72E1EE61F87A8E80093C360 /* LoginViewController.m in Sources */,
 				C72E1EE71F87A8E80093C360 /* ClaimViewController.m in Sources */,
 				C739B4681F8BD25D00A0A5A9 /* PreviewViewController.m in Sources */,
@@ -5032,7 +5037,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E73C211D9D62EF00514791 /* ForgotPasswordView.m in Sources */,
 				C7DEBE511DDA23F6000F545C /* NotificationView.m in Sources */,
 				C780AA2C1DAE78A000C13B84 /* ContactViewController.m in Sources */,
 				C798411D1D6C93DB0071D6CB /* CustomButton.m in Sources */,
@@ -5066,6 +5070,7 @@
 				BE17F3CC22A6B461000943C0 /* Vision360Model.m in Sources */,
 				C79E1AA91DA5A77C00C5F335 /* HomeViewController.m in Sources */,
 				C7182426204495A90064B778 /* ChangePhoneView.m in Sources */,
+				22BCD285268EBC1400C0A037 /* PopUpForceResetPassword.swift in Sources */,
 				C70C4D1E1D996CF300E453D9 /* LoginViewController.m in Sources */,
 				C776BF981DDB3AD500FCF010 /* ClaimViewController.m in Sources */,
 				C710F3021EAE798E00B3CDA4 /* CoverageCell.m in Sources */,
@@ -5133,6 +5138,7 @@
 				C710F2FC1EAE6A0B00B3CDA4 /* CoveragesViewController.m in Sources */,
 				C79841171D6C870A0071D6CB /* BaseView.m in Sources */,
 				C7C00A6D1DC1134E008A2A51 /* ParcelsViewCell.m in Sources */,
+				22BCD27F268B8CED00C0A037 /* ForgotPasswordView.m in Sources */,
 				C740A2031DA43DFA00958B3C /* RegisterModel.m in Sources */,
 				C776BFA11DDB3BF000FCF010 /* ClaimStep3View.m in Sources */,
 				C7A60F961F18354A003B2DF0 /* IOHelper.m in Sources */,
@@ -5293,7 +5299,7 @@
 					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.3.0;
+				MARKETING_VERSION = 4.3.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5359,7 +5365,7 @@
 					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.3.0;
+				MARKETING_VERSION = 4.3.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5518,7 +5524,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.3.0;
+				MARKETING_VERSION = 4.3.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -5585,7 +5591,7 @@
 					"$(PROJECT_DIR)/",
 					"$(PROJECT_DIR)/appsegurado",
 				);
-				MARKETING_VERSION = 4.3.0;
+				MARKETING_VERSION = 4.3.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

@@ -33,7 +33,7 @@
 "LblCustomText" = "#898989";
 "Amarelo" = "#0bb49d";
 "CinzaTexto" = "#343741";
-
+"AzulClaroTexto" = "#77E0E1";
 
 "LogarDepois" = "Logar Depois";
 "TracarRota" = "TRAÇAR ROTA";
@@ -176,6 +176,12 @@
 "TratamentoDados" = "Tratamento de Dados";
 "Sair" = "Sair";
 "MeusDadosTitulo" = "Meus dados";
+
+//Senha Expirada
+"TitleAvisoSenhaExpiradaForcada" = "SUA SENHA FOI EXPIRADA!";
+"TextoAvisoSenhaExpiradaForcada" = "Atenção, sua senha foi expirada por conta de uma nova política de segurança da Liberty.\nApós clicar no botão abaixo, você será redirecionado para cadastrar a sua nova senha.\nCadastre o quanto antes para ter acesso ao APP da Liberty.";
+"BtnAvisoSenhaExpiradaForcada" = "OK, ENTENDI";
+
 
 //Troca Senha
 

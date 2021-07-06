@@ -28,6 +28,7 @@
     ExtractViewController *extractViewController;
     HomeAssistWebViewController *wvc;
     BOOL isOpenPayments;
+    PopUpForceResetPassawordViewController *custom;
 }
 
 @end
@@ -82,6 +83,20 @@
     self.title = NSLocalizedString(@"TituloHomeDeslogada", @"");
     [view loadViewAfterAppeared];
     
+    AppDelegate *appDelegate = (AppDelegate*) [[UIApplication sharedApplication] delegate];
+    if ([[appDelegate getLoggeduser] isForceResetPassword]){
+        
+        custom = [[PopUpForceResetPassawordViewController alloc] initWithTitle:NSLocalizedString(@"TitleAvisoSenhaExpiradaForcada", @"") text:NSLocalizedString(@"TextoAvisoSenhaExpiradaForcada", @"") btTitle:NSLocalizedString(@"BtnAvisoSenhaExpiradaForcada", @"")];
+        [custom addButtonActionWithTarget:self action:@selector(closePopUp) pfor:UIControlEventTouchUpInside];
+        [self presentViewController:custom animated:YES completion:nil];
+        
+    }
+    
+}
+
+-(void) closePopUp{
+    [custom dismissViewControllerAnimated:YES completion:nil];
+    [self performSegueWithIdentifier:@"goToChangePwd" sender:nil];
 }
 
 -(void) viewWillDisappear:(BOOL)animated{

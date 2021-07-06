@@ -40,6 +40,8 @@
     
     if([responseData length] == 0){
         if(delegate && [delegate respondsToSelector:@selector(passwordChangedSuccessfully)]){
+            AppDelegate *appDelegate = (AppDelegate*) [[UIApplication sharedApplication] delegate];
+            [[appDelegate getLoggeduser] setIsForceResetPassword: false];
             [delegate passwordChangedSuccessfully];
         }
     }else{
