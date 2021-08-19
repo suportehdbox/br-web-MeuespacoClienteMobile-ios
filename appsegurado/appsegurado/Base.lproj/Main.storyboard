@@ -12957,12 +12957,12 @@
                                 <exclude reference="CYt-xS-uiL"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="i0A-uN-esi"/>
                                 <exclude reference="BD6-3a-SY2"/>
                                 <exclude reference="jxN-b6-dfX"/>
                                 <exclude reference="1Wm-gU-B5y"/>
                                 <exclude reference="muZ-Da-cPP"/>
                                 <exclude reference="vQc-s7-hNJ"/>
+                                <exclude reference="i0A-uN-esi"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -12970,12 +12970,12 @@
                                 <include reference="CYt-xS-uiL"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="i0A-uN-esi"/>
                                 <include reference="BD6-3a-SY2"/>
                                 <include reference="jxN-b6-dfX"/>
                                 <include reference="1Wm-gU-B5y"/>
                                 <include reference="muZ-Da-cPP"/>
                                 <include reference="vQc-s7-hNJ"/>
+                                <include reference="i0A-uN-esi"/>
                             </mask>
                         </variation>
                         <connections>
@@ -18405,7 +18405,7 @@
         <segue reference="T1h-DU-Tro"/>
         <segue reference="d20-Vq-uK5"/>
         <segue reference="4du-Ak-ak7"/>
-        <segue reference="wb2-xm-mbr"/>
+        <segue reference="5Yc-1g-o94"/>
         <segue reference="ZEX-0V-2ou"/>
         <segue reference="2Ry-A8-uB5"/>
         <segue reference="swM-cP-BOW"/>

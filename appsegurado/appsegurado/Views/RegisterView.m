@@ -391,7 +391,7 @@
             
         }
         
-        int limit = 9;
+        int limit = 14;
         return !([textField.text length]>limit && [string length] > range.length);
     }else if(textField == _txtCpf){
         int limit = 13;

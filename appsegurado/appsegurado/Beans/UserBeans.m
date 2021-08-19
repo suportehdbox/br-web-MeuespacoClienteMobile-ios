@@ -25,8 +25,8 @@
         emailCpf = [dic objectForKey:@"Email"];
         photo = [dic objectForKey:@"Photo"];
         
-        if([dic objectForKey:@"isForceResetPassword"] != [NSNull null] && [dic objectForKey:@"isForceResetPassword"] != nil){
-            isForceResetPassword = [[dic objectForKey:@"isForceResetPassword"] boolValue];
+        if([dic objectForKey:@"forceResetPassword"] != [NSNull null] && [dic objectForKey:@"forceResetPassword"] != nil){
+            isForceResetPassword = [[dic objectForKey:@"forceResetPassword"] boolValue];
         }else{
             isForceResetPassword = false;
         }
