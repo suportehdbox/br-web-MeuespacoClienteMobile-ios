@@ -13,9 +13,12 @@
 
 @interface DigitableLineViewController : BaseViewController <PaymentModelDelegate>
 
-- (id)initPaymentBeans:(PaymentBeans*)beans contract:(long) contract issuance:(int) issuance ciaCode:(int)ciaCode
-            ClientCode:(long) clientCode;
--(void) setPaymentBeans:(PaymentBeans*)beans;
+- (id) initPaymentBeans: (PaymentBeans *)beans
+    contract: (long)contract
+    issuance: (int)issuance
+    ciaCode: (int)ciaCode
+    ClientCode: (long)clientCode;
+- (void) setPaymentBeans: (PaymentBeans *)beans;
 
 
 @end

@@ -78,7 +78,7 @@
 
 -(NSString*) getGlassAssistUrl{
     if([Config isAliroProject]){
-        return @"https://www.abraseuatendimento.com.br/#/aliro";
+        return @"https://www.pilkington.com/pt-br/br/lojas-pilkington/area-do-segurado";
     }else{
         
         return @"https://www.abraseuatendimento.com.br/#/liberty";

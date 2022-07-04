@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ip4-1G-xlY">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome Home View Controller-->
+        <scene sceneID="B7a-4G-oqn">
+            <objects>
+                <viewController id="Ip4-1G-xlY" customClass="WelcomeHomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qEZ-3q-7xN"/>
+                        <viewControllerLayoutGuide type="bottom" id="SxN-tB-bYC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qQH-Kd-3bs" customClass="WelcomeHomeView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="bg_home.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q0G-5h-lLW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="860"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1f-Qq-Qyd" customClass="CustomButton">
+                                <rect key="frame" x="20" y="49" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="WPm-b4-RGs">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="150"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="30" id="mGp-5Y-YFp"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="25" left="25" bottom="25" right="25"/>
+                                <state key="normal" title="Logar Depois"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderRound">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="WPm-b4-RGs"/>
+                                        <exclude reference="mGp-5Y-YFp"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="WPm-b4-RGs"/>
+                                        <include reference="mGp-5Y-YFp"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="btDoLoginLater:" destination="Ip4-1G-xlY" eventType="touchUpInside" id="YGy-lR-bXq"/>
+                                    <action selector="btOpenWithoutLogin:" destination="qQH-Kd-3bs" eventType="touchUpInside" id="3UB-Ox-J7r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1X-TM-3wj" customClass="CustomButton">
+                                <rect key="frame" x="364" y="49" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="BMd-ma-5FC">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="30" id="kzr-PZ-eHB"/>
+                                </constraints>
+                                <state key="normal" image="contact_button.png"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BMd-ma-5FC"/>
+                                        <exclude reference="kzr-PZ-eHB"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="BMd-ma-5FC"/>
+                                        <include reference="kzr-PZ-eHB"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="btGotoContact:" destination="Ip4-1G-xlY" eventType="touchUpInside" id="QOK-Se-tzH"/>
+                                    <action selector="btOpenContacts:" destination="qQH-Kd-3bs" eventType="touchUpInside" id="wF2-MR-PW4"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="BlX-fq-Tb1">
+                                <rect key="frame" x="47" y="642.66666666666663" width="320" height="155.33333333333337"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ax8-qF-bEf" customClass="CustomButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="33"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="LOGIN"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.19215686269999999" green="0.2470588235" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderRound">
+                                                <real key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                <color key="value" red="0.2274509804" green="0.46666666670000001" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="rTY-T2-pvz" kind="show" identifier="goLogin" id="abM-gW-5Aj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50c-rJ-j4L" customClass="CustomButton">
+                                        <rect key="frame" x="0.0" y="48" width="320" height="34"/>
+                                        <state key="normal" title="FAÇA SEU CADASTRO">
+                                            <color key="titleColor" red="0.28612047429999998" green="0.4618014097" blue="0.67061430219999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderRound">
+                                                <real key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.2274509804" green="0.46666666670000001" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="U0t-oL-S9X" kind="show" id="hPV-yT-wUq"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ces-KQ-Kwf">
+                                        <rect key="frame" x="0.0" y="97" width="320" height="58.333333333333343"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="Precisa de ajuda?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OvV-fl-tfz">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYO-Yw-d02" userLabel="Bt Atendimento" customClass="CustomButton">
+                                                <rect key="frame" x="0.0" y="25.333333333333371" width="320" height="33"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                                <state key="normal" title="FALE CONOSCO POR WHATSAPP"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.19215686269999999" green="0.2470588235" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderRound">
+                                                        <real key="value" value="7"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                        <color key="value" red="0.2274509804" green="0.46666666670000001" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="openWhatsApp" destination="qQH-Kd-3bs" eventType="primaryActionTriggered" id="1d4-Bs-Hjf"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="WK7-Gb-LgK"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Q0G-5h-lLW" firstAttribute="top" secondItem="qQH-Kd-3bs" secondAttribute="top" id="1j9-DU-LPY"/>
+                            <constraint firstItem="SxN-tB-bYC" firstAttribute="top" secondItem="Q0G-5h-lLW" secondAttribute="bottomMargin" constant="10" id="2yt-g2-ly6"/>
+                            <constraint firstItem="D1X-TM-3wj" firstAttribute="top" secondItem="qEZ-3q-7xN" secondAttribute="bottom" constant="5" id="AHS-Un-gMU"/>
+                            <constraint firstItem="h1f-Qq-Qyd" firstAttribute="top" secondItem="qEZ-3q-7xN" secondAttribute="bottom" constant="5" id="BQL-lv-yOv"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="BlX-fq-Tb1" secondAttribute="bottom" multiplier="1.08" priority="255" id="LRB-nI-fbw"/>
+                            <constraint firstAttribute="trailing" secondItem="Q0G-5h-lLW" secondAttribute="trailing" id="QwV-oM-dza"/>
+                            <constraint firstItem="D1X-TM-3wj" firstAttribute="trailing" secondItem="qQH-Kd-3bs" secondAttribute="trailingMargin" id="Vee-zI-fnE">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="BlX-fq-Tb1" firstAttribute="centerX" secondItem="qQH-Kd-3bs" secondAttribute="centerX" id="YBU-Bm-THj"/>
+                            <constraint firstItem="Q0G-5h-lLW" firstAttribute="leading" secondItem="qQH-Kd-3bs" secondAttribute="leading" id="hec-VT-z8x"/>
+                            <constraint firstItem="h1f-Qq-Qyd" firstAttribute="leading" secondItem="qQH-Kd-3bs" secondAttribute="leadingMargin" id="t3D-AA-vKO"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Q0G-5h-lLW"/>
+                                <exclude reference="h1f-Qq-Qyd"/>
+                                <exclude reference="D1X-TM-3wj"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="BQL-lv-yOv"/>
+                                <exclude reference="t3D-AA-vKO"/>
+                                <exclude reference="2yt-g2-ly6"/>
+                                <exclude reference="AHS-Un-gMU"/>
+                                <exclude reference="Vee-zI-fnE"/>
+                                <exclude reference="1j9-DU-LPY"/>
+                                <exclude reference="QwV-oM-dza"/>
+                                <exclude reference="hec-VT-z8x"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Q0G-5h-lLW"/>
+                                <include reference="h1f-Qq-Qyd"/>
+                                <include reference="D1X-TM-3wj"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="BQL-lv-yOv"/>
+                                <include reference="t3D-AA-vKO"/>
+                                <include reference="2yt-g2-ly6"/>
+                                <include reference="AHS-Un-gMU"/>
+                                <include reference="Vee-zI-fnE"/>
+                                <include reference="1j9-DU-LPY"/>
+                                <include reference="QwV-oM-dza"/>
+                                <include reference="hec-VT-z8x"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outlet property="backgroundImage" destination="Q0G-5h-lLW" id="6Ro-yj-duM"/>
+                            <outlet property="btContato" destination="wYO-Yw-d02" id="8p2-sp-aZO"/>
+                            <outlet property="btLogin" destination="Ax8-qF-bEf" id="j0M-cU-y1g"/>
+                            <outlet property="btLoginLater" destination="h1f-Qq-Qyd" id="dnL-O0-Hib"/>
+                            <outlet property="btPhone" destination="D1X-TM-3wj" id="UTk-Ii-yrx"/>
+                            <outlet property="btRegister" destination="50c-rJ-j4L" id="KD5-Ua-E9u"/>
+                            <outlet property="lbContato" destination="OvV-fl-tfz" id="OzG-Zu-wDc"/>
+                        </connections>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="QYG-O4-URd"/>
+                    <connections>
+                        <segue destination="FDN-xA-4hE" kind="presentation" identifier="OpenWithouLogin" modalPresentationStyle="fullScreen" id="plc-ST-wln"/>
+                        <segue destination="Qn1-MB-kP4" kind="show" identifier="ShowContact" id="fjh-37-qxS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hQG-ej-9Z7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1052" y="195.6521739130435"/>
+        </scene>
+        <!--UIViewController-Sd6-X3-Ze0-->
+        <scene sceneID="VDe-kg-t0b">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UIViewController-Sd6-X3-Ze0" id="FDN-xA-4hE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dGb-Ya-4FZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1345" y="630"/>
+        </scene>
+        <!--ContactScreen-->
+        <scene sceneID="Dce-s3-cg2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ContactScreen" storyboardName="Main" referencedIdentifier="ContactScreen" id="Qn1-MB-kP4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Jp-M8-Bt4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-840" y="630"/>
+        </scene>
+        <!--UIViewController-ZD8-nm-xRm-->
+        <scene sceneID="q9S-sa-Ocn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UIViewController-ZD8-nm-xRm" id="rTY-T2-pvz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubt-Iu-YBR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-288" y="115"/>
+        </scene>
+        <!--RegisterViewController-->
+        <scene sceneID="QAC-ex-Wh7">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="RegisterViewController" storyboardName="Main" referencedIdentifier="RegisterViewController" id="U0t-oL-S9X" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TPI-Hr-J0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-323" y="277"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="50c-rJ-j4L">
+            <size key="intrinsicContentSize" width="182" height="34"/>
+        </designable>
+        <designable name="Ax8-qF-bEf">
+            <size key="intrinsicContentSize" width="56" height="33"/>
+        </designable>
+        <designable name="D1X-TM-3wj">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+        <designable name="h1f-Qq-Qyd">
+            <size key="intrinsicContentSize" width="107" height="34"/>
+        </designable>
+        <designable name="wYO-Yw-d02">
+            <size key="intrinsicContentSize" width="284" height="33"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="bg_home.jpg" width="360" height="640"/>
+        <image name="contact_button.png" width="30" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -8,32 +8,32 @@
 
 #import <Foundation/Foundation.h>
 #import "Conexao.h"
-#define PRODUCTION TRUE
 
+#define PRODUCTION FALSE
 
-@interface BaseModel : NSObject
-{
-    NSString *brandMarketing;
-    Conexao *conn;
+@interface BaseModel : NSObject {
+    NSString * brandMarketing;
+    Conexao * conn;
 }
-- (id)init;
--(NSString*) getGlassAssistUrl;
--(NSString*) getBaseUrl;
--(NSString*) getClubUrl;
--(NSString*) getBaseUrl:(NSString*) version;
--(NSString*) getOnlinePaymentUrl;
--(NSString*) getFacilAssist;
--(NSString*) getBrandMarketing;
 
-- (BOOL)validateCPFWithNSString:(NSString *)cpfParam;
-- (BOOL)validarCNPJ:(NSString *)cnpj;
-- (BOOL)isValidEmail:(NSString *)email;
--(BOOL) isValidPassword:(NSString*)password;
+- (id) init;
+- (NSString *) getGlassAssistUrl;
+- (NSString *) getBaseUrl;
+- (NSString *) getClubUrl;
+- (NSString *) getOnlinePaymentUrl;
+- (NSString *) getFacilAssist;
+- (NSString *) getBrandMarketing;
+- (NSString *) getBaseUrl: (NSString *)version;
 
--(void) saveImage:(UIImage*) image name:(NSString*)name;
--(NSString*) savePDF:(NSData*) data name:(NSString*)name;
--(UIImage*) loadSavedImage:(NSString*)name;
--(NSString*) getExistsFile:(NSString*)name;
--(NSString *) getHomeAssistUrl;
--(NSString *) getAutoClaimUrl;
+- (BOOL) validateCPFWithNSString: (NSString *)cpfParam;
+- (BOOL) validarCNPJ: (NSString *)cnpj;
+- (BOOL) isValidEmail: (NSString *)email;
+- (BOOL) isValidPassword: (NSString *)password;
+
+- (void) saveImage: (UIImage *)image name: (NSString *)name;
+- (NSString *) savePDF: (NSData *)data name: (NSString *)name;
+- (UIImage *) loadSavedImage: (NSString *)name;
+- (NSString *) getExistsFile: (NSString *)name;
+- (NSString *) getHomeAssistUrl;
+- (NSString *) getAutoClaimUrl;
 @end

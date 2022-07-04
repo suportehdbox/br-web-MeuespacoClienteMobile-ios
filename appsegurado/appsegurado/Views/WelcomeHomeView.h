@@ -14,8 +14,11 @@
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
 @property (strong, nonatomic) IBOutlet CustomButton *btLogin;
 @property (strong, nonatomic) IBOutlet CustomButton *btRegister;
+@property (strong, nonatomic) IBOutlet UILabel *lbContato;
+@property (strong, nonatomic) IBOutlet CustomButton *btContato;
 
 
 -(void) loadView;
 -(void) updateBackgroundImage:(UIImage *)image;
+-(IBAction)openWhatsApp;
 @end

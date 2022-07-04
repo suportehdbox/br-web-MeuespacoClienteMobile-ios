@@ -1,0 +1,6 @@
+.DS_Store
+appsegurado/appsegurado.xcworkspace/xcuserdata
+appsegurado/appsegurado.xcodeproj/xcuserdata
+#appsegurado/Pods/
+.vscode/
+

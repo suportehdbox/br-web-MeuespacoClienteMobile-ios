@@ -14,5 +14,5 @@
 
 @interface ParcelsViewController : BaseViewController <UITableViewDataSource, UITableViewDelegate, PolicyModelDelegate, ExtendParcelDelegate, PaymentModelDelegate, PaymentPopUpDelegate>
 
--(void) setPolicy:(PolicyBeans*)beans indexPayment:(int)index;
+- (void) setPolicy: (PolicyBeans *)beans indexPayment: (int)index;
 @end

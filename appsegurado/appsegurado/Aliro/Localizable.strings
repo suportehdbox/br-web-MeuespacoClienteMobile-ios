@@ -420,6 +420,7 @@
 "Consultar" = "Consultar";
 "SegundaViaBoleto" = "2ª Via de Boleto";
 "PagamentoOnline" = "Pagamento online";
+"PagamentoPix" = "2ª via QR-Code PIX";
 "ProrrogarParcela" = "Prorrogar Parcela";
 "ConsultarPagamento" = "Consultar Pagamento";
 "ButtonPagar" = "Pagar";
