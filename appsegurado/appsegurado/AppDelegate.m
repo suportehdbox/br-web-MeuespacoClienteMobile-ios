@@ -14,6 +14,7 @@
 #import "DetailNotificationViewController.h"
 #import "ActivationViewController.h"
 
+@import Firebase;
 
 @interface AppDelegate (){
     

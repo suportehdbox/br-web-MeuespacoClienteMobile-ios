@@ -12,11 +12,17 @@
 #import "PaymentModel.h"
 
 @protocol PaymentPopUpDelegate <NSObject>
--(void) openWebView:(UIViewController*)viewController;
+- (void) openWebView: (UIViewController *)viewController;
 
 @end
-@interface PaymentPopUpViewController : BaseViewController <PaymentModelDelegate>
-@property (nonatomic,assign) id<PaymentPopUpDelegate> delegate;
 
-- (id)initPaymentBeans:(PaymentBeans*)beans contract:(long) contract issuance:(int) issuance ciaCode:(int)ciaCode ClientCode:(long)clientCode issuingAgency:(int) issuingAgency;
+@interface PaymentPopUpViewController : BaseViewController <PaymentModelDelegate>
+@property (nonatomic, assign) id<PaymentPopUpDelegate> delegate;
+
+- (id) initPaymentBeans: (PaymentBeans *)beans
+    contract: (long)contract
+    issuance: (int)issuance
+    ciaCode: (int)ciaCode
+    ClientCode: (long)clientCode
+    issuingAgency: (int)issuingAgency;
 @end

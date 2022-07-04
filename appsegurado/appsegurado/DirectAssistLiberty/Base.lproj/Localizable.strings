@@ -221,7 +221,7 @@
 //Atendimento
 "CapitalContactTitle" = "CAPITAL E REGIÕES METROPOLITANAS";
 "CapitalContactPhone" = "4004-5423";
-"CapitalContactHours" = "Segunda a Sexta das 8h às 20h. Sábado das 8h às 14h";
+"CapitalContactHours" = "Segunda a Sexta das 8h às 20h.";
 "OthersContactTitle" = "DEMAIS LOCALIDADES";
 "OthersContactPhone" = "0800 709 5423";
 "OthersContactHours" = "Segunda a Sexta das 8h às 20h.";
@@ -439,6 +439,7 @@
 "Consultar" = "Consultar";
 "SegundaViaBoleto" = "2ª Via de Boleto";
 "PagamentoOnline" = "Pagamento online";
+"PagamentoPix" = "2ª via QR-Code PIX";
 "ProrrogarParcela" = "Prorrogar Parcela";
 "ConsultarPagamento" = "Consultar Pagamento";
 "ButtonPagar" = "Pagar";

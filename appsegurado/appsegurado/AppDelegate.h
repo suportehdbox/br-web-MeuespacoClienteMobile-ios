@@ -13,7 +13,8 @@
 #import "SmiSdk.h"
 #import "FlutterController.h"
 
-@import Firebase;
+//@import Firebase;
+@import FirebaseMessaging;
 @import UserNotifications;
 @import GoogleSignIn;
 

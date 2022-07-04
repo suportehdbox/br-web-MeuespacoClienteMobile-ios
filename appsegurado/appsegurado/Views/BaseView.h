@@ -11,7 +11,7 @@
 
 @interface BaseView : UIView
 @property (strong, nonatomic) IBOutlet CustomButton * _Nullable btPhone;
-@property (strong, nonatomic) IBOutlet CustomButton *btLoginLater;
+@property (strong, nonatomic) IBOutlet CustomButton * _Nullable btLoginLater;
 
 - (IBAction)btOpenContacts:(id)sender;
 - (IBAction)btOpenWithoutLogin:(id)sender;

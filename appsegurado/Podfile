@@ -1,12 +1,18 @@
+platform :ios, '9.3'
+inhibit_all_warnings!
+use_frameworks!
+#use_modular_headers!
 
-flutter_application_path = '/Users/luizotha/Documents/Desenv/ios/br-web-flutter-modules'
+flutter_application_path = '../../br-web-flutter-modules'
 load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 
 def default_pods
   #pod 'Google/CloudMessaging'
-  pod 'FBSDKCoreKit'
-  pod 'FBSDKLoginKit'
-  pod 'FBSDKShareKit'
+  pod 'FBAEMKit', '~> 11.0'
+  pod 'FBSDKCoreKit', '~> 11.0'
+  pod 'FBSDKLoginKit', '~> 11.0'
+  pod 'FBSDKShareKit', '~> 11.0'
+  pod 'Firebase', '~> 6.0'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Messaging'
@@ -24,13 +30,11 @@ def default_pods
 end
 
 target 'appsegurado' do
-  platform :ios, '9.3'
 	default_pods
   install_all_flutter_pods(flutter_application_path)
 end
 
 target 'AppAliro' do
-  platform :ios, '9.3'
 	default_pods
   install_all_flutter_pods(flutter_application_path)
 end

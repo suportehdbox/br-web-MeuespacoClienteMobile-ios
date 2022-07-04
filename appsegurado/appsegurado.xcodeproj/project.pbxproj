@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		052ECD6D9DF2BF3D15EC1215 /* libPods-AppAliro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3B5EE99ACB1074748E18F6 /* libPods-AppAliro.a */; };
-		08255E3663F751ABC1B0308B /* libPods-appsegurado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC0FCD845CFF85574DF3C3F /* libPods-appsegurado.a */; };
 		22780A2D252CAA0B0058F361 /* icon_lgpd_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22780A2A252CAA0A0058F361 /* icon_lgpd_app@2x.png */; };
 		22780A2E252CAA0B0058F361 /* icon_lgpd_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 22780A2B252CAA0A0058F361 /* icon_lgpd_app.png */; };
 		22780A2F252CAA0B0058F361 /* icon_lgpd_app@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22780A2C252CAA0B0058F361 /* icon_lgpd_app@3x.png */; };
@@ -24,7 +22,7 @@
 		22BCD286268EBC1500C0A037 /* PopUpForceResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BCD284268EBC1400C0A037 /* PopUpForceResetPassword.swift */; };
 		22DAD9C124D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */; };
 		22DAD9C224D8AA190085A0E3 /* DataTreatmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */; };
-		7F70A953CD3AF30EB3D3910D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		86243A8499C6C210E31BE83B /* Pods_appsegurado.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21065CF02CCECBBF9E4C67EE /* Pods_appsegurado.framework */; };
 		BE17F3B222A5BE47000943C0 /* icon_value.png in Resources */ = {isa = PBXBuildFile; fileRef = BE17F3AC22A5BE3F000943C0 /* icon_value.png */; };
 		BE17F3B322A5BE47000943C0 /* icon_value.png in Resources */ = {isa = PBXBuildFile; fileRef = BE17F3AC22A5BE3F000943C0 /* icon_value.png */; };
 		BE17F3B422A5BE47000943C0 /* icon_warning.png in Resources */ = {isa = PBXBuildFile; fileRef = BE17F3AD22A5BE41000943C0 /* icon_warning.png */; };
@@ -342,6 +340,16 @@
 		BEEE3D8C249D0B8E001E73C9 /* image_baloes.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEE3D75249D0B8D001E73C9 /* image_baloes.png */; };
 		BEEE3D8D249D0B8E001E73C9 /* Imagem_Loja.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEE3D76249D0B8D001E73C9 /* Imagem_Loja.png */; };
 		BEEE3D8E249D0B8E001E73C9 /* Imagem_Loja.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEE3D76249D0B8D001E73C9 /* Imagem_Loja.png */; };
+		C410192027F6434A00252976 /* QrCodePixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C410191F27F6434A00252976 /* QrCodePixViewController.m */; };
+		C410192127F6434A00252976 /* QrCodePixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C410191F27F6434A00252976 /* QrCodePixViewController.m */; };
+		C410192827F73A6F00252976 /* QrCodePixView.m in Sources */ = {isa = PBXBuildFile; fileRef = C410192727F73A6F00252976 /* QrCodePixView.m */; };
+		C410192927F73A6F00252976 /* QrCodePixView.m in Sources */ = {isa = PBXBuildFile; fileRef = C410192727F73A6F00252976 /* QrCodePixView.m */; };
+		C437A45527F272BF0079B5B8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C437A45427F272BF0079B5B8 /* FontAwesome.ttf */; };
+		C437A45627F272BF0079B5B8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C437A45427F272BF0079B5B8 /* FontAwesome.ttf */; };
+		C437A45927F3CA510079B5B8 /* PaymentPopups.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C437A45727F3CA510079B5B8 /* PaymentPopups.storyboard */; };
+		C437A45A27F3CA510079B5B8 /* PaymentPopups.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C437A45727F3CA510079B5B8 /* PaymentPopups.storyboard */; };
+		C4C531EF27E79DA900C5FDAF /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C531ED27E79DA900C5FDAF /* Landing.storyboard */; };
+		C4C531F027E79DA900C5FDAF /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C531ED27E79DA900C5FDAF /* Landing.storyboard */; };
 		C70241901DEC537900D81823 /* NewClaimOffView.m in Sources */ = {isa = PBXBuildFile; fileRef = C702418F1DEC537900D81823 /* NewClaimOffView.m */; };
 		C70241931DEC641D00D81823 /* NewClaimOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70241921DEC641D00D81823 /* NewClaimOffViewController.m */; };
 		C703607C1F9A183B00E587C4 /* icon_oval_payment_finish.png in Resources */ = {isa = PBXBuildFile; fileRef = C73A5D051F963EA000FADC9D /* icon_oval_payment_finish.png */; };
@@ -1082,7 +1090,6 @@
 		C7B88F311DAC440C00912CBE /* password_changed.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88F2E1DAC440C00912CBE /* password_changed.png */; };
 		C7B88F321DAC440C00912CBE /* password_changed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88F2F1DAC440C00912CBE /* password_changed@2x.png */; };
 		C7B88F331DAC440C00912CBE /* password_changed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B88F301DAC440C00912CBE /* password_changed@3x.png */; };
-		C7BC08721DF834100090D958 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		C7BC087B1DF8371F0090D958 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BC08771DF836A70090D958 /* libAdIdAccess.a */; };
 		C7BC087C1DF8371F0090D958 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BC08781DF836A70090D958 /* libGoogleAnalyticsServices.a */; };
 		C7BD351F1DF056DF00D5059F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BD351E1DF056DF00D5059F /* Photos.framework */; };
@@ -1278,6 +1285,7 @@
 		C7F58BB8205087820007BBB9 /* icon_docs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F58BB5205087810007BBB9 /* icon_docs@3x.png */; };
 		C7F6CEE61F1E565500F6FE9A /* DocumentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6CEE51F1E565500F6FE9A /* DocumentsView.m */; };
 		C7FE2B4E1E1BE21B0064BABC /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE2B4D1E1BE21B0064BABC /* CityModel.m */; };
+		F96F9664C8F6F0E3F933B58A /* Pods_AppAliro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D71C8581AE66716FE52D32 /* Pods_AppAliro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1298,7 +1306,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02733EEC6B7BC3286B81DA22 /* Pods-appsegurado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsegurado.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appsegurado/Pods-appsegurado.debug.xcconfig"; sourceTree = "<group>"; };
+		21065CF02CCECBBF9E4C67EE /* Pods_appsegurado.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appsegurado.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22780A2A252CAA0A0058F361 /* icon_lgpd_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@2x.png"; sourceTree = "<group>"; };
 		22780A2B252CAA0A0058F361 /* icon_lgpd_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_lgpd_app.png; sourceTree = "<group>"; };
 		22780A2C252CAA0B0058F361 /* icon_lgpd_app@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lgpd_app@3x.png"; sourceTree = "<group>"; };
@@ -1310,10 +1318,8 @@
 		22B840FC260B5E3C00BC443B /* FlutterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlutterController.m; path = Controllers/FlutterController.m; sourceTree = "<group>"; };
 		22BCD284268EBC1400C0A037 /* PopUpForceResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpForceResetPassword.swift; sourceTree = "<group>"; };
 		22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataTreatmentViewController.swift; path = Controllers/DataTreatmentViewController.swift; sourceTree = "<group>"; };
-		2382643EE1F68BBA519582AD /* Pods-AppAliro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppAliro/Pods-AppAliro.debug.xcconfig"; sourceTree = "<group>"; };
-		31AA0288D6EEB8839302A487 /* Pods-AppAliro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppAliro/Pods-AppAliro.release.xcconfig"; sourceTree = "<group>"; };
-		5CC0FCD845CFF85574DF3C3F /* libPods-appsegurado.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appsegurado.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B3B5EE99ACB1074748E18F6 /* libPods-AppAliro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppAliro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B4C9FCE4C775310E9A099C /* Pods-AppAliro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.release.xcconfig"; path = "Target Support Files/Pods-AppAliro/Pods-AppAliro.release.xcconfig"; sourceTree = "<group>"; };
+		5EB36599D55407F263CBF9BB /* Pods-AppAliro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAliro.debug.xcconfig"; path = "Target Support Files/Pods-AppAliro/Pods-AppAliro.debug.xcconfig"; sourceTree = "<group>"; };
 		BE17F3AC22A5BE3F000943C0 /* icon_value.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_value.png; sourceTree = "<group>"; };
 		BE17F3AD22A5BE41000943C0 /* icon_warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_warning.png; sourceTree = "<group>"; };
 		BE17F3AE22A5BE42000943C0 /* icon_warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_warning@2x.png"; sourceTree = "<group>"; };
@@ -1462,8 +1468,6 @@
 		BE5BAB30246C8CA40060BCDF /* icon_oval_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_oval_home@2x.png"; sourceTree = "<group>"; };
 		BE6A4CF822A6DFDE002BF7CA /* ExtractTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ExtractTableViewCell.h; path = Views/ExtractTableViewCell.h; sourceTree = "<group>"; };
 		BE6A4CF922A6DFDE002BF7CA /* ExtractTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ExtractTableViewCell.m; path = Views/ExtractTableViewCell.m; sourceTree = "<group>"; };
-		BE77899122E5F71A00AE6595 /* AppAliro copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppAliro copy-Info.plist"; path = "/Users/luizenha/Documents/Desenv/iOS/AppSeguradoLibertySegurosiOS/appsegurado/AppAliro copy-Info.plist"; sourceTree = "<absolute>"; };
-		BE778B9122E61BD500AE6595 /* appsegurado copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "appsegurado copy3-Info.plist"; path = "/Users/luizenha/Documents/Desenv/iOS/AppSeguradoLibertySegurosiOS/appsegurado/appsegurado copy3-Info.plist"; sourceTree = "<absolute>"; };
 		BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomPopUpViewController.swift; path = Controllers/CustomPopUpViewController.swift; sourceTree = "<group>"; };
 		BEE1DE692398547500DD3BB6 /* DeviceUtil+Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DeviceUtil+Constant.h"; sourceTree = "<group>"; };
 		BEE1DE6A2398547600DD3BB6 /* DeviceUtil+Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DeviceUtil+Constant.m"; sourceTree = "<group>"; };
@@ -1486,6 +1490,17 @@
 		BEEE3D74249D0B8C001E73C9 /* image_baloes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_baloes@2x.png"; sourceTree = "<group>"; };
 		BEEE3D75249D0B8D001E73C9 /* image_baloes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_baloes.png; sourceTree = "<group>"; };
 		BEEE3D76249D0B8D001E73C9 /* Imagem_Loja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Imagem_Loja.png; sourceTree = "<group>"; };
+		C374C928D8B81BF3A9FC73DC /* Pods-appsegurado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsegurado.debug.xcconfig"; path = "Target Support Files/Pods-appsegurado/Pods-appsegurado.debug.xcconfig"; sourceTree = "<group>"; };
+		C410191E27F62C3900252976 /* PaymentOpt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PaymentOpt.h; path = Models/PaymentOpt.h; sourceTree = "<group>"; };
+		C410191F27F6434A00252976 /* QrCodePixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QrCodePixViewController.m; path = Controllers/QrCodePixViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		C410192227F6438100252976 /* QrCodePixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QrCodePixViewController.h; path = Controllers/QrCodePixViewController.h; sourceTree = "<group>"; };
+		C410192327F728F000252976 /* QrCodePixView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QrCodePixView.h; path = Views/QrCodePixView.h; sourceTree = "<group>"; };
+		C410192727F73A6F00252976 /* QrCodePixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrCodePixView.m; sourceTree = "<group>"; };
+		C437A45027F26D2D0079B5B8 /* FontAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C437A45427F272BF0079B5B8 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		C437A45827F3CA510079B5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = appsegurado/Base.lproj/PaymentPopups.storyboard; sourceTree = "<group>"; };
+		C46A51F927E6A4490068E57E /* FBAEMKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBAEMKit.xcframework; path = Pods/FBAEMKit/XCFrameworks/FBAEMKit.xcframework; sourceTree = "<group>"; };
+		C4C531EE27E79DA900C5FDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Landing.storyboard; sourceTree = "<group>"; };
 		C702418E1DEC537900D81823 /* NewClaimOffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewClaimOffView.h; path = Views/NewClaimOffView.h; sourceTree = "<group>"; };
 		C702418F1DEC537900D81823 /* NewClaimOffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewClaimOffView.m; path = Views/NewClaimOffView.m; sourceTree = "<group>"; };
 		C70241911DEC641D00D81823 /* NewClaimOffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewClaimOffViewController.h; path = Controllers/NewClaimOffViewController.h; sourceTree = "<group>"; };
@@ -1565,7 +1580,6 @@
 		C72CF2AB1D9EE1C40099836B /* FBUserBeans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBUserBeans.h; path = Beans/FBUserBeans.h; sourceTree = "<group>"; };
 		C72CF2AC1D9EE1C50099836B /* FBUserBeans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBUserBeans.m; path = Beans/FBUserBeans.m; sourceTree = "<group>"; };
 		C72E20881F87A8E80093C360 /* AppAliro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAliro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C72E20891F87A8E90093C360 /* appsegurado copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "appsegurado copy2-Info.plist"; path = "/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/appsegurado/appsegurado copy2-Info.plist"; sourceTree = "<absolute>"; };
 		C72E208B1F87AF180093C360 /* accident.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accident.png; sourceTree = "<group>"; };
 		C72E208C1F87AF180093C360 /* accident@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accident@2x.png"; sourceTree = "<group>"; };
 		C72E208D1F87AF180093C360 /* accident@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accident@3x.png"; sourceTree = "<group>"; };
@@ -2306,7 +2320,8 @@
 		C7F6CEE51F1E565500F6FE9A /* DocumentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DocumentsView.m; path = Views/DocumentsView.m; sourceTree = "<group>"; };
 		C7FE2B4C1E1BE21B0064BABC /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityModel.h; path = Models/CityModel.h; sourceTree = "<group>"; };
 		C7FE2B4D1E1BE21B0064BABC /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityModel.m; path = Models/CityModel.m; sourceTree = "<group>"; };
-		F059DC0D1035AC11A843B0B6 /* Pods-appsegurado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsegurado.release.xcconfig"; path = "Pods/Target Support Files/Pods-appsegurado/Pods-appsegurado.release.xcconfig"; sourceTree = "<group>"; };
+		E84970725AD54C3C261B974D /* Pods-appsegurado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appsegurado.release.xcconfig"; path = "Target Support Files/Pods-appsegurado/Pods-appsegurado.release.xcconfig"; sourceTree = "<group>"; };
+		E9D71C8581AE66716FE52D32 /* Pods_AppAliro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAliro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2329,7 +2344,7 @@
 				C72E1F6C1F87A8E80093C360 /* AddressBook.framework in Frameworks */,
 				C72E1F6E1F87A8E80093C360 /* CoreLocation.framework in Frameworks */,
 				C72E1F6F1F87A8E80093C360 /* MapKit.framework in Frameworks */,
-				052ECD6D9DF2BF3D15EC1215 /* libPods-AppAliro.a in Frameworks */,
+				F96F9664C8F6F0E3F933B58A /* Pods_AppAliro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2339,7 +2354,6 @@
 			files = (
 				C7343EA620FF76E200250B0E /* Foundation.framework in Frameworks */,
 				C78714361EEF2A48001B9AF2 /* CoreTelephony.framework in Frameworks */,
-				C7BC08721DF834100090D958 /* (null) in Frameworks */,
 				C7BD351F1DF056DF00D5059F /* Photos.framework in Frameworks */,
 				C7D7058A1DDE33C400499886 /* AVFoundation.framework in Frameworks */,
 				C73F4FF91DA2D09E00CB69DF /* LocalAuthentication.framework in Frameworks */,
@@ -2354,8 +2368,7 @@
 				C724CC011D70878300CD3B27 /* AddressBook.framework in Frameworks */,
 				C724CBFF1D7081FD00CD3B27 /* CoreLocation.framework in Frameworks */,
 				C7CB08941D6DEC6F00DE6E58 /* MapKit.framework in Frameworks */,
-				7F70A953CD3AF30EB3D3910D /* (null) in Frameworks */,
-				08255E3663F751ABC1B0308B /* libPods-appsegurado.a in Frameworks */,
+				86243A8499C6C210E31BE83B /* Pods_appsegurado.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2376,17 +2389,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E539405ED9E52347C1350D9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				02733EEC6B7BC3286B81DA22 /* Pods-appsegurado.debug.xcconfig */,
-				F059DC0D1035AC11A843B0B6 /* Pods-appsegurado.release.xcconfig */,
-				2382643EE1F68BBA519582AD /* Pods-AppAliro.debug.xcconfig */,
-				31AA0288D6EEB8839302A487 /* Pods-AppAliro.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BECFCB1C23A4296100266B3D /* assistencias */ = {
 			isa = PBXGroup;
 			children = (
@@ -2951,6 +2953,7 @@
 				BEEE257E24A25B63006A853F /* AccidentViewController.m */,
 				C742CEAF21224D3800B04DB2 /* ActivationViewController.h */,
 				C742CEB021224D3800B04DB2 /* ActivationViewController.m */,
+				22780A34252CBD750058F361 /* AutoClaimWebViewController.swift */,
 				C765A5941D771DA8008AD0B5 /* AutoWorkShopsViewController.h */,
 				C765A5951D771DA8008AD0B5 /* AutoWorkShopsViewController.m */,
 				C79841111D6C80E20071D6CB /* BaseViewController.h */,
@@ -2969,8 +2972,10 @@
 				C780AA2B1DAE78A000C13B84 /* ContactViewController.m */,
 				C710F2FA1EAE6A0B00B3CDA4 /* CoveragesViewController.h */,
 				C710F2FB1EAE6A0B00B3CDA4 /* CoveragesViewController.m */,
+				BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */,
 				C738ABF52098F54300D1FAA8 /* CustomWebViewController.h */,
 				C738ABF62098F54300D1FAA8 /* CustomWebViewController.m */,
+				22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */,
 				C709048F20F7DA73003165D2 /* DetailNotificationViewController.h */,
 				C709049020F7DA73003165D2 /* DetailNotificationViewController.m */,
 				C711C65F1DB512BF0041FB05 /* DetailPolicyViewController.h */,
@@ -2985,10 +2990,13 @@
 				C7B3DBB51DC28A9A009306A1 /* ExtendParcelViewController.m */,
 				BE17F3BE22A6A86E000943C0 /* ExtractViewController.h */,
 				BE17F3BF22A6A86E000943C0 /* ExtractViewController.m */,
+				22B840FB260B5E3C00BC443B /* FlutterController.h */,
+				22B840FC260B5E3C00BC443B /* FlutterController.m */,
 				C7A7B9C71DD3A51400A81F10 /* ForgotEmailViewController.h */,
 				C7A7B9C81DD3A51400A81F10 /* ForgotEmailViewController.m */,
 				C7E73C221D9D8E6400514791 /* ForgotPasswordViewController.h */,
 				C7E73C231D9D8E6400514791 /* ForgotPasswordViewController.m */,
+				BE332D59246437CE004C5CD7 /* HomeAssistWebViewController.swift */,
 				C7CB08901D6DEB2900DE6E58 /* HomeOffViewController.h */,
 				C7CB08911D6DEB2900DE6E58 /* HomeOffViewController.m */,
 				C79E1AA71DA5A77C00C5F335 /* HomeViewController.h */,
@@ -2997,6 +3005,9 @@
 				C70C4D1D1D996CF300E453D9 /* LoginViewController.m */,
 				C70241911DEC641D00D81823 /* NewClaimOffViewController.h */,
 				C70241921DEC641D00D81823 /* NewClaimOffViewController.m */,
+				BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */,
+				BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */,
+				BEEE257B24A24093006A853F /* NewClubWebViewController.swift */,
 				C7DEBE4C1DDA2221000F545C /* NotificationViewController.h */,
 				C7DEBE4D1DDA2221000F545C /* NotificationViewController.m */,
 				C7ECD9111F8EB813007F2C67 /* Open24AssistViewController.h */,
@@ -3009,6 +3020,7 @@
 				C75955F81DB030B80081B409 /* PolicyViewController.m */,
 				C79134131DEDF6C500408A13 /* PoliticsViewController.h */,
 				C79134141DEDF6C500408A13 /* PoliticsViewController.m */,
+				22BCD284268EBC1400C0A037 /* PopUpForceResetPassword.swift */,
 				C7D313151EF454C400809146 /* PopUpFreeNavigationController.h */,
 				C7D313161EF454C400809146 /* PopUpFreeNavigationController.m */,
 				C739B4611F8BD21900A0A5A9 /* PreviewViewController.h */,
@@ -3025,16 +3037,8 @@
 				C7E0EDC31DA6E8A000630044 /* UserProfileViewController.m */,
 				C79841271D6CE8100071D6CB /* WelcomeHomeViewController.h */,
 				C79841281D6CE8110071D6CB /* WelcomeHomeViewController.m */,
-				BE332D59246437CE004C5CD7 /* HomeAssistWebViewController.swift */,
-				BEEE3D65249A82C4001E73C9 /* NewClubViewController.swift */,
-				BEEE257B24A24093006A853F /* NewClubWebViewController.swift */,
-				BEEE257824A12CD0006A853F /* NewClubTutorialStep.swift */,
-				BE9DCDA724B7A10C0090DD8D /* CustomPopUpViewController.swift */,
-				22DAD9C024D8AA180085A0E3 /* DataTreatmentViewController.swift */,
-				22780A34252CBD750058F361 /* AutoClaimWebViewController.swift */,
-				22B840FB260B5E3C00BC443B /* FlutterController.h */,
-				22B840FC260B5E3C00BC443B /* FlutterController.m */,
-				22BCD284268EBC1400C0A037 /* PopUpForceResetPassword.swift */,
+				C410192227F6438100252976 /* QrCodePixViewController.h */,
+				C410191F27F6434A00252976 /* QrCodePixViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -3092,6 +3096,8 @@
 				C711C6631DB512E90041FB05 /* DetailPolicyView.m */,
 				C72F92A12062F67400EFF4CE /* DigitableLineView.h */,
 				C72F92A22062F67400EFF4CE /* DigitableLineView.m */,
+				C410192327F728F000252976 /* QrCodePixView.h */,
+				C410192727F73A6F00252976 /* QrCodePixView.m */,
 				C7AA39391F1D480F00E2DC97 /* DocumentsGalleryView.h */,
 				C7AA393A1F1D480F00E2DC97 /* DocumentsGalleryView.m */,
 				C7F6CEE41F1E565500F6FE9A /* DocumentsView.h */,
@@ -3186,12 +3192,9 @@
 				C7AC64FC1D6B74000003EC64 /* appseguradoTests */,
 				C7AC65071D6B74000003EC64 /* appseguradoUITests */,
 				C7AC64E11D6B73FE0003EC64 /* Products */,
-				6E539405ED9E52347C1350D9 /* Pods */,
 				EED8713DDBF0F3994FA3F799 /* Frameworks */,
-				C72E20891F87A8E90093C360 /* appsegurado copy2-Info.plist */,
 				C7D15C262177A3B00045A2CF /* Recovered References */,
-				BE77899122E5F71A00AE6595 /* AppAliro copy-Info.plist */,
-				BE778B9122E61BD500AE6595 /* appsegurado copy3-Info.plist */,
+				E14DD9AC66C93469CC800055 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3209,31 +3212,34 @@
 		C7AC64E21D6B73FE0003EC64 /* appsegurado */ = {
 			isa = PBXGroup;
 			children = (
+				C7BC08771DF836A70090D958 /* libAdIdAccess.a */,
+				C437A45427F272BF0079B5B8 /* FontAwesome.ttf */,
+				C7BC08781DF836A70090D958 /* libGoogleAnalyticsServices.a */,
+				C7AF02BC1DF98BD30059EB46 /* appsegurado.entitlements */,
+				C7AC64E61D6B73FE0003EC64 /* AppDelegate.h */,
+				C7AC64E91D6B73FE0003EC64 /* ViewController.h */,
+				C7AC64E71D6B73FE0003EC64 /* AppDelegate.m */,
+				C7AC64EA1D6B73FE0003EC64 /* ViewController.m */,
 				C7E3246D20D4026600A544AB /* GoogleService-Info.plist */,
 				C7E3246F20D4028C00A544AB /* GoogleService-Info.plist */,
-				C7AF02BC1DF98BD30059EB46 /* appsegurado.entitlements */,
-				C7BC08771DF836A70090D958 /* libAdIdAccess.a */,
-				C7BC08781DF836A70090D958 /* libGoogleAnalyticsServices.a */,
+				C7AC64F41D6B73FF0003EC64 /* Info.plist */,
+				C7AC64EF1D6B73FF0003EC64 /* Assets.xcassets */,
+				C7AB4C9F1F8E851300C81EA8 /* AssetsAliro.xcassets */,
 				C724CC021D708FA600CD3B27 /* Beans */,
+				C79841101D6C80B50071D6CB /* Controllers */,
 				C72E21131F87AF320093C360 /* ImagensAliro */,
 				C72E208A1F87AF180093C360 /* ImagensDefault */,
 				C7CB08981D6E260100DE6E58 /* ImagesLiberty */,
-				C79841211D6CA37E0071D6CB /* Strings */,
-				C79841141D6C86F10071D6CB /* Views */,
-				C79841101D6C80B50071D6CB /* Controllers */,
-				C7AC65211D6B7B470003EC64 /* Models */,
-				C7AC651D1D6B7A610003EC64 /* Libraries */,
-				C7AC65161D6B76E40003EC64 /* SideMenu */,
-				C7AC64E61D6B73FE0003EC64 /* AppDelegate.h */,
-				C7AC64E71D6B73FE0003EC64 /* AppDelegate.m */,
-				C7AC64E91D6B73FE0003EC64 /* ViewController.h */,
-				C7AC64EA1D6B73FE0003EC64 /* ViewController.m */,
-				C7AC64EC1D6B73FF0003EC64 /* Main.storyboard */,
-				C7AC64EF1D6B73FF0003EC64 /* Assets.xcassets */,
+				C4C531ED27E79DA900C5FDAF /* Landing.storyboard */,
+				C437A45727F3CA510079B5B8 /* PaymentPopups.storyboard */,
 				C7AC64F11D6B73FF0003EC64 /* LaunchScreen.storyboard */,
-				C7AC64F41D6B73FF0003EC64 /* Info.plist */,
+				C7AC64EC1D6B73FF0003EC64 /* Main.storyboard */,
+				C7AC651D1D6B7A610003EC64 /* Libraries */,
+				C7AC65211D6B7B470003EC64 /* Models */,
+				C7AC65161D6B76E40003EC64 /* SideMenu */,
+				C79841211D6CA37E0071D6CB /* Strings */,
 				C7AC64E31D6B73FE0003EC64 /* Supporting Files */,
-				C7AB4C9F1F8E851300C81EA8 /* AssetsAliro.xcassets */,
+				C79841141D6C86F10071D6CB /* Views */,
 			);
 			path = appsegurado;
 			sourceTree = "<group>";
@@ -3365,6 +3371,7 @@
 				C7FE2B4D1E1BE21B0064BABC /* CityModel.m */,
 				C7A60F8E1F1816EE003B2DF0 /* DocumentsModel.h */,
 				C7A60F8F1F1816EE003B2DF0 /* DocumentsModel.m */,
+				C410191E27F62C3900252976 /* PaymentOpt.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -3579,16 +3586,29 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
+		E14DD9AC66C93469CC800055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EB36599D55407F263CBF9BB /* Pods-AppAliro.debug.xcconfig */,
+				46B4C9FCE4C775310E9A099C /* Pods-AppAliro.release.xcconfig */,
+				C374C928D8B81BF3A9FC73DC /* Pods-appsegurado.debug.xcconfig */,
+				E84970725AD54C3C261B974D /* Pods-appsegurado.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EED8713DDBF0F3994FA3F799 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C437A45027F26D2D0079B5B8 /* FontAwesome.framework */,
+				C46A51F927E6A4490068E57E /* FBAEMKit.xcframework */,
 				C7343EA020FF741600250B0E /* Foundation.framework */,
 				C70CCAAB1F9E60C900CD25F3 /* GooglePlaces.framework */,
 				C78714351EEF2A48001B9AF2 /* CoreTelephony.framework */,
 				C7BD351E1DF056DF00D5059F /* Photos.framework */,
 				C7D705891DDE33C400499886 /* AVFoundation.framework */,
-				7B3B5EE99ACB1074748E18F6 /* libPods-AppAliro.a */,
-				5CC0FCD845CFF85574DF3C3F /* libPods-appsegurado.a */,
+				E9D71C8581AE66716FE52D32 /* Pods_AppAliro.framework */,
+				21065CF02CCECBBF9E4C67EE /* Pods_appsegurado.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3601,7 +3621,7 @@
 			buildConfigurationList = C72E20851F87A8E80093C360 /* Build configuration list for PBXNativeTarget "AppAliro" */;
 			buildPhases = (
 				559AE585A9648EE9BBC95BE2 /* [CP] Check Pods Manifest.lock */,
-				41DBE16F95A55103250B9A11 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */,
+				85BB5C7B6FB66CBE46CE1190 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */,
 				C72E1ECD1F87A8E80093C360 /* Sources */,
 				C72E1F5A1F87A8E80093C360 /* Frameworks */,
 				C72E1F701F87A8E80093C360 /* Resources */,
@@ -3623,12 +3643,12 @@
 			buildConfigurationList = C7AC650D1D6B74000003EC64 /* Build configuration list for PBXNativeTarget "appsegurado" */;
 			buildPhases = (
 				13F26F41086221828FEC2A83 /* [CP] Check Pods Manifest.lock */,
-				AC0F1042A919BA4B0ED105D4 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */,
+				9DD3772BF9B352D72E667895 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */,
 				C7AC64DC1D6B73FE0003EC64 /* Sources */,
 				C7AC64DD1D6B73FE0003EC64 /* Frameworks */,
 				C7AC64DE1D6B73FE0003EC64 /* Resources */,
 				2FC85FA894DB8CA1477F1A8E /* [CP] Copy Pods Resources */,
-				C7802D891FDAF1D600B2F549 /* ShellScript */,
+				C7802D891FDAF1D600B2F549 /* Run Script */,
 				157BFED65D38DE4B19EFF060 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -3682,7 +3702,7 @@
 		C7AC64D81D6B73FE0003EC64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "Liberty Seguros";
 				TargetAttributes = {
 					C72E1ECB1F87A8E80093C360 = {
@@ -3700,9 +3720,7 @@
 					};
 					C7AC64DF1D6B73FE0003EC64 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = MW4FF972V6;
 						LastSwiftMigration = 1140;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -3726,7 +3744,7 @@
 				};
 			};
 			buildConfigurationList = C7AC64DB1D6B73FE0003EC64 /* Build configuration list for PBXProject "appsegurado" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -3861,6 +3879,7 @@
 				C72E22AE1F87C26A0093C360 /* password_off@3x.png in Resources */,
 				BE20D7AC23ABC5F600118920 /* artboard38@2x.png in Resources */,
 				BE20D7C623ABC5F600118920 /* artboard26.png in Resources */,
+				C4C531F027E79DA900C5FDAF /* Landing.storyboard in Resources */,
 				C72E22A31F87C26A0093C360 /* menu.png in Resources */,
 				BE20D7C023ABC5F600118920 /* artboard20@3x.png in Resources */,
 				C7AB4C9B1F8E6A8100C81EA8 /* status_100@3x.png in Resources */,
@@ -4067,6 +4086,7 @@
 				C7AB4C931F8E6A8100C81EA8 /* status_10.png in Resources */,
 				BE20D7A023ABC5F600118920 /* artboard24@3x.png in Resources */,
 				C72E21D01F87BF780093C360 /* password_changed.png in Resources */,
+				C437A45A27F3CA510079B5B8 /* PaymentPopups.storyboard in Resources */,
 				C7EEA53B2049C2F700CAE513 /* auto_register@2x.png in Resources */,
 				C72E21E21F87BF780093C360 /* policy_icon.png in Resources */,
 				BE20D81E23ABC5F600118920 /* artboard11@2x.png in Resources */,
@@ -4091,6 +4111,7 @@
 				BEEE3D84249D0B8E001E73C9 /* imagem_celular@3x.png in Resources */,
 				C72E22C61F87C26B0093C360 /* recording@3x.png in Resources */,
 				BE20D7D023ABC5F600118920 /* artboard39@3x.png in Resources */,
+				C437A45627F272BF0079B5B8 /* FontAwesome.ttf in Resources */,
 				C72E21A21F87BF780093C360 /* claim@3x.png in Resources */,
 				C72E22AC1F87C26A0093C360 /* password_off.png in Resources */,
 				BE20D7EE23ABC5F600118920 /* artboard41.png in Resources */,
@@ -4208,6 +4229,7 @@
 				C7EEA52E2048687A00CAE513 /* home_register@2x.png in Resources */,
 				BE20D77723ABC5F600118920 /* artboard39.png in Resources */,
 				C7D15C362177A8280045A2CF /* status_30@3x.png in Resources */,
+				C437A45927F3CA510079B5B8 /* PaymentPopups.storyboard in Resources */,
 				C7CB066E1DE334A300DDC14B /* calendar@3x.png in Resources */,
 				C72E232A1F87C26B0093C360 /* mail_black@3x.png in Resources */,
 				C79839CA20CAFAC400A4B96E /* ic_analise@3x.png in Resources */,
@@ -4269,6 +4291,7 @@
 				C72E23111F87C26B0093C360 /* contact@2x.png in Resources */,
 				C72E23011F87C26B0093C360 /* accident.png in Resources */,
 				BE20D79923ABC5F600118920 /* artboard29@3x.png in Resources */,
+				C437A45527F272BF0079B5B8 /* FontAwesome.ttf in Resources */,
 				C72E23721F87C26B0093C360 /* status_claim_yellow@2x.png in Resources */,
 				BE20D7D123ABC5F600118920 /* artboard42@2x.png in Resources */,
 				C7B88F1A1DABBAA600912CBE /* icon_phone.png in Resources */,
@@ -4558,6 +4581,7 @@
 				C72E23581F87C26B0093C360 /* selected.png in Resources */,
 				BE20D7F723ABC5F600118920 /* artboard18.png in Resources */,
 				BE20D7F923ABC5F600118920 /* artboard3.png in Resources */,
+				C4C531EF27E79DA900C5FDAF /* Landing.storyboard in Resources */,
 				C7CB06571DE31A1D00DDC14B /* audio.png in Resources */,
 				C7F58BB0205083B20007BBB9 /* icon_docs@3x.png in Resources */,
 				C7B88F311DAC440C00912CBE /* password_changed.png in Resources */,
@@ -4692,18 +4716,15 @@
 		};
 		157BFED65D38DE4B19EFF060 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-frameworks.sh",
-				"${PODS_ROOT}/../../../../ios/br-web-flutter-modules/.ios/Flutter/App.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4715,38 +4736,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-resources.sh",
-				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
-				"${PODS_ROOT}/FontAwesome/Resources/FontAwesome.ttf",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/RMessage/RMessage.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/VMaskTextField/VMaskTextField.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessage.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VMaskTextField.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appsegurado/Pods-appsegurado-resources.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		41DBE16F95A55103250B9A11 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Run Flutter Build liberty_flutter_modules Script";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../../ios/br-web-flutter-modules/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
 		};
 		559AE585A9648EE9BBC95BE2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4771,22 +4771,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-frameworks.sh",
-				"${PODS_ROOT}/../../../../ios/br-web-flutter-modules/.ios/Flutter/App.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AC0F1042A919BA4B0ED105D4 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */ = {
+		85BB5C7B6FB66CBE46CE1190 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4794,7 +4791,17 @@
 			name = "[CP-User] Run Flutter Build liberty_flutter_modules Script";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../../ios/br-web-flutter-modules/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../br-web-flutter-modules/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		9DD3772BF9B352D72E667895 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build liberty_flutter_modules Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../br-web-flutter-modules/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
 		};
 		C7136D3D1FDEEAAA0096E46B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4810,13 +4817,14 @@
 			shellScript = "
 ";
 		};
-		C7802D891FDAF1D600B2F549 /* ShellScript */ = {
+		C7802D891FDAF1D600B2F549 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4829,23 +4837,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-resources.sh",
-				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
-				"${PODS_ROOT}/FontAwesome/Resources/FontAwesome.ttf",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/RMessage/RMessage.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/VMaskTextField/VMaskTextField.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessage.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VMaskTextField.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAliro/Pods-AppAliro-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4881,6 +4878,7 @@
 				C72E1EDD1F87A8E80093C360 /* BaseViewController.m in Sources */,
 				BEEE257D24A24093006A853F /* NewClubWebViewController.swift in Sources */,
 				BEE1DE6C23985B8400DD3BB6 /* DeviceUtil+Constant.m in Sources */,
+				C410192127F6434A00252976 /* QrCodePixViewController.m in Sources */,
 				C7DDD72B1FB0D5CE0007C033 /* DeviceUtil.m in Sources */,
 				C72E1EDE1F87A8E80093C360 /* CityBeans.m in Sources */,
 				C72E1EE01F87A8E80093C360 /* AutoWorkShopsViewController.m in Sources */,
@@ -4936,6 +4934,7 @@
 				BEEE3D69249A93A6001E73C9 /* UIView+Constraints.swift in Sources */,
 				C72E1F071F87A8E80093C360 /* PolicyBeans.m in Sources */,
 				C72E1F081F87A8E80093C360 /* UserOptionsTableViewCell.m in Sources */,
+				C410192927F73A6F00252976 /* QrCodePixView.m in Sources */,
 				C72E1F091F87A8E80093C360 /* ParcelsView.m in Sources */,
 				C72E1F0A1F87A8E80093C360 /* PolicyViewCell.m in Sources */,
 				C72E1F0B1F87A8E80093C360 /* AFSQLManager.m in Sources */,
@@ -5059,6 +5058,7 @@
 				BEEE257C24A24093006A853F /* NewClubWebViewController.swift in Sources */,
 				C79841131D6C80E20071D6CB /* BaseViewController.m in Sources */,
 				BEE1DE6B2398547600DD3BB6 /* DeviceUtil+Constant.m in Sources */,
+				C410192027F6434A00252976 /* QrCodePixViewController.m in Sources */,
 				C7DDD72A1FB0D5CE0007C033 /* DeviceUtil.m in Sources */,
 				C7EF76BA1E1D702F0060D741 /* CityBeans.m in Sources */,
 				C765A5961D771DA8008AD0B5 /* AutoWorkShopsViewController.m in Sources */,
@@ -5114,6 +5114,7 @@
 				C7C00A731DC11623008A2A51 /* ParcelsView.m in Sources */,
 				C75955D81DB020F80081B409 /* PolicyViewCell.m in Sources */,
 				C7D705841DDDF43D00499886 /* AFSQLManager.m in Sources */,
+				C410192827F73A6F00252976 /* QrCodePixView.m in Sources */,
 				C75956021DB03D9A0081B409 /* BrokerBeans.m in Sources */,
 				C7CB06791DE35E4400DDC14B /* ClaimModel.m in Sources */,
 				C727623E1DD4F7AC003DD513 /* ForgotEmailBeans.m in Sources */,
@@ -5243,6 +5244,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C437A45727F3CA510079B5B8 /* PaymentPopups.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C437A45827F3CA510079B5B8 /* Base */,
+			);
+			name = PaymentPopups.storyboard;
+			sourceTree = "<group>";
+		};
+		C4C531ED27E79DA900C5FDAF /* Landing.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4C531EE27E79DA900C5FDAF /* Base */,
+			);
+			name = Landing.storyboard;
+			sourceTree = "<group>";
+		};
 		C724CD411D70DA3C00CD3B27 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -5273,57 +5290,18 @@
 /* Begin XCBuildConfiguration section */
 		C72E20861F87A8E80093C360 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2382643EE1F68BBA519582AD /* Pods-AppAliro.debug.xcconfig */;
+			baseConfigurationReference = 5EB36599D55407F263CBF9BB /* Pods-AppAliro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAliro;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AppAliro.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW4FF972V6;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
-					"$(PROJECT_DIR)/appsegurado",
-					"$(inherited)",
-					"$(PROJECT_DIR)/appsegurado/Libraries",
-				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = "appsegurado copy2-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
-					"$(PROJECT_DIR)/appsegurado",
-				);
-				MARKETING_VERSION = 4.3.2;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"sqlite3\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AddressBook\"",
-					"-framework",
-					"\"AssetsLibrary\"",
-					"-framework",
-					"\"CoreFoundation\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreLocation\"",
-					"-framework",
-					"\"CoreMotion\"",
-					"-framework",
-					"\"MessageUI\"",
-					"-framework",
-					"\"Security\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-				);
+				MARKETING_VERSION = 4.4.2;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.libertyseguros.aliro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -5332,64 +5310,23 @@
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "appsegurado-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		C72E20871F87A8E80093C360 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31AA0288D6EEB8839302A487 /* Pods-AppAliro.release.xcconfig */;
+			baseConfigurationReference = 46B4C9FCE4C775310E9A099C /* Pods-AppAliro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAliro;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AppAliro.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW4FF972V6;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
-					"$(PROJECT_DIR)/appsegurado",
-					"$(inherited)",
-					"$(PROJECT_DIR)/appsegurado/Libraries",
-				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = "appsegurado copy2-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/luizzenha/Documents/Desenv/iPhone/AppSegurado/,
-					"$(PROJECT_DIR)/appsegurado",
-				);
-				MARKETING_VERSION = 4.3.2;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"sqlite3\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AddressBook\"",
-					"-framework",
-					"\"AssetsLibrary\"",
-					"-framework",
-					"\"CoreFoundation\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreLocation\"",
-					"-framework",
-					"\"CoreMotion\"",
-					"-framework",
-					"\"MessageUI\"",
-					"-framework",
-					"\"Security\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-				);
+				MARKETING_VERSION = 4.4.2;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.libertyseguros.aliro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -5397,45 +5334,47 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "appsegurado/AppAliro-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "appsegurado-Swift.h";
 				SWIFT_VERSION = 5.0;
-				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 		C7AC650B1D6B74000003EC64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Luiz OthÃ¡vio Zenha (83E5PKUJ6J)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luiz OthÃ¡vio Zenha (83E5PKUJ6J)";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				EXCLUDED_ARCHS = "";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -5443,39 +5382,55 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+					"${SRCROOT}/appsegurado",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "0683237a-ea96-4988-bc86-4506469dc5eb";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		C7AC650C1D6B74000003EC64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Intuitive Mobile (FCQPXN5WP8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Intuitive Mobile (FCQPXN5WP8)";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXCLUDED_ARCHS = "";
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -5485,16 +5440,23 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+					"${SRCROOT}/appsegurado",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "757f4c19-7046-48da-8bf7-9627a368f4d6";
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		C7AC650E1D6B74000003EC64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02733EEC6B7BC3286B81DA22 /* Pods-appsegurado.debug.xcconfig */;
+			baseConfigurationReference = C374C928D8B81BF3A9FC73DC /* Pods-appsegurado.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -5502,128 +5464,193 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/",
-					"$(PROJECT_DIR)/appsegurado",
-					"$(inherited)",
-					"$(PROJECT_DIR)/appsegurado/Libraries",
-				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = appsegurado/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/appsegurado/DirectAssistLiberty",
-					"$(PROJECT_DIR)/appsegurado/GoogleAnalytics",
-					"$(PROJECT_DIR)/",
-					"$(PROJECT_DIR)/appsegurado",
+					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.3.2;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"sqlite3\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AddressBook\"",
-					"-framework",
-					"\"AssetsLibrary\"",
-					"-framework",
-					"\"CoreFoundation\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreLocation\"",
-					"-framework",
-					"\"CoreMotion\"",
-					"-framework",
-					"\"MessageUI\"",
-					"-framework",
-					"\"Security\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-				);
+				MARKETING_VERSION = 4.4.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.libertyseguros.mobile.Liberty-Mobile";
 				PRODUCT_NAME = "Liberty Mobile";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "appsegurado/appsegurado-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "appsegurado-Swift.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		C7AC650F1D6B74000003EC64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F059DC0D1035AC11A843B0B6 /* Pods-appsegurado.release.xcconfig */;
+			baseConfigurationReference = E84970725AD54C3C261B974D /* Pods-appsegurado.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = appsegurado/appsegurado.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Liberty Seguros S/A (BR) (MW4FF972V6)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MW4FF972V6;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/",
-					"$(PROJECT_DIR)/appsegurado",
-					"$(inherited)",
-					"$(PROJECT_DIR)/appsegurado/Libraries",
-				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = appsegurado/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/appsegurado/GoogleAnalytics",
-					"$(PROJECT_DIR)/",
-					"$(PROJECT_DIR)/appsegurado",
+					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.3.2;
-				OTHER_LDFLAGS = (
+				MARKETING_VERSION = 4.4.3;
+				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-ObjC",
-					"-l\"sqlite3\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AddressBook\"",
-					"-framework",
-					"\"AssetsLibrary\"",
-					"-framework",
-					"\"CoreFoundation\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreLocation\"",
-					"-framework",
-					"\"CoreMotion\"",
-					"-framework",
-					"\"MessageUI\"",
-					"-framework",
-					"\"Security\"",
-					"-framework",
-					"\"SystemConfiguration\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging/FirebaseMessaging.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome/FontAwesome.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome_swift.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/HexColors/HexColors.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PPTopMostController/PPTopMostController.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RMessage/RMessage.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UIImage-ResizeMagick/UIImage_ResizeMagick.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VMaskTextField/VMaskTextField.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/path_provider_ios/path_provider_ios.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/share/share.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/url_launcher_ios/url_launcher_ios.framework/Headers\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBAEMKit\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit_Basics\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit\"",
+					"-iframework",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCrashlytics\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging\"",
+					"-iframework",
+					"\"${PODS_ROOT}/../../../br-web-flutter-modules/.ios/Flutter/engine\"",
+					"-iframework",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"-iframework",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"-iframework",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/HexColors\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PPTopMostController\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RMessage\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UIImage-ResizeMagick\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UITextView+Placeholder\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VMaskTextField\"",
+					"-iframework",
+					"\"${PODS_ROOT}/../../../br-web-flutter-modules/.ios/Flutter\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/path_provider_ios\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/share\"",
+					"-iframework",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/url_launcher_ios\"",
+					"-fembed-bitcode",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.libertyseguros.mobile.Liberty-Mobile";
 				PRODUCT_NAME = "Liberty Mobile";
-				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "appsegurado/appsegurado-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "appsegurado-Swift.h";
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -5633,7 +5660,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = appseguradoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.intuitiveappz.appseguradoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appsegurado.app/appsegurado";
@@ -5646,7 +5677,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = appseguradoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.intuitiveappz.appseguradoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appsegurado.app/appsegurado";
@@ -5658,7 +5693,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = appseguradoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.intuitiveappz.appseguradoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = appsegurado;
@@ -5670,7 +5709,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = appseguradoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.intuitiveappz.appseguradoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = appsegurado;

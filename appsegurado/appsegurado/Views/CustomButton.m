@@ -7,44 +7,42 @@
 //
 
 #import "CustomButton.h"
-@interface CustomButton(){
+
+@interface CustomButton (){
     UIColor *_backgroundColorHighlighted;
     UIColor *_borderColorHighlighted;
     BOOL noRoundedEffect;
 }
 @end
-@implementation CustomButton
 
-
+@implementation CustomButton : UIButton
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
+-(void) drawRect: (CGRect) rect {
     // Drawing code
     [self reloadCustomization];
 }
 
--(void) setNoRounedEffect{
+-(void) setNoRounedEffect {
     noRoundedEffect = true;
 }
 
--(void) customizeBackground:(UIColor*)color{
+-(void) customizeBackground: (UIColor*) color {
     _backgroundColor = color;
-    
     [self updateBackgroundColorHighlight];
-    
     [self reloadCustomization];
 }
 
--(void) customizeBorderColor:(UIColor*)color borderWidth:(CGFloat)width borderRadius:(CGFloat) radius {
-    _borderColor= color ;
+-(void) customizeBorderColor: (UIColor*) color borderWidth: (CGFloat) width borderRadius: (CGFloat) radius {
+    _borderColor= color;
     _borderWidth= width;
     _borderRound = radius;
-    
+
     [self updateBorderColorHighlight];
-    
     [self reloadCustomization];
 }
--(void) updateBorderColorHighlight{
+
+-(void) updateBorderColorHighlight {
     CGFloat r1, g1, b1, a1;
     [_borderColor getRed:&r1 green:&g1 blue:&b1 alpha:&a1];
     CGFloat r = r1 - 0.1f;
@@ -53,59 +51,54 @@
     _borderColorHighlighted = [UIColor colorWithRed:r green:g blue:b alpha:1.f];
 
 }
--(void) updateBackgroundColorHighlight{
+
+-(void) updateBackgroundColorHighlight {
     CGFloat r1, g1, b1, a1;
-    if(_backgroundColor == nil){
+    if (_backgroundColor == nil) {
         _backgroundColor = [UIColor clearColor];
         _backgroundColorHighlighted = [UIColor colorWithRed:.9 green:.9 blue:.9 alpha:0.25];
-    }else{
+    } else {
         [_backgroundColor getRed:&r1 green:&g1 blue:&b1 alpha:&a1];
-        
+
         CGFloat r = r1 - 0.1f;
         CGFloat g = g1 - 0.1f;
         CGFloat b = b1 - 0.1f;
         _backgroundColorHighlighted = [UIColor colorWithRed:r green:g blue:b alpha:1.f];
     }
-   
 
 }
 
--(void) reloadCustomization{
+-(void) reloadCustomization {
     self.layer.borderColor = [_borderColor CGColor];
     self.layer.borderWidth = _borderWidth;
 
-    if(!noRoundedEffect){
-        if(self.frame.size.height == 0){
+    if (!noRoundedEffect) {
+        if (self.frame.size.height == 0) {
             self.layer.cornerRadius = 25;
-        }else{
+        } else {
             self.layer.cornerRadius =  self.frame.size.height/2;
         }
-    }else{
+    } else {
         self.layer.cornerRadius = 0;
     }
 
     self.layer.backgroundColor = [_backgroundColor CGColor];
 }
 
--(void)setHighlighted:(BOOL)highlighted{
+-(void) setHighlighted: (BOOL) highlighted {
     [super setHighlighted:highlighted];
-    
-    
+
     if (highlighted) {
-        
-        if(_borderColorHighlighted == nil || _backgroundColorHighlighted == nil){
+        if (_borderColorHighlighted == nil || _backgroundColorHighlighted == nil) {
             [self updateBorderColorHighlight];
             [self updateBackgroundColorHighlight];
         }
-        
         self.layer.backgroundColor = [_backgroundColorHighlighted CGColor];
         self.layer.borderColor = [_borderColorHighlighted CGColor];
-    }
-    else {
+    } else {
         self.layer.backgroundColor = [_backgroundColor CGColor];
         self.layer.borderColor = [_borderColor CGColor];
     }
-
 }
 
 @end
