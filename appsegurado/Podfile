@@ -3,7 +3,7 @@ inhibit_all_warnings!
 use_frameworks!
 #use_modular_headers!
 
-flutter_application_path = '../../br-web-flutter-modules'
+flutter_application_path = '../../br-web-MeuespacoClienteMobile-flutter'
 load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 
 def default_pods
