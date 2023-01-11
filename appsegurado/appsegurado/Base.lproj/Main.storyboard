@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JO7-nf-2ml">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JO7-nf-2ml">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -3773,14 +3773,14 @@
                         <viewControllerLayoutGuide type="bottom" id="HoD-NC-6jw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WOM-6x-teZ" customClass="RegisterView">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9DA-Dy-VJg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="700"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="724"/>
                                 <subviews>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="uLN-NC-wjC">
-                                        <rect key="frame" x="197" y="340" width="20" height="20"/>
+                                        <rect key="frame" x="197" y="352" width="20" height="20"/>
                                     </activityIndicatorView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="42r-MT-yYk">
                                         <rect key="frame" x="0.0" y="0.0" width="400" height="370"/>
@@ -4545,10 +4545,10 @@
                                 </variation>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHZ-3g-Xm1" customClass="RegisterSuccessView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McI-K3-sqe">
-                                        <rect key="frame" x="20" y="261" width="335" height="170"/>
+                                        <rect key="frame" x="20" y="273" width="335" height="170"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="170" id="Zr4-ev-EaM"/>
                                         </constraints>
@@ -4557,7 +4557,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDn-Al-RgO" customClass="CustomButton">
-                                        <rect key="frame" x="20" y="442" width="335" height="45"/>
+                                        <rect key="frame" x="20" y="454" width="335" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="Yg8-w8-pg0"/>
                                         </constraints>
@@ -4594,7 +4594,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwb-Yd-Ada">
-                                        <rect key="frame" x="20" y="642" width="374" height="30"/>
+                                        <rect key="frame" x="20" y="666" width="374" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="ITc-mJ-8Uy"/>
                                         </constraints>
@@ -4604,7 +4604,7 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_email.png" translatesAutoresizingMaskIntoConstraints="NO" id="mzu-h3-DJD">
-                                        <rect key="frame" x="147.66666666666666" y="166" width="80" height="80"/>
+                                        <rect key="frame" x="147.66666666666666" y="178" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="SQS-nZ-Wpq"/>
                                             <constraint firstAttribute="width" constant="80" id="wSR-tc-TSJ"/>
@@ -12736,12 +12736,12 @@
                                 <exclude reference="CYt-xS-uiL"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="BD6-3a-SY2"/>
                                 <exclude reference="jxN-b6-dfX"/>
                                 <exclude reference="1Wm-gU-B5y"/>
                                 <exclude reference="muZ-Da-cPP"/>
                                 <exclude reference="vQc-s7-hNJ"/>
                                 <exclude reference="i0A-uN-esi"/>
+                                <exclude reference="BD6-3a-SY2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -12749,12 +12749,12 @@
                                 <include reference="CYt-xS-uiL"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="BD6-3a-SY2"/>
                                 <include reference="jxN-b6-dfX"/>
                                 <include reference="1Wm-gU-B5y"/>
                                 <include reference="muZ-Da-cPP"/>
                                 <include reference="vQc-s7-hNJ"/>
                                 <include reference="i0A-uN-esi"/>
+                                <include reference="BD6-3a-SY2"/>
                             </mask>
                         </variation>
                         <connections>
@@ -17941,7 +17941,7 @@
             <size key="intrinsicContentSize" width="102" height="34"/>
         </designable>
         <designable name="v6d-Ls-ozB">
-            <size key="intrinsicContentSize" width="104" height="30"/>
+            <size key="intrinsicContentSize" width="105" height="30"/>
         </designable>
         <designable name="vi8-um-YIz">
             <size key="intrinsicContentSize" width="93" height="30"/>
@@ -17968,15 +17968,15 @@
     <inferredMetricsTieBreakers>
         <segue reference="l4b-xF-sTv"/>
         <segue reference="xRY-JG-Ekq"/>
-        <segue reference="4ns-gU-WGE"/>
+        <segue reference="pES-Ir-dsn"/>
         <segue reference="KB0-sS-Ouz"/>
-        <segue reference="23e-yw-D2O"/>
-        <segue reference="MOq-ax-zRs"/>
+        <segue reference="T1h-DU-Tro"/>
+        <segue reference="d20-Vq-uK5"/>
         <segue reference="4du-Ak-ak7"/>
         <segue reference="5Yc-1g-o94"/>
         <segue reference="ZEX-0V-2ou"/>
-        <segue reference="2Ry-A8-uB5"/>
-        <segue reference="TAT-Kx-Z2p"/>
+        <segue reference="B9F-AB-UVk"/>
+        <segue reference="swM-cP-BOW"/>
         <segue reference="Ahm-b1-21a"/>
         <segue reference="43x-nT-xnl"/>
         <segue reference="NvK-3X-f7G"/>

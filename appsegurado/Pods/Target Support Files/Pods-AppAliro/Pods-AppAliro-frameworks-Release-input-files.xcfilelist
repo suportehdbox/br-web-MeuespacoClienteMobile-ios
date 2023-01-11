@@ -17,7 +17,7 @@ ${BUILT_PRODUCTS_DIR}/RMessage/RMessage.framework
 ${BUILT_PRODUCTS_DIR}/UIImage-ResizeMagick/UIImage_ResizeMagick.framework
 ${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework
 ${BUILT_PRODUCTS_DIR}/VMaskTextField/VMaskTextField.framework
-${PODS_ROOT}/../../../br-web-flutter-modules/.ios/Flutter/App.framework
+${PODS_ROOT}/../../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter/App.framework
 ${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework
 ${BUILT_PRODUCTS_DIR}/path_provider_ios/path_provider_ios.framework
 ${BUILT_PRODUCTS_DIR}/share/share.framework

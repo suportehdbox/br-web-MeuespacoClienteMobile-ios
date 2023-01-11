@@ -83,7 +83,56 @@
 }
 - (IBAction)registerClicked:(id)sender {
     
-
+    // aqui marcio
+    
+    NSLog(@"APOLICE  %@",[view getPolicyNumber]);    
+    
+    NSString *apolicy = [view getPolicyNumber];
+    
+    if(![apolicy isEqual: @""]){
+        
+    NSString *codex = [[view getPolicyNumber] substringToIndex:2];
+    codex = [apolicy substringWithRange: NSMakeRange(0, 2)];
+    
+    NSMutableArray *typePolicy = [NSMutableArray arrayWithCapacity:4];
+    [typePolicy addObject:@"24"];
+    [typePolicy addObject:@"26"];
+    [typePolicy addObject:@"31"];
+    [typePolicy addObject:@"42"];    
+    
+    [typePolicy addObject:@"69"];
+    [typePolicy addObject:@"77"];
+    [typePolicy addObject:@"80"];
+    [typePolicy addObject:@"81"];
+    [typePolicy addObject:@"82"];
+    [typePolicy addObject:@"91"];
+    [typePolicy addObject:@"93"];
+    [typePolicy addObject:@"98"];
+    
+    [typePolicy addObject:@"14"];
+    
+    if (![codex isEqualToString: @"24"] ||
+        ![codex isEqualToString: @"26"] ||
+        ![codex isEqualToString: @"31"] ||
+        ![codex isEqualToString: @"42"] ||
+        ![codex isEqualToString: @"42"] ||
+        ![codex isEqualToString: @"69"] ||
+        ![codex isEqualToString: @"77"] ||
+        ![codex isEqualToString: @"80"] ||
+        ![codex isEqualToString: @"81"] ||
+        ![codex isEqualToString: @"82"] ||
+        ![codex isEqualToString: @"91"] ||
+        ![codex isEqualToString: @"93"] ||
+        ![codex isEqualToString: @"98"] ||
+        ![codex isEqualToString: @"14"]
+        ){
+        
+        [view showPolicyError:NSLocalizedString(@"Opa! Algo está errado. Verifique as informações e tente novamente.",@"")];
+        return;
+    }
+    }
+    
+    
     
     if([self isEmpty:[view getName]]){
         [view showNameError:NSLocalizedString(@"NomeVazio",@"")];
@@ -139,7 +188,7 @@
 //    }
 
     
-    
+    // marcio
    
     
     if(![view isTermsAgreed]){
@@ -262,14 +311,4 @@
     [self presentViewController:controller animated:YES completion:nil];
     
 }
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

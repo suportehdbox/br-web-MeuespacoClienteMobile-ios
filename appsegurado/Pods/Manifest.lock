@@ -146,7 +146,7 @@ PODS:
     - Flutter
   - PPTopMostController (0.0.1)
   - PromisesObjC (1.2.12)
-  - Protobuf (3.20.1)
+  - Protobuf (3.21.11)
   - RMessage (2.3.4):
     - HexColors (~> 4.0)
     - PPTopMostController
@@ -169,18 +169,18 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Crashlytics
   - Firebase/Messaging
-  - Flutter (from `../../br-web-flutter-modules/.ios/Flutter/engine`)
-  - FlutterPluginRegistrant (from `../../br-web-flutter-modules/.ios/Flutter/FlutterPluginRegistrant`)
+  - Flutter (from `../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter/FlutterPluginRegistrant`)
   - FontAwesome
   - FontAwesome.swift
   - GoogleSignIn (= 4.4.0)
-  - liberty_flutter_modules (from `../../br-web-flutter-modules/.ios/Flutter`)
-  - path_provider_ios (from `../../br-web-flutter-modules/.ios/.symlinks/plugins/path_provider_ios/ios`)
+  - liberty_flutter_modules (from `../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter`)
+  - path_provider_ios (from `../../br-web-MeuespacoClienteMobile-flutter/.ios/.symlinks/plugins/path_provider_ios/ios`)
   - RMessage
-  - share (from `../../br-web-flutter-modules/.ios/.symlinks/plugins/share/ios`)
+  - share (from `../../br-web-MeuespacoClienteMobile-flutter/.ios/.symlinks/plugins/share/ios`)
   - UIImage-ResizeMagick
   - "UITextView+Placeholder (~> 1.2)"
-  - url_launcher_ios (from `../../br-web-flutter-modules/.ios/.symlinks/plugins/url_launcher_ios/ios`)
+  - url_launcher_ios (from `../../br-web-MeuespacoClienteMobile-flutter/.ios/.symlinks/plugins/url_launcher_ios/ios`)
   - VMaskTextField
 
 SPEC REPOS:
@@ -219,17 +219,17 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "../../br-web-flutter-modules/.ios/Flutter/engine"
+    :path: "../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter/engine"
   FlutterPluginRegistrant:
-    :path: "../../br-web-flutter-modules/.ios/Flutter/FlutterPluginRegistrant"
+    :path: "../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter/FlutterPluginRegistrant"
   liberty_flutter_modules:
-    :path: "../../br-web-flutter-modules/.ios/Flutter"
+    :path: "../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter"
   path_provider_ios:
-    :path: "../../br-web-flutter-modules/.ios/.symlinks/plugins/path_provider_ios/ios"
+    :path: "../../br-web-MeuespacoClienteMobile-flutter/.ios/.symlinks/plugins/path_provider_ios/ios"
   share:
-    :path: "../../br-web-flutter-modules/.ios/.symlinks/plugins/share/ios"
+    :path: "../../br-web-MeuespacoClienteMobile-flutter/.ios/.symlinks/plugins/share/ios"
   url_launcher_ios:
-    :path: "../../br-web-flutter-modules/.ios/.symlinks/plugins/url_launcher_ios/ios"
+    :path: "../../br-web-MeuespacoClienteMobile-flutter/.ios/.symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
   FBAEMKit: 5de0a7aaa854eec69bb5be20795952a63d38a5f6
@@ -247,7 +247,7 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: bd3ffc24367f901a43c063b36c640b345a4a5dd1
   FirebaseMessaging: 5eca4ef173de76253352511aafef774caa1cba2a
   Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
-  FlutterPluginRegistrant: ad0f1a8a4f90e682df12a0733e1df143933f89fc
+  FlutterPluginRegistrant: c1e33f533e3f4fe9023da6316abfaba6c47cb7bb
   FontAwesome: dd8c48bf965e771309d8af17c4d8579217b3e756
   FontAwesome.swift: 6b52cb7be66eacd28cbfaa0ca7ffd0de4a186a1d
   GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
@@ -262,7 +262,7 @@ SPEC CHECKSUMS:
   path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
   PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
-  Protobuf: b60ec2f51ad74765f44d0c09d2e0579d7de21745
+  Protobuf: 3acb308a1e208605afd50866b98ec220141bcb8c
   RMessage: c53d90b788d64387f68bce3725b309e377b6bf15
   share: 0b2c3e82132f5888bccca3351c504d0003b3b410
   UIImage-ResizeMagick: f08c2d14d1e8a5f0b402185408785540562f2fe7
@@ -270,6 +270,6 @@ SPEC CHECKSUMS:
   url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
   VMaskTextField: e77fe33633f999c5c38e70bed0afece0625624a4
 
-PODFILE CHECKSUM: 1be3dc09fb755b7863d2fdef8ff52fdea0f5b171
+PODFILE CHECKSUM: a13d6daa1d4b1d6b82b1eff60b4a07915cd08154
 
 COCOAPODS: 1.11.3

@@ -4791,7 +4791,7 @@
 			name = "[CP-User] Run Flutter Build liberty_flutter_modules Script";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../br-web-flutter-modules/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
 		};
 		9DD3772BF9B352D72E667895 /* [CP-User] Run Flutter Build liberty_flutter_modules Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4801,7 +4801,7 @@
 			name = "[CP-User] Run Flutter Build liberty_flutter_modules Script";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../br-web-flutter-modules/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../br-web-MeuespacoClienteMobile-flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
 		};
 		C7136D3D1FDEEAAA0096E46B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4814,8 +4814,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "\n";
 		};
 		C7802D891FDAF1D600B2F549 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4829,8 +4828,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "\n";
 		};
 		D149EEB969361EF8DBF9840E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
