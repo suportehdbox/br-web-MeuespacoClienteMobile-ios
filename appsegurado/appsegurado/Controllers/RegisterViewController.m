@@ -85,7 +85,7 @@
     
     // aqui marcio
     
-    NSLog(@"APOLICE  %@",[view getPolicyNumber]);    
+    NSLog(@"APOLICE  %@",[view getPolicyNumber]);
     
     NSString *apolicy = [view getPolicyNumber];
     
@@ -111,19 +111,19 @@
     
     [typePolicy addObject:@"14"];
     
-    if (![codex isEqualToString: @"24"] ||
-        ![codex isEqualToString: @"26"] ||
-        ![codex isEqualToString: @"31"] ||
-        ![codex isEqualToString: @"42"] ||
-        ![codex isEqualToString: @"42"] ||
-        ![codex isEqualToString: @"69"] ||
-        ![codex isEqualToString: @"77"] ||
-        ![codex isEqualToString: @"80"] ||
-        ![codex isEqualToString: @"81"] ||
-        ![codex isEqualToString: @"82"] ||
-        ![codex isEqualToString: @"91"] ||
-        ![codex isEqualToString: @"93"] ||
-        ![codex isEqualToString: @"98"] ||
+    if (![codex isEqualToString: @"24"] &&
+        ![codex isEqualToString: @"26"] &&
+        ![codex isEqualToString: @"31"] &&
+        ![codex isEqualToString: @"42"] &&
+        ![codex isEqualToString: @"42"] &&
+        ![codex isEqualToString: @"69"] &&
+        ![codex isEqualToString: @"77"] &&
+        ![codex isEqualToString: @"80"] &&
+        ![codex isEqualToString: @"81"] &&
+        ![codex isEqualToString: @"82"] &&
+        ![codex isEqualToString: @"91"] &&
+        ![codex isEqualToString: @"93"] &&
+        ![codex isEqualToString: @"98"] &&
         ![codex isEqualToString: @"14"]
         ){
         
