@@ -22,6 +22,7 @@
     DetailNotificationViewController *detail;
     ActivationViewController *activation;
     FlutterController *flutterController;
+    
     //    NSString * gcm;
     
 }
@@ -36,6 +37,7 @@ NSString *const SubscriptionTopic = @"global";
 
 @implementation AppDelegate
 @synthesize openingExternalProgram,gotoLoginView, shouldShowRMessage, currentSr, mainPolicyNumber, loggedWithFacebook, has_auto_policy, current_controller, loggedWithApple;
+@synthesize typeApolicy;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

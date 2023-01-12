@@ -7,6 +7,10 @@
 //
 
 #import "RegisterView.h"
+#import "AppDelegate.h"
+
+
+
 
 @interface RegisterView(){
     UITextField *currentTextField;
@@ -604,6 +608,9 @@
     [_txtPolicyNumber setPlaceholder:NSLocalizedString(@"ApoliceAuto", @"")];
     [_txtPolicyNumber setKeyboardType:UIKeyboardTypeDefault];
     [_txtPolicyNumber setText:@""];
+    AppDelegate *typeApolicy = (AppDelegate*) [[UIApplication sharedApplication] delegate];
+    typeApolicy.typeApolicy = @"auto";
+
 }
 
 -(IBAction)setHomePolicy:(id)sender{
@@ -613,6 +620,9 @@
     [_txtPolicyNumber setPlaceholder:NSLocalizedString(@"ApoliceResidencia", @"")];
     [_txtPolicyNumber setKeyboardType:UIKeyboardTypeNumberPad];
     [_txtPolicyNumber setText:@""];
+    AppDelegate *typeApolicy = (AppDelegate*) [[UIApplication sharedApplication] delegate];
+    typeApolicy.typeApolicy = @"home";
+    // marcio
 }
 -(IBAction)setLifePolicy:(id)sender{
     [_btAuto setSelected:NO];
@@ -621,6 +631,8 @@
     [_txtPolicyNumber setPlaceholder:NSLocalizedString(@"ApoliceVida", @"")];
     [_txtPolicyNumber setKeyboardType:UIKeyboardTypeNumberPad];
     [_txtPolicyNumber setText:@""];
+    AppDelegate *typeApolicy = (AppDelegate*) [[UIApplication sharedApplication] delegate];
+    typeApolicy.typeApolicy = @"life";
 
 }
 

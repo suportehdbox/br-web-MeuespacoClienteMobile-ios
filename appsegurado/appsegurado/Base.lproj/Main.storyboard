@@ -12736,12 +12736,12 @@
                                 <exclude reference="CYt-xS-uiL"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="i0A-uN-esi"/>
+                                <exclude reference="BD6-3a-SY2"/>
                                 <exclude reference="jxN-b6-dfX"/>
                                 <exclude reference="1Wm-gU-B5y"/>
                                 <exclude reference="muZ-Da-cPP"/>
                                 <exclude reference="vQc-s7-hNJ"/>
-                                <exclude reference="i0A-uN-esi"/>
-                                <exclude reference="BD6-3a-SY2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -12749,12 +12749,12 @@
                                 <include reference="CYt-xS-uiL"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="i0A-uN-esi"/>
+                                <include reference="BD6-3a-SY2"/>
                                 <include reference="jxN-b6-dfX"/>
                                 <include reference="1Wm-gU-B5y"/>
                                 <include reference="muZ-Da-cPP"/>
                                 <include reference="vQc-s7-hNJ"/>
-                                <include reference="i0A-uN-esi"/>
-                                <include reference="BD6-3a-SY2"/>
                             </mask>
                         </variation>
                         <connections>
@@ -17978,7 +17978,7 @@
         <segue reference="B9F-AB-UVk"/>
         <segue reference="swM-cP-BOW"/>
         <segue reference="Ahm-b1-21a"/>
-        <segue reference="43x-nT-xnl"/>
+        <segue reference="Mki-ao-hY9"/>
         <segue reference="NvK-3X-f7G"/>
         <segue reference="LMU-xc-oTA"/>
     </inferredMetricsTieBreakers>

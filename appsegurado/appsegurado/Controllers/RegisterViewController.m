@@ -82,8 +82,10 @@
     
 }
 - (IBAction)registerClicked:(id)sender {
+  
     
-    // aqui marcio
+    AppDelegate *typeApolicy = (AppDelegate*) [[UIApplication sharedApplication] delegate];
+    //typeApolicy.typeApolicy
     
     NSLog(@"APOLICE  %@",[view getPolicyNumber]);
     
@@ -115,8 +117,13 @@
         ![codex isEqualToString: @"26"] &&
         ![codex isEqualToString: @"31"] &&
         ![codex isEqualToString: @"42"] &&
-        ![codex isEqualToString: @"42"] &&
-        ![codex isEqualToString: @"69"] &&
+        [typeApolicy.typeApolicy isEqualToString:@"auto"]
+        ){
+        [view showPolicyError:NSLocalizedString(@"Opa! Algo está errado. Verifique as informações e tente novamente.",@"")];
+        return;
+    }
+    
+    if (![codex isEqualToString: @"69"] &&
         ![codex isEqualToString: @"77"] &&
         ![codex isEqualToString: @"80"] &&
         ![codex isEqualToString: @"81"] &&
@@ -124,14 +131,19 @@
         ![codex isEqualToString: @"91"] &&
         ![codex isEqualToString: @"93"] &&
         ![codex isEqualToString: @"98"] &&
-        ![codex isEqualToString: @"14"]
+        [typeApolicy.typeApolicy isEqualToString:@"life"]
         ){
-        
         [view showPolicyError:NSLocalizedString(@"Opa! Algo está errado. Verifique as informações e tente novamente.",@"")];
         return;
     }
+        
+    if (![codex isEqualToString: @"14"] &&
+        [typeApolicy.typeApolicy isEqualToString:@"home"]
+        ){
+        [view showPolicyError:NSLocalizedString(@"Opa! Algo está errado. Verifique as informações e tente novamente.",@"")];
+            return;
+        }
     }
-    
     
     
     if([self isEmpty:[view getName]]){

@@ -23,8 +23,13 @@
 
 #import "BaseViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, FIRMessagingDelegate, UNUserNotificationCenterDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, FIRMessagingDelegate, UNUserNotificationCenterDelegate>{
+    
+    NSString *typeApolicy;
+    
+}
 
+@property (nonatomic,retain) NSString *typeApolicy;
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic) BOOL openingExternalProgram;
 @property (nonatomic) BOOL gotoLoginView;
