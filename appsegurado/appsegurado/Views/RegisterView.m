@@ -622,7 +622,7 @@
     [_txtPolicyNumber setText:@""];
     AppDelegate *typeApolicy = (AppDelegate*) [[UIApplication sharedApplication] delegate];
     typeApolicy.typeApolicy = @"home";
-    // marcio
+    
 }
 -(IBAction)setLifePolicy:(id)sender{
     [_btAuto setSelected:NO];

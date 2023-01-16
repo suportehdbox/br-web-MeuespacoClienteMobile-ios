@@ -200,7 +200,6 @@
 //    }
 
     
-    // marcio
    
     
     if(![view isTermsAgreed]){
