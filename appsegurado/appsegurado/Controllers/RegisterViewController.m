@@ -193,14 +193,8 @@
         [view showEmailError:NSLocalizedString(@"EmailInvalido",@"")];
         return;
     }
-//    if(![[view getEmail] isEqualToString:[view getRepeatEmail]]){
-//        [view showEmailError:NSLocalizedString(@"EmailsNaoCorrespondem",@"")];
-//        [view showRepeatEmailError:NSLocalizedString(@"EmailsNaoCorrespondem",@"")];
-//        return;
-//    }
 
     
-   
     
     if(![view isTermsAgreed]){
         [view showMessage:NSLocalizedString(@"TituloErroCadastro",@"") message:NSLocalizedString(@"ErroTermos",@"")];
