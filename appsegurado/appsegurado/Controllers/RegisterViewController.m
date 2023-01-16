@@ -188,7 +188,9 @@
 //        [view showRepeatEmailError:NSLocalizedString(@"EmailVazioEsqueceuSenha",@"")];
 //        return;
 //    }
+
     
+    // marcio
     if(![model isValidEmail:[view getEmail]]){
         [view showEmailError:NSLocalizedString(@"EmailInvalido",@"")];
         return;
